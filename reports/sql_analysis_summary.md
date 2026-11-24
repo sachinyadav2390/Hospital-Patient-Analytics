@@ -5,22 +5,22 @@
 
 | # | Analytical Query Title | Rows Returned | Latency (ms) | Status |
 |:---|:---|---:|---:|:---|
-| 1 | `QUERY 1: Longitudinal Monthly Encounter Trends by Care Setting` | 48 | 37.79 ms | ✅ PASS |
-| 2 | `QUERY 2: Patient Healthcare Expenditure Deciles (NTILE Segmentation)` | 10 | 21.61 ms | ✅ PASS |
-| 3 | `QUERY 3: 30-Day Subsequent Re-encounter Rate by Clinical Department` | 8 | 7.37 ms | ✅ PASS |
-| 4 | `QUERY 4: Inpatient Length of Stay (LOS) Benchmark & Outlier Detection` | 8 | 5.2 ms | ✅ PASS |
-| 5 | `QUERY 5: Top Diagnosed Chronic Conditions (Avoiding Double-Counting in Joins)` | 12 | 46.64 ms | ✅ PASS |
-| 6 | `QUERY 6: Payer Reimbursed Revenue vs. Contractual Shortfall Analysis` | 6 | 12.11 ms | ✅ PASS |
-| 7 | `QUERY 7: Longitudinal Patient Acquisition Cohort Analysis in Pure SQL` | 12 | 58.73 ms | ✅ PASS |
-| 8 | `QUERY 8: Frequent Healthcare Utilizers & Sequential Event Gap Analysis` | 20 | 52.97 ms | ✅ PASS |
-| 9 | `QUERY 9: Provider Clinical Productivity & Departmental Ranking` | 48 | 17.89 ms | ✅ PASS |
-| 10 | `QUERY 10: Clinical Department Volume vs. Financial Contribution Matrix` | 8 | 15.95 ms | ✅ PASS |
-| 11 | `QUERY 11: Intake Admission Volume by Day of Week & Hour of Day` | 7 | 14.3 ms | ✅ PASS |
-| 12 | `QUERY 12: First-Time Patient Conversion to Long-Term Follow-up Care` | 4 | 11.39 ms | ✅ PASS |
-| 13 | `QUERY 13: High-Cost Clinical Procedures & Expense Contribution` | 7 | 7.54 ms | ✅ PASS |
-| 14 | `QUERY 14: Complex Multimorbidity (Chronic Condition Comorbidity Burden)` | 8 | 15.16 ms | ✅ PASS |
-| 15 | `QUERY 15: Hospital Facility Network Volume & Regional Utilization Share` | 6 | 26.47 ms | ✅ PASS |
-| 16 | `QUERY 16: Rolling 90-Day Moving Average of Emergency Department Influx` | 1,461 | 42.19 ms | ✅ PASS |
+| 1 | `QUERY 1: Longitudinal Monthly Encounter Trends by Care Setting` | 48 | 52.44 ms | ✅ PASS |
+| 2 | `QUERY 2: Patient Healthcare Expenditure Deciles (NTILE Segmentation)` | 10 | 56.52 ms | ✅ PASS |
+| 3 | `QUERY 3: 30-Day Subsequent Re-encounter Rate by Clinical Department` | 8 | 11.56 ms | ✅ PASS |
+| 4 | `QUERY 4: Inpatient Length of Stay (LOS) Benchmark & Outlier Detection` | 8 | 6.07 ms | ✅ PASS |
+| 5 | `QUERY 5: Top Diagnosed Chronic Conditions (Avoiding Double-Counting in Joins)` | 12 | 57.44 ms | ✅ PASS |
+| 6 | `QUERY 6: Payer Reimbursed Revenue vs. Contractual Shortfall Analysis` | 6 | 17.8 ms | ✅ PASS |
+| 7 | `QUERY 7: Longitudinal Patient Acquisition Cohort Analysis in Pure SQL` | 12 | 72.61 ms | ✅ PASS |
+| 8 | `QUERY 8: Frequent Healthcare Utilizers & Sequential Event Gap Analysis` | 20 | 71.39 ms | ✅ PASS |
+| 9 | `QUERY 9: Provider Clinical Productivity & Departmental Ranking` | 48 | 31.92 ms | ✅ PASS |
+| 10 | `QUERY 10: Clinical Department Volume vs. Financial Contribution Matrix` | 8 | 15.4 ms | ✅ PASS |
+| 11 | `QUERY 11: Intake Admission Volume by Day of Week & Hour of Day` | 7 | 28.93 ms | ✅ PASS |
+| 12 | `QUERY 12: First-Time Patient Conversion to Long-Term Follow-up Care` | 4 | 19.05 ms | ✅ PASS |
+| 13 | `QUERY 13: High-Cost Clinical Procedures & Expense Contribution` | 7 | 14.45 ms | ✅ PASS |
+| 14 | `QUERY 14: Complex Multimorbidity (Chronic Condition Comorbidity Burden)` | 8 | 18.93 ms | ✅ PASS |
+| 15 | `QUERY 15: Hospital Facility Network Volume & Regional Utilization Share` | 6 | 40.64 ms | ✅ PASS |
+| 16 | `QUERY 16: Rolling 90-Day Moving Average of Emergency Department Influx` | 1,461 | 46.34 ms | ✅ PASS |
 
 ## Sample Query Outputs
 
