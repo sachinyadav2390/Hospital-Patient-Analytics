@@ -101,11 +101,24 @@ def load_data():
     reencounter = pd.read_csv(reencounter_path) if reencounter_path.exists() else pd.DataFrame()
     cohort = pd.read_csv(cohort_path) if cohort_path.exists() else pd.DataFrame()
 
-    if not encounters.empty and "START" in encounters.columns:
-        encounters["START"] = pd.to_datetime(encounters["START"])
-        encounters["STOP"] = pd.to_datetime(encounters["STOP"])
-        encounters["YEAR"] = encounters["START"].dt.year
-        encounters["MONTH_YEAR"] = encounters["START"].dt.to_period("M").astype(str)
+    if not encounters.empty:
+        if "START" in encounters.columns:
+            encounters["START"] = pd.to_datetime(encounters["START"])
+            encounters["STOP"] = pd.to_datetime(encounters["STOP"])
+            encounters["YEAR"] = encounters["START"].dt.year
+            encounters["MONTH_YEAR"] = encounters["START"].dt.to_period("M").astype(str)
+        
+        # Standardize column aliases
+        if "Id" in encounters.columns and "ENCOUNTER_KEY" not in encounters.columns:
+            encounters["ENCOUNTER_KEY"] = encounters["Id"]
+        if "PATIENT_PAYMENT" in encounters.columns and "PATIENT_COST_BURDEN" not in encounters.columns:
+            encounters["PATIENT_COST_BURDEN"] = encounters["PATIENT_PAYMENT"]
+        if "LENGTH_OF_STAY_DAYS" in encounters.columns and "INPATIENT_LOS_DAYS" not in encounters.columns:
+            encounters["INPATIENT_LOS_DAYS"] = encounters["LENGTH_OF_STAY_DAYS"]
+        if "CLINICAL_DEPARTMENT" in encounters.columns and "DEPARTMENT_NAME" not in encounters.columns:
+            encounters["DEPARTMENT_NAME"] = encounters["CLINICAL_DEPARTMENT"]
+        if "PAYER" in encounters.columns and "PAYER_NAME" not in encounters.columns:
+            encounters["PAYER_NAME"] = encounters["PAYER"]
 
     return encounters, patients, reencounter, cohort
 
