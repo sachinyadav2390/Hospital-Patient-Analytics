@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Patient Analytics & Healthcare Performance Optimization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f4c81;
+            --primary-light: #e0f2fe;
+            --secondary: #0d9488;
+            --accent-amber: #f59e0b;
+            --dark: #0f172a;
+            --slate: #334155;
+            --muted: #64748b;
+            --light-bg: #f8fafc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            background-color: var(--light-bg);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f4c81 0%, #1e3a8a 100%);
+            color: #ffffff;
+            padding: 2.8rem 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.18);
+            backdrop-filter: blur(4px);
+            padding: 0.35rem 0.85rem;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 0.8rem;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            margin-bottom: 0.6rem;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 1.15rem;
+            opacity: 0.9;
+            max-width: 850px;
+            font-weight: 300;
+        }
+
+        .nav-bar {
+            background: #ffffff;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            gap: 1.5rem;
+            padding: 0.8rem 2rem;
+            overflow-x: auto;
+        }
+
+        .nav-btn {
+            background: none;
+            border: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--slate);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .nav-btn:hover, .nav-btn.active {
+            color: var(--primary);
+            background: var(--primary-light);
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2.5rem auto;
+            padding: 0 2rem;
+        }
+
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .kpi-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid var(--border);
+            border-left: 5px solid var(--primary);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .kpi-card.teal { border-left-color: var(--secondary); }
+        .kpi-card.amber { border-left-color: var(--accent-amber); }
+
+        .kpi-title {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .kpi-value {
+            font-size: 2.1rem;
+            font-weight: 800;
+            color: var(--dark);
+            margin: 0.4rem 0;
+        }
+
+        .kpi-sub {
+            font-size: 0.85rem;
+            color: var(--slate);
+        }
+
+        .section-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 1.2rem;
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 0.5rem;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 { grid-template-columns: 1fr; }
+            h1 { font-size: 1.8rem; }
+        }
+
+        .img-container {
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            background: #ffffff;
+            text-align: center;
+        }
+
+        .img-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .img-caption {
+            padding: 0.7rem;
+            font-size: 0.85rem;
+            color: var(--muted);
+            background: #fafafa;
+            border-top: 1px solid var(--border);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th, td {
+            padding: 0.8rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.9rem;
+        }
+
+        th {
+            background-color: var(--light-bg);
+            font-weight: 700;
+            color: var(--slate);
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.4rem;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0c3d69;
+        }
+
+        .btn-secondary {
+            background-color: #ffffff;
+            color: var(--slate);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--light-bg);
+        }
+
+        footer {
+            background: #0f172a;
+            color: #94a3b8;
+            padding: 2.5rem 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="badge">Healthcare Data Analytics Portfolio</div>
+            <h1>Hospital Patient Analytics & Healthcare Performance Optimization</h1>
+            <p class="subtitle">An enterprise-grade, end-to-end analytics platform evaluating clinical capacity, operational throughput, financial collections, and longitudinal patient health outcomes.</p>
+        </div>
+    </header>
+
+    <div class="nav-bar">
+        <div class="nav-container">
+            <button class="nav-btn active" onclick="scrollToSection('overview')">Executive Summary</button>
+            <button class="nav-btn" onclick="scrollToSection('financial')">Financial Waterfall</button>
+            <button class="nav-btn" onclick="scrollToSection('clinical')">Inpatient & Operations</button>
+            <button class="nav-btn" onclick="scrollToSection('advanced')">ML & Segmentation</button>
+            <button class="nav-btn" onclick="scrollToSection('schema')">Star Schema & SQL</button>
+            <button class="nav-btn" onclick="scrollToSection('downloads')">Project Deliverables</button>
+        </div>
+    </div>
+
+    <main>
+        <!-- KPI METRICS -->
+        <section id="overview" class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-title">Patient Cohort</div>
+                <div class="kpi-value">1,200</div>
+                <div class="kpi-sub">De-identified Synthea synthetic cohort</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Encounter Volume</div>
+                <div class="kpi-value">5,960</div>
+                <div class="kpi-sub">Across 5 care setting modalities</div>
+            </div>
+            <div class="kpi-card teal">
+                <div class="kpi-title">Gross Billed Charges</div>
+                <div class="kpi-value">$9.31M</div>
+                <div class="kpi-sub">Baseline Chargemaster amount</div>
+            </div>
+            <div class="kpi-card teal">
+                <div class="kpi-title">Payer Reimbursed Revenue</div>
+                <div class="kpi-value">$7.76M</div>
+                <div class="kpi-sub"><b>83.39%</b> Collection Efficiency Rate</div>
+            </div>
+            <div class="kpi-card amber">
+                <div class="kpi-title">Patient Copay Burden</div>
+                <div class="kpi-value">$1.55M</div>
+                <div class="kpi-sub">16.61% Out-of-pocket / self-pay liability</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">30-Day Re-encounters</div>
+                <div class="kpi-value">11.21%</div>
+                <div class="kpi-sub">106 / 946 eligible acute discharges</div>
+            </div>
+        </section>
+
+        <!-- FINANCIAL & OPERATIONS -->
+        <section id="financial" class="section-card">
+            <h2>Financial Decomposition & Volume Trends</h2>
+            <p>Comprehensive evaluation of hospital revenue collection rates, billed charges vs reimbursed amounts, and longitudinal encounter volume trends.</p>
+            <div class="grid-2">
+                <div class="img-container">
+                    <img src="../reports/figures/fig1_monthly_encounter_trends.png" alt="Monthly Encounter Trends">
+                    <div class="img-caption">Figure 1: Monthly Encounter Trajectory & Gross Billed Revenue (2018–2025)</div>
+                </div>
+                <div class="img-container">
+                    <img src="../reports/figures/fig6_financial_breakdown_payer_vs_patient.png" alt="Financial Breakdown">
+                    <div class="img-caption">Figure 6: Payer Reimbursed Revenue vs. Patient Copay Liability</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CLINICAL OPERATIONS & LOS -->
+        <section id="clinical" class="section-card">
+            <h2>Care Modality & Clinical Length of Stay (LOS)</h2>
+            <p>Analysis of hospital capacity utilization: Inpatient stays represent only 6.07% of visits but drive 59.8% of total expenditures.</p>
+            <div class="grid-2">
+                <div class="img-container">
+                    <img src="../reports/figures/fig3_encounter_class_distribution.png" alt="Encounter Classes">
+                    <div class="img-caption">Figure 3: Encounter Volume Distribution by Care Setting</div>
+                </div>
+                <div class="img-container">
+                    <img src="../reports/figures/fig7_length_of_stay_inpatient.png" alt="Inpatient LOS">
+                    <div class="img-caption">Figure 7: Inpatient Length of Stay Distribution (ALOS: 4.19 Days)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ADVANCED ANALYTICS -->
+        <section id="advanced" class="section-card">
+            <h2>Advanced Analytics & Machine Learning Patient Segmentation</h2>
+            <p>Unsupervised K-Means clustering ($k=4$), annual retention cohort analysis, and 30-day acute re-encounter indicators.</p>
+            <div class="grid-2">
+                <div class="img-container">
+                    <img src="../reports/figures/fig11_kmeans_elbow_silhouette.png" alt="K-Means Diagnostics">
+                    <div class="img-caption">Figure 11: K-Means Diagnostics (Elbow Inertia & Silhouette Scores)</div>
+                </div>
+                <div class="img-container">
+                    <img src="../reports/figures/fig12_patient_cohort_retention_heatmap.png" alt="Cohort Heatmap">
+                    <div class="img-caption">Figure 12: Longitudinal Patient Acquisition Cohort Retention Heatmap</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STAR SCHEMA & ARCHITECTURE -->
+        <section id="schema" class="section-card">
+            <h2>Data Model & Star Schema Architecture</h2>
+            <p>Relational star schema deployed across SQLite and PostgreSQL, optimized for Power BI with 1:Many single-direction relationships.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Table Name</th>
+                        <th>Type</th>
+                        <th>Row Count</th>
+                        <th>Primary Key / Foreign Keys</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>fact_encounters</b></td>
+                        <td>Central Fact</td>
+                        <td>5,960</td>
+                        <td><code>encounter_key</code> (FKs: patient_key, provider_key, org_key, date_key)</td>
+                    </tr>
+                    <tr>
+                        <td><b>dim_patient</b></td>
+                        <td>Dimension</td>
+                        <td>1,200</td>
+                        <td><code>patient_key</code> (Salted SHA-256 de-identified)</td>
+                    </tr>
+                    <tr>
+                        <td><b>dim_date</b></td>
+                        <td>Dimension</td>
+                        <td>2,192</td>
+                        <td><code>date_key</code> (Continuous calendar 2018–2025)</td>
+                    </tr>
+                    <tr>
+                        <td><b>dim_provider</b></td>
+                        <td>Dimension</td>
+                        <td>48</td>
+                        <td><code>provider_key</code> (Clinical specialties & departments)</td>
+                    </tr>
+                    <tr>
+                        <td><b>dim_organization</b></td>
+                        <td>Dimension</td>
+                        <td>6</td>
+                        <td><code>organization_key</code> (Hospital facilities & regional sites)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- DELIVERABLES -->
+        <section id="downloads" class="section-card">
+            <h2>Project Deliverables & Repository Access</h2>
+            <p>All production files, automated test suites, and documentation are available in the repository.</p>
+            <div class="btn-group">
+                <a class="btn btn-primary" href="https://github.com" target="_blank">View GitHub Repository</a>
+                <a class="btn btn-secondary" href="../excel/Hospital_Patient_Analytics_Executive_Workbook.xlsx" download>Download Executive Excel (.xlsx)</a>
+                <a class="btn btn-secondary" href="../reports/executive_healthcare_bi_report.md" target="_blank">Read Executive BI Report</a>
+                <a class="btn btn-secondary" href="interview_questions.md" target="_blank">22 Interview Q&As</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hospital Patient Analytics & Healthcare Performance Optimization Portfolio Project</p>
+        <p>Engineered with Python 3.12, SQL, SQLite/PostgreSQL, Power BI, Excel, and Streamlit.</p>
+    </footer>
+
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+            document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

@@ -2,11 +2,13 @@
 ### Advanced End-to-End Healthcare Data Analytics & Engineering Portfolio Project
 
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Interactive_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Star_Schema-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-DAX_Dashboards-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Engineering-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-K--Means_Clustering-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-100%25_Pass-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![CI/CD](https://img.shields.io/badge/GitHub_Actions-CI%2FCD_Verified-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 ---
 
@@ -226,7 +228,33 @@ The Power BI implementation contains a complete 4-page dashboard blueprint docum
 
 ---
 
-## 8. Documentation Index
+## 8. Deployment & Interactive Web Application
+
+This project supports two live deployment targets for portfolios:
+
+### 1. Interactive Streamlit Web Application (`app.py`)
+Launch the multi-view executive dashboard locally or deploy to **Streamlit Community Cloud**:
+```bash
+# Run locally:
+streamlit run app.py
+```
+To deploy to [Streamlit Cloud](https://share.streamlit.io):
+1. Push repository to GitHub.
+2. Sign in to Streamlit Community Cloud and select `app.py` as the main file path.
+3. Your interactive dashboard is live with a public URL!
+
+### 2. GitHub Pages Web Showcase (`docs/`)
+A responsive HTML5 executive presentation is pre-configured in `docs/index.html`.
+* Enable GitHub Pages: Go to **Repository Settings** -> **Pages** -> **Branch: `main` or `master`** -> **Folder: `/docs`** -> Save.
+* Automatically published to `https://<username>.github.io/<repo-name>/`.
+
+### 3. Automated GitHub Actions CI/CD (`.github/workflows/`)
+* **`ci.yml`**: Automatically installs dependencies, runs `src/pipeline.py`, and validates all 13 Pytest test assertions on every push.
+* **`deploy_pages.yml`**: Deploys documentation and dashboards to GitHub Pages on every release.
+
+---
+
+## 9. Documentation Index
 
 - [Executive BI Report](reports/executive_healthcare_bi_report.md) — Comprehensive C-suite management report.
 - [Data Dictionary](docs/data_dictionary.md) — Attribute definitions, data types, and business calculation rules.
