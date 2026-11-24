@@ -9,6 +9,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: .
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -30,4 +32,4 @@ jobs:
 
       - name: Run Automated Pytest Suite
         run: |
-          pytest -v tests/
+          python -m pytest -v tests/

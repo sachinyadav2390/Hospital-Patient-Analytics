@@ -2,9 +2,16 @@
 Pytest Fixtures for Hospital Patient Analytics QA Suite
 """
 
+import sys
+from pathlib import Path
+
+# Ensure project root is in sys.path
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 import pytest
 import pandas as pd
-from pathlib import Path
 
 from src.config import PROCESSED_DATA_DIR, RAW_DATA_DIR, POWERBI_DATA_DIR, SQLITE_DB_PATH
 from src.db_loader import get_database_engine
