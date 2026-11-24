@@ -1,0 +1,30 @@
+{
+  "encounter_volume": 5960,
+  "patient_volume": 1200,
+  "cost_metrics": {
+    "total_billed": 9306140.73,
+    "mean": 1561.4330083892619,
+    "median": 316.73,
+    "std_dev": 4247.016530700809,
+    "skewness": 4.409928599178864,
+    "kurtosis": 20.110961893119573,
+    "p25": 190.37,
+    "p75": 656.435,
+    "p95": 8573.956000000004
+  },
+  "duration_metrics_hours": {
+    "mean": 10.38971812080537,
+    "median": 1.66,
+    "std_dev": 35.386182140472265
+  },
+  "inpatient_los_days": {
+    "mean": 5.402794871794872,
+    "median": 5.365,
+    "iqr": 4.5075
+  },
+  "anova_cost_across_classes": {
+    "f_statistic": 4769.176238810617,
+    "p_value": 0.0,
+    "statistically_significant": true
+  }
+}

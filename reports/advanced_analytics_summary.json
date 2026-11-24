@@ -1,0 +1,99 @@
+{
+  "kmeans": {
+    "optimal_clusters": 4,
+    "cluster_profiles": {
+      "Moderate-Need Chronic Care": {
+        "patient_count": 243,
+        "pct_of_patients": 20.2,
+        "mean_recency_days": 827.6,
+        "mean_frequency": 2.3,
+        "mean_total_cost": 3091.51,
+        "mean_inpatient_stays": 0.12,
+        "mean_emergency_visits": 0.25
+      },
+      "Frequent Emergency Utilizers": {
+        "patient_count": 238,
+        "pct_of_patients": 19.8,
+        "mean_recency_days": 169.6,
+        "mean_frequency": 7.7,
+        "mean_total_cost": 5738.64,
+        "mean_inpatient_stays": 0.03,
+        "mean_emergency_visits": 1.37
+      },
+      "Low-Intensity Outpatients": {
+        "patient_count": 493,
+        "pct_of_patients": 41.1,
+        "mean_recency_days": 209.9,
+        "mean_frequency": 3.7,
+        "mean_total_cost": 2419.17,
+        "mean_inpatient_stays": 0.11,
+        "mean_emergency_visits": 0.15
+      },
+      "High-Cost Complex Inpatients": {
+        "patient_count": 226,
+        "pct_of_patients": 18.8,
+        "mean_recency_days": 179.4,
+        "mean_frequency": 7.7,
+        "mean_total_cost": 26532.99,
+        "mean_inpatient_stays": 1.33,
+        "mean_emergency_visits": 0.73
+      }
+    }
+  },
+  "cohort": {
+    "total_cohorts": 48,
+    "mean_month_1_retention": 6.81,
+    "mean_month_6_retention": 6.0,
+    "mean_month_12_retention": 5.73
+  },
+  "reencounter_analysis": {
+    "total_eligible_index_encounters": 1014,
+    "total_subsequent_reencounters_30d": 131,
+    "overall_reencounter_rate_pct": 12.92,
+    "by_index_setting": {
+      "emergency": {
+        "ELIGIBLE_INDEX_COUNT": 624,
+        "RE_ENCOUNTERS": 80,
+        "RATE": 12.82
+      },
+      "inpatient": {
+        "ELIGIBLE_INDEX_COUNT": 390,
+        "RE_ENCOUNTERS": 51,
+        "RATE": 13.08
+      }
+    },
+    "by_age_group": {
+      "0-17 (Pediatric)": {
+        "ELIGIBLE_INDEX_COUNT": 45,
+        "RE_ENCOUNTERS": 1,
+        "RATE": 2.22
+      },
+      "18-34 (Young Adult)": {
+        "ELIGIBLE_INDEX_COUNT": 138,
+        "RE_ENCOUNTERS": 10,
+        "RATE": 7.25
+      },
+      "35-49 (Adult)": {
+        "ELIGIBLE_INDEX_COUNT": 199,
+        "RE_ENCOUNTERS": 19,
+        "RATE": 9.55
+      },
+      "50-64 (Middle-Aged)": {
+        "ELIGIBLE_INDEX_COUNT": 271,
+        "RE_ENCOUNTERS": 37,
+        "RATE": 13.65
+      },
+      "65-79 (Older Adult)": {
+        "ELIGIBLE_INDEX_COUNT": 247,
+        "RE_ENCOUNTERS": 43,
+        "RATE": 17.41
+      },
+      "80+ (Senior)": {
+        "ELIGIBLE_INDEX_COUNT": 114,
+        "RE_ENCOUNTERS": 21,
+        "RATE": 18.42
+      }
+    },
+    "methodology_disclaimer": "Metrics represent subsequent encounters across all outpatient/inpatient settings within 30 days post-acute discharge. Not equivalent to CMS risk-adjusted readmissions."
+  }
+}

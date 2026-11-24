@@ -1,0 +1,7 @@
+org_id,org_name,city,state,zip,phone,annual_revenue,utilization_rating
+198123d8-87c9-4a9d-acae-6cea8971ef1f,Massachusetts General Medical Center,Boston,MA,2114,617-726-2000,24500000,880
+a2b61c94-04e1-4ecb-8d86-21003c48efc4,Brigham & Women's Regional Hospital,Boston,MA,2115,617-732-5500,21000000,790
+fbcca2bd-d027-43c7-ba7c-664fb7952bac,Cambridge Community Health Alliance,Cambridge,MA,2139,617-665-1000,14200000,620
+b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Worcester Memorial Hospital,Worcester,MA,1605,508-793-6611,16500000,690
+80bcb923-219b-47b3-a755-735e8c3e53b2,Springfield Baystate Health Network,Springfield,MA,1199,413-794-0000,18900000,740
+40c8a159-050e-49f5-aaab-d2691ee340a3,Lowell General Acute Care,Lowell,MA,1854,978-937-6000,11800000,510

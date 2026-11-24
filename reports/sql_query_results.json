@@ -1,0 +1,712 @@
+{
+  "dialect": "sqlite",
+  "total_queries": 16,
+  "successful_queries": 16,
+  "failed_queries": 0,
+  "query_results": [
+    {
+      "query_number": 1,
+      "title": "QUERY 1: Longitudinal Monthly Encounter Trends by Care Setting",
+      "status": "SUCCESS",
+      "row_count": 48,
+      "columns": [
+        "year_month",
+        "year",
+        "month_name",
+        "total_encounters",
+        "inpatient_count",
+        "emergency_count",
+        "ambulatory_count",
+        "wellness_count",
+        "gross_claim_revenue",
+        "prior_month_encounters",
+        "mom_growth_pct"
+      ],
+      "execution_time_ms": 37.79,
+      "sample_data": [
+        {
+          "year_month": "2021-01",
+          "year": 2021,
+          "month_name": "January",
+          "total_encounters": 122,
+          "inpatient_count": 7,
+          "emergency_count": 13,
+          "ambulatory_count": 53,
+          "wellness_count": 31,
+          "gross_claim_revenue": 160346.18,
+          "prior_month_encounters": NaN,
+          "mom_growth_pct": NaN
+        },
+        {
+          "year_month": "2021-02",
+          "year": 2021,
+          "month_name": "February",
+          "total_encounters": 139,
+          "inpatient_count": 13,
+          "emergency_count": 20,
+          "ambulatory_count": 54,
+          "wellness_count": 29,
+          "gross_claim_revenue": 377258.89,
+          "prior_month_encounters": 122.0,
+          "mom_growth_pct": 13.93
+        },
+        {
+          "year_month": "2021-03",
+          "year": 2021,
+          "month_name": "March",
+          "total_encounters": 125,
+          "inpatient_count": 10,
+          "emergency_count": 11,
+          "ambulatory_count": 56,
+          "wellness_count": 17,
+          "gross_claim_revenue": 177067.74,
+          "prior_month_encounters": 139.0,
+          "mom_growth_pct": -10.07
+        }
+      ]
+    },
+    {
+      "query_number": 2,
+      "title": "QUERY 2: Patient Healthcare Expenditure Deciles (NTILE Segmentation)",
+      "status": "SUCCESS",
+      "row_count": 10,
+      "columns": [
+        "cost_decile",
+        "patients_in_decile",
+        "decile_total_spend",
+        "avg_patient_spend",
+        "avg_encounters",
+        "spend_percentage_of_hospital_total"
+      ],
+      "execution_time_ms": 21.61,
+      "sample_data": [
+        {
+          "cost_decile": 1,
+          "patients_in_decile": 120,
+          "decile_total_spend": 4129314.07,
+          "avg_patient_spend": 34410.95,
+          "avg_encounters": 7.8,
+          "spend_percentage_of_hospital_total": 44.37
+        },
+        {
+          "cost_decile": 2,
+          "patients_in_decile": 120,
+          "decile_total_spend": 2251881.75,
+          "avg_patient_spend": 18765.68,
+          "avg_encounters": 6.3,
+          "spend_percentage_of_hospital_total": 24.2
+        },
+        {
+          "cost_decile": 3,
+          "patients_in_decile": 120,
+          "decile_total_spend": 1086796.06,
+          "avg_patient_spend": 9056.63,
+          "avg_encounters": 6.8,
+          "spend_percentage_of_hospital_total": 11.68
+        }
+      ]
+    },
+    {
+      "query_number": 3,
+      "title": "QUERY 3: 30-Day Subsequent Re-encounter Rate by Clinical Department",
+      "status": "SUCCESS",
+      "row_count": 8,
+      "columns": [
+        "clinical_department",
+        "total_acute_discharges",
+        "subsequent_30d_reencounters",
+        "reencounter_rate_pct",
+        "avg_index_claim_cost"
+      ],
+      "execution_time_ms": 7.37,
+      "sample_data": [
+        {
+          "clinical_department": "Surgical Services",
+          "total_acute_discharges": 23,
+          "subsequent_30d_reencounters": 7,
+          "reencounter_rate_pct": 30.43,
+          "avg_index_claim_cost": 8835.77
+        },
+        {
+          "clinical_department": "Orthopedic & Musculoskeletal Care",
+          "total_acute_discharges": 62,
+          "subsequent_30d_reencounters": 12,
+          "reencounter_rate_pct": 19.35,
+          "avg_index_claim_cost": 8823.31
+        },
+        {
+          "clinical_department": "Children's Health Services",
+          "total_acute_discharges": 146,
+          "subsequent_30d_reencounters": 22,
+          "reencounter_rate_pct": 15.07,
+          "avg_index_claim_cost": 7096.77
+        }
+      ]
+    },
+    {
+      "query_number": 4,
+      "title": "QUERY 4: Inpatient Length of Stay (LOS) Benchmark & Outlier Detection",
+      "status": "SUCCESS",
+      "row_count": 8,
+      "columns": [
+        "clinical_department",
+        "total_admissions",
+        "mean_los_days",
+        "min_los_days",
+        "max_los_days",
+        "high_stay_outliers",
+        "avg_admission_claim_cost"
+      ],
+      "execution_time_ms": 5.2,
+      "sample_data": [
+        {
+          "clinical_department": "Department of Internal Medicine",
+          "total_admissions": 43,
+          "mean_los_days": 5.75,
+          "min_los_days": 1.03,
+          "max_los_days": 9.95,
+          "high_stay_outliers": 11,
+          "avg_admission_claim_cost": 15355.54
+        },
+        {
+          "clinical_department": "Neurological Sciences",
+          "total_admissions": 35,
+          "mean_los_days": 5.61,
+          "min_los_days": 1.25,
+          "max_los_days": 9.46,
+          "high_stay_outliers": 4,
+          "avg_admission_claim_cost": 17269.83
+        },
+        {
+          "clinical_department": "Primary & Community Medicine",
+          "total_admissions": 61,
+          "mean_los_days": 5.55,
+          "min_los_days": 1.21,
+          "max_los_days": 9.96,
+          "high_stay_outliers": 7,
+          "avg_admission_claim_cost": 15237.42
+        }
+      ]
+    },
+    {
+      "query_number": 5,
+      "title": "QUERY 5: Top Diagnosed Chronic Conditions (Avoiding Double-Counting in Joins)",
+      "status": "SUCCESS",
+      "row_count": 12,
+      "columns": [
+        "condition_code",
+        "condition_name",
+        "is_chronic",
+        "clinical_category",
+        "distinct_encounters",
+        "unique_patients_diagnosed",
+        "attributed_avg_encounter_cost"
+      ],
+      "execution_time_ms": 46.64,
+      "sample_data": [
+        {
+          "condition_code": "22298006",
+          "condition_name": "Myocardial infarction",
+          "is_chronic": 1,
+          "clinical_category": "Cardiometabolic",
+          "distinct_encounters": 422,
+          "unique_patients_diagnosed": 333,
+          "attributed_avg_encounter_cost": 1347.84
+        },
+        {
+          "condition_code": "65363002",
+          "condition_name": "Otitis media",
+          "is_chronic": 0,
+          "clinical_category": "Respiratory / General",
+          "distinct_encounters": 380,
+          "unique_patients_diagnosed": 325,
+          "attributed_avg_encounter_cost": 1564.21
+        },
+        {
+          "condition_code": "444814009",
+          "condition_name": "Viral sinusitis",
+          "is_chronic": 0,
+          "clinical_category": "Respiratory / General",
+          "distinct_encounters": 386,
+          "unique_patients_diagnosed": 322,
+          "attributed_avg_encounter_cost": 1707.05
+        }
+      ]
+    },
+    {
+      "query_number": 6,
+      "title": "QUERY 6: Payer Reimbursed Revenue vs. Contractual Shortfall Analysis",
+      "status": "SUCCESS",
+      "row_count": 6,
+      "columns": [
+        "payer",
+        "total_claims_submitted",
+        "gross_billed_charges",
+        "total_payer_reimbursement",
+        "total_patient_responsibility",
+        "payer_reimbursement_rate_pct",
+        "patient_copay_burden_pct"
+      ],
+      "execution_time_ms": 12.11,
+      "sample_data": [
+        {
+          "payer": "Medicare",
+          "total_claims_submitted": 1828,
+          "gross_billed_charges": 2961543.27,
+          "total_payer_reimbursement": 2445101.36,
+          "total_patient_responsibility": 516441.91,
+          "payer_reimbursement_rate_pct": 82.56,
+          "patient_copay_burden_pct": 17.44
+        },
+        {
+          "payer": "Blue Cross Blue Shield",
+          "total_claims_submitted": 1529,
+          "gross_billed_charges": 2341473.0,
+          "total_payer_reimbursement": 1952764.41,
+          "total_patient_responsibility": 388708.59,
+          "payer_reimbursement_rate_pct": 83.4,
+          "patient_copay_burden_pct": 16.6
+        },
+        {
+          "payer": "Medicaid",
+          "total_claims_submitted": 1148,
+          "gross_billed_charges": 1637805.66,
+          "total_payer_reimbursement": 1368826.17,
+          "total_patient_responsibility": 268979.49,
+          "payer_reimbursement_rate_pct": 83.58,
+          "patient_copay_burden_pct": 16.42
+        }
+      ]
+    },
+    {
+      "query_number": 7,
+      "title": "QUERY 7: Longitudinal Patient Acquisition Cohort Analysis in Pure SQL",
+      "status": "SUCCESS",
+      "row_count": 12,
+      "columns": [
+        "cohort_month",
+        "m0_cohort_size",
+        "m1_active",
+        "m3_active",
+        "m6_active",
+        "m12_active",
+        "m6_retention_rate_pct"
+      ],
+      "execution_time_ms": 58.73,
+      "sample_data": [
+        {
+          "cohort_month": "2021-01",
+          "m0_cohort_size": 116,
+          "m1_active": 10,
+          "m3_active": 23,
+          "m6_active": 8,
+          "m12_active": 8,
+          "m6_retention_rate_pct": 6.9
+        },
+        {
+          "cohort_month": "2021-02",
+          "m0_cohort_size": 121,
+          "m1_active": 12,
+          "m3_active": 13,
+          "m6_active": 14,
+          "m12_active": 12,
+          "m6_retention_rate_pct": 11.6
+        },
+        {
+          "cohort_month": "2021-03",
+          "m0_cohort_size": 86,
+          "m1_active": 6,
+          "m3_active": 8,
+          "m6_active": 8,
+          "m12_active": 15,
+          "m6_retention_rate_pct": 9.3
+        }
+      ]
+    },
+    {
+      "query_number": 8,
+      "title": "QUERY 8: Frequent Healthcare Utilizers & Sequential Event Gap Analysis",
+      "status": "SUCCESS",
+      "row_count": 20,
+      "columns": [
+        "patient_key",
+        "total_visits_recorded",
+        "total_expenditure",
+        "max_sequence",
+        "avg_days_between_visits"
+      ],
+      "execution_time_ms": 52.97,
+      "sample_data": [
+        {
+          "patient_key": "PT_CE7BB6593021",
+          "total_visits_recorded": 14,
+          "total_expenditure": 55441.87,
+          "max_sequence": 14,
+          "avg_days_between_visits": 51.6
+        },
+        {
+          "patient_key": "PT_3AFE8DA758D4",
+          "total_visits_recorded": 14,
+          "total_expenditure": 48373.19,
+          "max_sequence": 14,
+          "avg_days_between_visits": 105.3
+        },
+        {
+          "patient_key": "PT_61E90FBCA60B",
+          "total_visits_recorded": 14,
+          "total_expenditure": 46576.23,
+          "max_sequence": 14,
+          "avg_days_between_visits": 105.2
+        }
+      ]
+    },
+    {
+      "query_number": 9,
+      "title": "QUERY 9: Provider Clinical Productivity & Departmental Ranking",
+      "status": "SUCCESS",
+      "row_count": 48,
+      "columns": [
+        "clinical_department",
+        "provider_name",
+        "encounters_handled",
+        "total_charges_billed",
+        "avg_encounter_duration_hrs",
+        "rank_in_department",
+        "pct_of_department_revenue"
+      ],
+      "execution_time_ms": 17.89,
+      "sample_data": [
+        {
+          "clinical_department": "Children's Health Services",
+          "provider_name": "Dr. William Williams",
+          "encounters_handled": 150,
+          "total_charges_billed": 251713.61,
+          "avg_encounter_duration_hrs": 7.46,
+          "rank_in_department": 1,
+          "pct_of_department_revenue": 19.97
+        },
+        {
+          "clinical_department": "Children's Health Services",
+          "provider_name": "Dr. Elizabeth Williams",
+          "encounters_handled": 115,
+          "total_charges_billed": 219897.59,
+          "avg_encounter_duration_hrs": 10.05,
+          "rank_in_department": 2,
+          "pct_of_department_revenue": 17.45
+        },
+        {
+          "clinical_department": "Children's Health Services",
+          "provider_name": "Dr. James Hernandez",
+          "encounters_handled": 129,
+          "total_charges_billed": 215093.09,
+          "avg_encounter_duration_hrs": 11.31,
+          "rank_in_department": 3,
+          "pct_of_department_revenue": 17.07
+        }
+      ]
+    },
+    {
+      "query_number": 10,
+      "title": "QUERY 10: Clinical Department Volume vs. Financial Contribution Matrix",
+      "status": "SUCCESS",
+      "row_count": 8,
+      "columns": [
+        "clinical_department",
+        "encounter_volume",
+        "volume_share_pct",
+        "gross_charges",
+        "revenue_share_pct",
+        "avg_cost_per_encounter",
+        "avg_duration_hours"
+      ],
+      "execution_time_ms": 15.95,
+      "sample_data": [
+        {
+          "clinical_department": "Emergency Services",
+          "encounter_volume": 1358,
+          "volume_share_pct": 22.79,
+          "gross_charges": 2229282.21,
+          "revenue_share_pct": 23.95,
+          "avg_cost_per_encounter": 1641.59,
+          "avg_duration_hours": 11.7
+        },
+        {
+          "clinical_department": "Primary & Community Medicine",
+          "encounter_volume": 1066,
+          "volume_share_pct": 17.89,
+          "gross_charges": 1539480.52,
+          "revenue_share_pct": 16.54,
+          "avg_cost_per_encounter": 1444.17,
+          "avg_duration_hours": 9.59
+        },
+        {
+          "clinical_department": "Heart & Vascular Institute",
+          "encounter_volume": 1123,
+          "volume_share_pct": 18.84,
+          "gross_charges": 1531212.94,
+          "revenue_share_pct": 16.45,
+          "avg_cost_per_encounter": 1363.5,
+          "avg_duration_hours": 8.99
+        }
+      ]
+    },
+    {
+      "query_number": 11,
+      "title": "QUERY 11: Intake Admission Volume by Day of Week & Hour of Day",
+      "status": "SUCCESS",
+      "row_count": 7,
+      "columns": [
+        "day_name",
+        "day_of_week",
+        "is_weekend",
+        "total_intakes",
+        "emergency_intakes",
+        "inpatient_admissions",
+        "emergency_intake_ratio_pct"
+      ],
+      "execution_time_ms": 14.3,
+      "sample_data": [
+        {
+          "day_name": "Monday",
+          "day_of_week": 0,
+          "is_weekend": 0,
+          "total_intakes": 848,
+          "emergency_intakes": 79,
+          "inpatient_admissions": 56,
+          "emergency_intake_ratio_pct": 9.32
+        },
+        {
+          "day_name": "Tuesday",
+          "day_of_week": 1,
+          "is_weekend": 0,
+          "total_intakes": 864,
+          "emergency_intakes": 92,
+          "inpatient_admissions": 52,
+          "emergency_intake_ratio_pct": 10.65
+        },
+        {
+          "day_name": "Wednesday",
+          "day_of_week": 2,
+          "is_weekend": 0,
+          "total_intakes": 837,
+          "emergency_intakes": 83,
+          "inpatient_admissions": 53,
+          "emergency_intake_ratio_pct": 9.92
+        }
+      ]
+    },
+    {
+      "query_number": 12,
+      "title": "QUERY 12: First-Time Patient Conversion to Long-Term Follow-up Care",
+      "status": "SUCCESS",
+      "row_count": 4,
+      "columns": [
+        "visit_frequency_tier",
+        "patient_count",
+        "patient_percentage",
+        "avg_visits_in_tier"
+      ],
+      "execution_time_ms": 11.39,
+      "sample_data": [
+        {
+          "visit_frequency_tier": "2 to 4 Visits",
+          "patient_count": 498,
+          "patient_percentage": 41.5,
+          "avg_visits_in_tier": 3.0
+        },
+        {
+          "visit_frequency_tier": "5 to 9 Visits",
+          "patient_count": 437,
+          "patient_percentage": 36.42,
+          "avg_visits_in_tier": 6.5
+        },
+        {
+          "visit_frequency_tier": "10+ High Utilizer",
+          "patient_count": 133,
+          "patient_percentage": 11.08,
+          "avg_visits_in_tier": 11.2
+        }
+      ]
+    },
+    {
+      "query_number": 13,
+      "title": "QUERY 13: High-Cost Clinical Procedures & Expense Contribution",
+      "status": "SUCCESS",
+      "row_count": 7,
+      "columns": [
+        "procedure_code",
+        "procedure_name",
+        "procedure_volume",
+        "unique_patients",
+        "total_procedure_expenditure",
+        "mean_unit_procedure_cost",
+        "min_unit_cost",
+        "max_unit_cost"
+      ],
+      "execution_time_ms": 7.54,
+      "sample_data": [
+        {
+          "procedure_code": "232717009",
+          "procedure_name": "Coronary artery bypass graft",
+          "procedure_volume": 433,
+          "unique_patients": 364,
+          "total_procedure_expenditure": 12124000.0,
+          "mean_unit_procedure_cost": 28000.0,
+          "min_unit_cost": 28000.0,
+          "max_unit_cost": 28000.0
+        },
+        {
+          "procedure_code": "80146002",
+          "procedure_name": "Appendectomy",
+          "procedure_volume": 435,
+          "unique_patients": 349,
+          "total_procedure_expenditure": 2523000.0,
+          "mean_unit_procedure_cost": 5800.0,
+          "min_unit_cost": 5800.0,
+          "max_unit_cost": 5800.0
+        },
+        {
+          "procedure_code": "73761001",
+          "procedure_name": "Colonoscopy",
+          "procedure_volume": 412,
+          "unique_patients": 339,
+          "total_procedure_expenditure": 515000.0,
+          "mean_unit_procedure_cost": 1250.0,
+          "min_unit_cost": 1250.0,
+          "max_unit_cost": 1250.0
+        }
+      ]
+    },
+    {
+      "query_number": 14,
+      "title": "QUERY 14: Complex Multimorbidity (Chronic Condition Comorbidity Burden)",
+      "status": "SUCCESS",
+      "row_count": 8,
+      "columns": [
+        "chronic_conditions_count",
+        "patient_count",
+        "avg_annual_income",
+        "avg_lifetime_claim_cost",
+        "avg_lifetime_encounters"
+      ],
+      "execution_time_ms": 15.16,
+      "sample_data": [
+        {
+          "chronic_conditions_count": 0,
+          "patient_count": 100,
+          "avg_annual_income": 57868.7,
+          "avg_lifetime_claim_cost": 3322.21,
+          "avg_lifetime_encounters": 1.8
+        },
+        {
+          "chronic_conditions_count": 1,
+          "patient_count": 301,
+          "avg_annual_income": 58936.8,
+          "avg_lifetime_claim_cost": 4324.74,
+          "avg_lifetime_encounters": 2.7
+        },
+        {
+          "chronic_conditions_count": 2,
+          "patient_count": 303,
+          "avg_annual_income": 59295.55,
+          "avg_lifetime_claim_cost": 5912.59,
+          "avg_lifetime_encounters": 4.0
+        }
+      ]
+    },
+    {
+      "query_number": 15,
+      "title": "QUERY 15: Hospital Facility Network Volume & Regional Utilization Share",
+      "status": "SUCCESS",
+      "row_count": 6,
+      "columns": [
+        "org_id",
+        "org_name",
+        "city",
+        "annual_revenue",
+        "utilization_rating",
+        "actual_encounters_managed",
+        "unique_patients_served",
+        "total_billed_charges",
+        "avg_charge_per_encounter",
+        "hospital_network_market_share_pct"
+      ],
+      "execution_time_ms": 26.47,
+      "sample_data": [
+        {
+          "org_id": "198123d8-87c9-4a9d-acae-6cea8971ef1f",
+          "org_name": "Massachusetts General Medical Center",
+          "city": "Boston",
+          "annual_revenue": 24500000,
+          "utilization_rating": 880,
+          "actual_encounters_managed": 1021,
+          "unique_patients_served": 646,
+          "total_billed_charges": 1812301.93,
+          "avg_charge_per_encounter": 1775.03,
+          "hospital_network_market_share_pct": 17.13
+        },
+        {
+          "org_id": "fbcca2bd-d027-43c7-ba7c-664fb7952bac",
+          "org_name": "Cambridge Community Health Alliance",
+          "city": "Cambridge",
+          "annual_revenue": 14200000,
+          "utilization_rating": 620,
+          "actual_encounters_managed": 1016,
+          "unique_patients_served": 668,
+          "total_billed_charges": 1477989.96,
+          "avg_charge_per_encounter": 1454.71,
+          "hospital_network_market_share_pct": 17.05
+        },
+        {
+          "org_id": "80bcb923-219b-47b3-a755-735e8c3e53b2",
+          "org_name": "Springfield Baystate Health Network",
+          "city": "Springfield",
+          "annual_revenue": 18900000,
+          "utilization_rating": 740,
+          "actual_encounters_managed": 996,
+          "unique_patients_served": 662,
+          "total_billed_charges": 1618630.53,
+          "avg_charge_per_encounter": 1625.13,
+          "hospital_network_market_share_pct": 16.71
+        }
+      ]
+    },
+    {
+      "query_number": 16,
+      "title": "QUERY 16: Rolling 90-Day Moving Average of Emergency Department Influx",
+      "status": "SUCCESS",
+      "row_count": 1461,
+      "columns": [
+        "full_date",
+        "daily_ed_visits",
+        "daily_ed_charges",
+        "rolling_90d_avg_ed_visits",
+        "rolling_90d_total_ed_charges"
+      ],
+      "execution_time_ms": 42.19,
+      "sample_data": [
+        {
+          "full_date": "2021-01-01",
+          "daily_ed_visits": 1,
+          "daily_ed_charges": 2479.43,
+          "rolling_90d_avg_ed_visits": 1.0,
+          "rolling_90d_total_ed_charges": 2479.43
+        },
+        {
+          "full_date": "2021-01-02",
+          "daily_ed_visits": 0,
+          "daily_ed_charges": NaN,
+          "rolling_90d_avg_ed_visits": 0.5,
+          "rolling_90d_total_ed_charges": 2479.43
+        },
+        {
+          "full_date": "2021-01-03",
+          "daily_ed_visits": 1,
+          "daily_ed_charges": 3444.45,
+          "rolling_90d_avg_ed_visits": 0.67,
+          "rolling_90d_total_ed_charges": 5923.88
+        }
+      ]
+    }
+  ]
+}

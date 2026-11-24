@@ -1,0 +1,150 @@
+// ============================================================================
+// Hospital Patient Analytics & Healthcare Performance Optimization
+// Production DAX Measure Library (18 Core Measures)
+// ============================================================================
+
+// ----------------------------------------------------------------------------
+// 1. VOLUME & PATIENT POPULATION METRICS
+// ----------------------------------------------------------------------------
+
+[Total Encounters] = 
+COUNTROWS('Fact_Encounters')
+/* Format: #,##0 */
+
+[Total Unique Patients] = 
+DISTINCTCOUNT('Fact_Encounters'[patient_key])
+/* Format: #,##0 */
+
+[Inpatient Admissions] = 
+CALCULATE(
+    [Total Encounters],
+    'Fact_Encounters'[is_inpatient] = 1
+)
+/* Format: #,##0 */
+
+[Emergency Department Visits] = 
+CALCULATE(
+    [Total Encounters],
+    'Fact_Encounters'[is_emergency] = 1
+)
+/* Format: #,##0 */
+
+[High Utilizer Patients] = 
+CALCULATE(
+    DISTINCTCOUNT('Dim_Patient'[patient_key]),
+    'Dim_Patient'[utilization_tier] = "10+ Visits (High Utilizer)"
+)
+/* Format: #,##0 */
+
+
+// ----------------------------------------------------------------------------
+// 2. FINANCIAL & REVENUE RECOVERY METRICS
+// ----------------------------------------------------------------------------
+
+[Gross Billed Charges] = 
+SUM('Fact_Encounters'[total_claim_cost])
+/* Format: $#,##0.00 */
+
+[Total Payer Reimbursement] = 
+SUM('Fact_Encounters'[payer_coverage])
+/* Format: $#,##0.00 */
+
+[Total Patient Responsibility] = 
+SUM('Fact_Encounters'[patient_payment])
+/* Format: $#,##0.00 */
+
+[Payer Collection Rate %] = 
+DIVIDE(
+    [Total Payer Reimbursement],
+    [Gross Billed Charges],
+    0.0
+)
+/* Format: 0.0% */
+
+[Patient Out-of-Pocket Share %] = 
+DIVIDE(
+    [Total Patient Responsibility],
+    [Gross Billed Charges],
+    0.0
+)
+/* Format: 0.0% */
+
+[Average Cost Per Encounter] = 
+DIVIDE(
+    [Gross Billed Charges],
+    [Total Encounters],
+    0.0
+)
+/* Format: $#,##0.00 */
+
+[Cost Per Inpatient Bed Day] = 
+DIVIDE(
+    CALCULATE([Gross Billed Charges], 'Fact_Encounters'[is_inpatient] = 1),
+    SUM('Fact_Encounters'[length_of_stay_days]),
+    0.0
+)
+/* Format: $#,##0.00 */
+
+
+// ----------------------------------------------------------------------------
+// 3. CLINICAL OPERATIONAL & QUALITY METRICS
+// ----------------------------------------------------------------------------
+
+[Average Encounter Duration (Hours)] = 
+AVERAGE('Fact_Encounters'[duration_hours])
+/* Format: 0.0 */
+
+[Average Inpatient Length of Stay (Days)] = 
+CALCULATE(
+    AVERAGE('Fact_Encounters'[length_of_stay_days]),
+    'Fact_Encounters'[is_inpatient] = 1
+)
+/* Format: 0.0 "Days" */
+
+[30-Day Re-encounter Count] = 
+CALCULATE(
+    SUM('Fact_Encounters'[re_encounter_30d]),
+    'Fact_Encounters'[encounter_class] IN {"inpatient", "emergency"}
+)
+/* Format: #,##0 */
+
+[30-Day Re-encounter Rate %] = 
+DIVIDE(
+    [30-Day Re-encounter Count],
+    CALCULATE(
+        [Total Encounters],
+        'Fact_Encounters'[encounter_class] IN {"inpatient", "emergency"}
+    ),
+    0.0
+)
+/* Format: 0.0% */
+
+
+// ----------------------------------------------------------------------------
+// 4. TIME INTELLIGENCE & CLINICAL PREVALENCE
+// ----------------------------------------------------------------------------
+
+[Prior Month Encounters] = 
+CALCULATE(
+    [Total Encounters],
+    DATEADD('Dim_Date'[full_date], -1, MONTH)
+)
+/* Format: #,##0 */
+
+[Encounters MoM Growth %] = 
+VAR CurrentEncounters = [Total Encounters]
+VAR PriorEncounters = [Prior Month Encounters]
+RETURN
+DIVIDE(
+    CurrentEncounters - PriorEncounters,
+    PriorEncounters,
+    0.0
+)
+/* Format: +0.0%;-0.0%;0.0% */
+
+[Diagnosed Chronic Condition Count] = 
+CALCULATE(
+    COUNTROWS('Fact_Encounter_Conditions'),
+    'Dim_Condition'[is_chronic] = 1
+)
+/* Format: #,##0 */

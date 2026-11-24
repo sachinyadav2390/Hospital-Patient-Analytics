@@ -1,0 +1,13 @@
+condition_code,condition_name,is_chronic,clinical_category
+22298006,Myocardial infarction,1,Cardiometabolic
+444814009,Viral sinusitis,0,Respiratory / General
+15777000,Prediabetes,1,Cardiometabolic
+59621000,Essential hypertension (disorder),1,Cardiometabolic
+65363002,Otitis media,0,Respiratory / General
+195967001,Asthma,1,Respiratory / General
+10509003,Acute bronchitis,1,Respiratory / General
+38341003,Essential hypertension,1,Cardiometabolic
+271737000,Anemia,1,Respiratory / General
+44054006,Type 2 diabetes mellitus,1,Cardiometabolic
+195662009,Acute viral pharyngitis,0,Respiratory / General
+230690007,Stroke,1,Cardiometabolic

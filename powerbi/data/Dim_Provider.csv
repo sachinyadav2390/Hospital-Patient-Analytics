@@ -1,0 +1,49 @@
+provider_id,org_id,provider_name,gender,speciality,clinical_department,historical_utilization
+041393d6-1b50-4136-8fdc-0ff23fcf5b61,40c8a159-050e-49f5-aaab-d2691ee340a3,Dr. Patricia Smith,F,Cardiology,Heart & Vascular Institute,278
+2726d41e-e0be-4829-bab3-6af9a08d9c1d,80bcb923-219b-47b3-a755-735e8c3e53b2,Dr. Susan Smith,M,Emergency Medicine,Emergency Services,507
+e5a1ea96-52e6-461e-88fc-47a4f2a77403,40c8a159-050e-49f5-aaab-d2691ee340a3,Dr. Susan Brown,F,Pediatrics,Children's Health Services,426
+a120e3e3-bc98-4269-8750-399015d617ef,40c8a159-050e-49f5-aaab-d2691ee340a3,Dr. Susan Garcia,F,Family Medicine,Primary & Community Medicine,289
+e51d6e93-18cd-4f0f-987f-98d034931717,b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Dr. Patricia Garcia,F,Pediatrics,Children's Health Services,355
+5bfcf345-f166-4b15-86d8-01e3ed0d2cd9,b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Dr. John Rodriguez,F,Orthopedic Surgery,Orthopedic & Musculoskeletal Care,566
+b26537f2-7d76-40d2-8553-d4ca4b4a3893,fbcca2bd-d027-43c7-ba7c-664fb7952bac,Dr. John Wilson,M,Emergency Medicine,Emergency Services,847
+42355cb5-5596-480f-9b65-a2bb1baacd18,a2b61c94-04e1-4ecb-8d86-21003c48efc4,Dr. Barbara Garcia,M,Pediatrics,Children's Health Services,450
+7aee7700-6b80-4cb3-8c24-c7781e133624,80bcb923-219b-47b3-a755-735e8c3e53b2,Dr. Linda Williams,F,Neurology,Neurological Sciences,549
+5371cebc-70ca-420d-b67a-15d0c8a316e1,40c8a159-050e-49f5-aaab-d2691ee340a3,Dr. David Wilson,M,Cardiology,Heart & Vascular Institute,648
+e603edcf-43d4-4226-9c15-55a5ad537438,198123d8-87c9-4a9d-acae-6cea8971ef1f,Dr. Michael Anderson,F,Cardiology,Heart & Vascular Institute,1039
+d8c0fef3-d95e-48df-9d2c-6f4c8250b171,a2b61c94-04e1-4ecb-8d86-21003c48efc4,Dr. William Williams,M,Pediatrics,Children's Health Services,917
+e10a26b2-2cba-4a67-8f1a-2dd99ee37dce,fbcca2bd-d027-43c7-ba7c-664fb7952bac,Dr. Linda Williams,F,Emergency Medicine,Emergency Services,427
+4dc60336-e357-4480-a886-03bfc0203069,40c8a159-050e-49f5-aaab-d2691ee340a3,Dr. Susan Martinez,M,Neurology,Neurological Sciences,614
+d267b8e5-df27-43ad-8e6f-99c4241a4e8e,80bcb923-219b-47b3-a755-735e8c3e53b2,Dr. James Hernandez,M,Pediatrics,Children's Health Services,990
+2e377240-58bd-495a-a035-52f1df8fd988,a2b61c94-04e1-4ecb-8d86-21003c48efc4,Dr. Joseph Smith,F,Family Medicine,Primary & Community Medicine,711
+a474d887-5a08-48fe-9155-09cac5699bbe,40c8a159-050e-49f5-aaab-d2691ee340a3,Dr. Michael Williams,F,Family Medicine,Primary & Community Medicine,101
+f2328bd9-b0cb-4321-b43c-c88007ead899,80bcb923-219b-47b3-a755-735e8c3e53b2,Dr. David Davis,M,Emergency Medicine,Emergency Services,729
+e9328340-7a98-406f-a4d9-3fc527598eef,a2b61c94-04e1-4ecb-8d86-21003c48efc4,Dr. Mary Brown,M,Emergency Medicine,Emergency Services,1190
+900561b6-892c-40ee-b033-c391445116e5,a2b61c94-04e1-4ecb-8d86-21003c48efc4,Dr. Robert Hernandez,F,Family Medicine,Primary & Community Medicine,533
+69b9f060-076b-4ad9-8571-65fc591dd748,80bcb923-219b-47b3-a755-735e8c3e53b2,Dr. Michael Lopez,F,Neurology,Neurological Sciences,1159
+8ae8301e-fd0e-40bb-a221-2a07ac2f457b,b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Dr. Patricia Brown,M,Emergency Medicine,Emergency Services,551
+837bd3a4-2ffc-4b7c-9242-95c5ab533f3c,198123d8-87c9-4a9d-acae-6cea8971ef1f,Dr. John Lopez,M,Cardiology,Heart & Vascular Institute,245
+b38e4c80-967f-44ce-8f90-d9658c55bb87,80bcb923-219b-47b3-a755-735e8c3e53b2,Dr. Linda Jones,F,Cardiology,Heart & Vascular Institute,1068
+dfd83d68-d32c-44e8-9cd6-087f9c33243a,a2b61c94-04e1-4ecb-8d86-21003c48efc4,Dr. Jessica Gonzalez,F,Cardiology,Heart & Vascular Institute,967
+05e86066-55d2-4fb4-9acd-b1744b78f959,b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Dr. Joseph Wilson,M,Emergency Medicine,Emergency Services,323
+3bf16d02-17de-4fec-be79-da0ef656dc1b,a2b61c94-04e1-4ecb-8d86-21003c48efc4,Dr. Michael Brown,F,Family Medicine,Primary & Community Medicine,254
+59ff1a94-ea43-4540-9e27-3c0ccf314a98,b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Dr. Patricia Smith,M,Emergency Medicine,Emergency Services,932
+a8968d7e-d8a7-45ad-bd67-81b80652a6b2,b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Dr. Jessica Brown,F,Internal Medicine,Department of Internal Medicine,643
+58b98584-9316-49d9-a80b-b18f49f4fcc3,b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Dr. Elizabeth Miller,F,Family Medicine,Primary & Community Medicine,224
+77df6cbc-60dc-423e-bdd7-967527624f27,40c8a159-050e-49f5-aaab-d2691ee340a3,Dr. David Smith,M,General Surgery,Surgical Services,216
+edc473ce-3971-4de8-9213-d1972a5d05b4,80bcb923-219b-47b3-a755-735e8c3e53b2,Dr. John Wilson,M,Emergency Medicine,Emergency Services,926
+8bf46c41-cf92-4428-bb9d-9fb5b7f08f88,198123d8-87c9-4a9d-acae-6cea8971ef1f,Dr. Linda Martinez,M,Emergency Medicine,Emergency Services,747
+6947db60-0802-4dd2-9e4c-0d1d144c919f,fbcca2bd-d027-43c7-ba7c-664fb7952bac,Dr. Michael Hernandez,F,Cardiology,Heart & Vascular Institute,714
+c5f705c4-1e68-4825-987d-b39553cfd342,b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Dr. David Anderson,M,Internal Medicine,Department of Internal Medicine,304
+3cea54e1-a733-4a5f-a8e6-a5b026bf5244,198123d8-87c9-4a9d-acae-6cea8971ef1f,Dr. Michael Rodriguez,F,Family Medicine,Primary & Community Medicine,600
+5e62763c-7765-41f3-9291-30e017ef1f6d,fbcca2bd-d027-43c7-ba7c-664fb7952bac,Dr. Elizabeth Williams,F,Pediatrics,Children's Health Services,1183
+023efcd8-ace0-4b44-943b-280a77c86120,198123d8-87c9-4a9d-acae-6cea8971ef1f,Dr. Elizabeth Anderson,M,Family Medicine,Primary & Community Medicine,418
+007e1e6f-d4b6-41d2-b32b-edb98988d2dc,fbcca2bd-d027-43c7-ba7c-664fb7952bac,Dr. Elizabeth Martinez,M,Orthopedic Surgery,Orthopedic & Musculoskeletal Care,1135
+0e74ac3e-6c86-49e2-ad51-594eb8b9eac1,b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Dr. William Anderson,M,Emergency Medicine,Emergency Services,107
+508c691e-3292-4e39-878b-4dd9d853bf9f,fbcca2bd-d027-43c7-ba7c-664fb7952bac,Dr. Robert Hernandez,F,Family Medicine,Primary & Community Medicine,119
+322175ab-bd6f-4719-a717-27332556cce1,198123d8-87c9-4a9d-acae-6cea8971ef1f,Dr. John Anderson,M,Internal Medicine,Department of Internal Medicine,980
+e5cbfd85-0ccd-4b3b-b965-527d8b2203a4,a2b61c94-04e1-4ecb-8d86-21003c48efc4,Dr. Mary Jones,F,Internal Medicine,Department of Internal Medicine,310
+420ed6e0-fcc1-4542-94e0-b27a1a1cad7a,fbcca2bd-d027-43c7-ba7c-664fb7952bac,Dr. Susan Martinez,M,Cardiology,Heart & Vascular Institute,462
+d354332f-8220-4338-b5f3-939fa023f8b5,b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Dr. James Williams,F,Neurology,Neurological Sciences,608
+a2271eaa-3039-4eb3-b59d-f2555914b466,fbcca2bd-d027-43c7-ba7c-664fb7952bac,Dr. Jennifer Gonzalez,M,Neurology,Neurological Sciences,508
+74502fa8-4c39-40e4-a356-3d65dae91ad3,b7dd8fe2-ae3e-4272-812b-e2840c2a3e7a,Dr. Barbara Jones,M,Cardiology,Heart & Vascular Institute,670
+9371f038-6eca-4a0b-aab8-e44c0b8d8d58,198123d8-87c9-4a9d-acae-6cea8971ef1f,Dr. William Garcia,F,Orthopedic Surgery,Orthopedic & Musculoskeletal Care,634

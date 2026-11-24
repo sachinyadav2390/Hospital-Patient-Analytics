@@ -1,0 +1,7 @@
+encounter_class,display_name,setting_description,acuity_level
+ambulatory,Ambulatory Clinic,Scheduled outpatient clinic visit,Low
+wellness,Preventive / Wellness,Annual health checkup and routine screening,Low
+outpatient,Hospital Outpatient,Specialist hospital consultation or diagnostic workup,Moderate
+urgentcare,Urgent Care Walk-In,Unscheduled episodic minor acute illness,Moderate
+emergency,Emergency Department,Acute unscheduled life-safety and trauma services,High
+inpatient,Inpatient Hospitalization,Formal hospital admission requiring bed stay,Critical

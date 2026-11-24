@@ -1,0 +1,14 @@
+================================================================================
+SYNTHEA SYNTHETIC HEALTHCARE DATASET NOTICE
+Hospital Patient Analytics & Healthcare Performance Optimization
+================================================================================
+Source: Synthea Synthetic Healthcare Generator (N=1200, seed=42)
+Generated Date: 2026-11-24 15:24:24
+Legal & Compliance Notice:
+- All data in this directory is strictly SYNTHETIC, generated following the
+  MITRE Synthea™ open-source synthetic patient simulation specifications.
+- This dataset contains NO real Protected Health Information (PHI) and NO
+  real Personally Identifiable Information (PII) under HIPAA / HITECH.
+- Any resemblance to actual living or deceased individuals, clinical events,
+  or provider activities is entirely coincidental.
+================================================================================

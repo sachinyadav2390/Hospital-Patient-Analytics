@@ -1,0 +1,1201 @@
+patient_key,birthdate,deathdate,is_deceased,gender,race,ethnicity,marital,city,state,zip,annual_income,current_age,current_age_group,cluster_id,cluster_name,utilization_tier,total_lifetime_encounters,total_lifetime_claim_cost
+PT_8BF04DAFA99C,1958-12-26,,0,M,white,nonhispanic,M,Cambridge,MA,2138,20600,66.0,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,6311.45
+PT_78A86AA209C5,1962-05-22,,0,M,white,nonhispanic,M,Somerville,MA,2143,52538,62.6,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,10286.599999999999
+PT_61FB97541BD6,1991-08-26,,0,F,white,nonhispanic,M,Worcester,MA,1605,76341,33.3,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,236.92
+PT_982E8D47C763,1971-11-19,,0,M,black,nonhispanic,D,Springfield,MA,1199,43426,53.1,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,6597.32
+PT_6976E689DFEE,1966-09-20,,0,M,other,hispanic,S,Newton,MA,2458,74091,58.3,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,398.18000000000006
+PT_6DB36F44DA62,2007-04-09,,0,F,white,nonhispanic,S,Quincy,MA,2169,34703,17.7,0-17 (Pediatric),2,Low-Intensity Outpatients,1 Visit (Single),1,390.31
+PT_D96DDD14F177,1952-12-01,,0,M,white,hispanic,S,Somerville,MA,2143,34898,72.1,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1410.04
+PT_DEA6E1C9A343,1993-11-26,,0,F,black,nonhispanic,S,Somerville,MA,2143,71495,31.1,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,692.52
+PT_B5BB923925F6,1976-05-27,,0,F,white,nonhispanic,M,Cambridge,MA,2138,36142,48.6,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1064.53
+PT_60CA05B18B47,2018-05-25,,0,M,white,nonhispanic,D,Newton,MA,2458,65395,6.6,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,1304.07
+PT_8A555CCD9AB2,1983-11-20,,0,M,black,nonhispanic,S,Cambridge,MA,2138,18000,41.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1560.58
+PT_B83B85B286F1,1994-03-24,,0,F,white,hispanic,M,Lowell,MA,1854,83139,30.8,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,3837.9599999999996
+PT_DB6F1790700E,1996-08-07,,0,F,black,nonhispanic,M,Newton,MA,2458,181692,28.4,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1133.8999999999999
+PT_E9ED1EE92093,1976-05-08,,0,F,black,nonhispanic,S,Somerville,MA,2143,57490,48.6,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,33092.32
+PT_A2F217414E27,1971-12-19,,0,M,other,nonhispanic,D,Lowell,MA,1854,35307,53.0,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,10145.76
+PT_6554ACF01AFE,1952-01-19,,0,F,white,nonhispanic,S,Quincy,MA,2169,43093,73.0,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),13,40060.99
+PT_68E3B71606A9,2000-08-10,,0,F,white,nonhispanic,M,Somerville,MA,2143,75672,24.4,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,1227.43
+PT_8BD5D69AD656,1980-01-08,,0,F,black,nonhispanic,D,Lowell,MA,1854,42135,45.0,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,364.85
+PT_00A7A44E806B,1969-10-10,,0,M,white,nonhispanic,M,Quincy,MA,2169,49067,55.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),9,3044.53
+PT_C6055BB69766,2005-01-25,,0,M,white,nonhispanic,S,Worcester,MA,1605,82721,19.9,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3103.86
+PT_E2845DDC5D8E,1983-07-27,,0,M,white,nonhispanic,M,Boston,MA,2115,40006,41.4,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,670.49
+PT_241BEB4C25FB,1994-05-18,,0,F,other,nonhispanic,S,Worcester,MA,1605,61837,30.6,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,4721.92
+PT_5A91627F82D8,1984-12-10,,0,M,white,nonhispanic,S,Lowell,MA,1854,46507,40.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,491.32000000000005
+PT_1706D5956E30,1987-12-10,,0,F,asian,nonhispanic,S,Quincy,MA,2169,47851,37.1,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,11709.29
+PT_C0671A9DEFA9,1968-03-16,,0,F,white,hispanic,M,Boston,MA,2115,40448,56.8,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,10558.19
+PT_E904A1520B86,2007-02-28,,0,F,asian,nonhispanic,D,Newton,MA,2458,40915,17.8,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1511.29
+PT_DB9CBC13FC61,2006-08-06,,0,F,asian,nonhispanic,M,Lowell,MA,1854,75461,18.4,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1407.7
+PT_E7A5D6FC496D,2010-10-05,,0,M,white,nonhispanic,D,Springfield,MA,1199,60907,14.2,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,2184.7599999999998
+PT_241595667A26,1974-10-10,,0,F,white,nonhispanic,S,Lowell,MA,1854,43996,50.2,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,1498.27
+PT_1666AEAF8095,1948-11-21,2023-08-02,1,M,black,nonhispanic,S,Newton,MA,2458,21265,76.1,65-79 (Older Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),7,5803.76
+PT_6F33CF05A85D,1949-08-03,,0,F,asian,nonhispanic,D,Springfield,MA,1199,80364,75.4,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,20914.179999999997
+PT_8DA70E834D9D,2005-04-16,,0,F,white,hispanic,M,Boston,MA,2115,31131,19.7,18-34 (Young Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,24656.08
+PT_DE7C63F5F02B,1998-06-22,,0,M,white,nonhispanic,S,Somerville,MA,2143,154760,26.5,18-34 (Young Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),3,27076.22
+PT_73F6C6EA01DF,1982-11-12,,0,M,white,nonhispanic,M,Boston,MA,2115,42692,42.1,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,6448.950000000001
+PT_27195964F11F,1963-03-26,,0,M,white,hispanic,M,Boston,MA,2115,69231,61.8,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,1822.8799999999999
+PT_E07E7D6E4316,1991-02-16,,0,F,black,nonhispanic,M,Quincy,MA,2169,21784,33.9,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1395.8500000000001
+PT_3E73A1627276,1982-02-11,,0,F,white,nonhispanic,M,Worcester,MA,1605,66389,42.9,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,43045.670000000006
+PT_1BCEE86E8808,2000-04-14,,0,M,asian,nonhispanic,M,Newton,MA,2458,69133,24.7,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,212.4
+PT_EE47007BAC2E,1930-09-11,,0,F,white,nonhispanic,D,Somerville,MA,2143,57492,94.3,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,25934.8
+PT_255C8CFE96EE,1956-09-25,,0,M,white,nonhispanic,M,Boston,MA,2115,60179,68.3,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,11103.42
+PT_AA4A78C74919,1997-08-11,,0,M,white,nonhispanic,S,Worcester,MA,1605,94749,27.4,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3720.4300000000007
+PT_22F6735AAB6A,1981-09-04,,0,F,white,nonhispanic,M,Newton,MA,2458,70113,43.3,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,32283.539999999997
+PT_E0F2657DB1BD,2000-03-13,,0,F,white,nonhispanic,S,Springfield,MA,1199,118015,24.8,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,23483.06
+PT_D2EC19AEFE95,1976-02-08,,0,F,white,nonhispanic,D,Somerville,MA,2143,41958,48.9,35-49 (Adult),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),3,6860.780000000001
+PT_5DBDC5A43EB1,1968-10-05,,0,M,white,nonhispanic,M,Cambridge,MA,2138,47826,56.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2296.35
+PT_946D0E2D2B30,1965-01-12,,0,F,white,nonhispanic,S,Cambridge,MA,2138,126742,60.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),8,2256.54
+PT_F90939CD0657,1961-12-03,,0,M,white,nonhispanic,S,Worcester,MA,1605,58552,63.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1460.58
+PT_5BE3DEFBAB72,2015-12-28,,0,F,white,nonhispanic,S,Worcester,MA,1605,27787,9.0,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,642.16
+PT_30F975C909DE,1990-03-07,,0,M,other,nonhispanic,M,Newton,MA,2458,35370,34.8,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,162.57
+PT_3BFB52A59A23,1961-03-06,,0,M,black,nonhispanic,S,Worcester,MA,1605,29788,63.8,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,2431.71
+PT_798E18A6B3EA,1930-08-25,,0,M,white,nonhispanic,M,Somerville,MA,2143,31740,94.4,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,5410.43
+PT_7B49CD76FCFC,1997-03-09,,0,F,asian,nonhispanic,S,Quincy,MA,2169,18000,27.8,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,3366.9900000000002
+PT_D3B2C8E26CD9,1938-11-11,,0,M,white,hispanic,S,Worcester,MA,1605,41445,86.1,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,31571.089999999997
+PT_DC0100E145B9,1994-05-08,,0,F,white,nonhispanic,M,Lowell,MA,1854,71624,30.7,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,16480.79
+PT_2624628E29C9,2005-02-17,,0,F,white,nonhispanic,S,Newton,MA,2458,93563,19.9,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1178.77
+PT_1EB66330057C,1960-11-21,,0,F,black,nonhispanic,M,Cambridge,MA,2138,40929,64.1,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3769.1399999999994
+PT_53CDDBB68C37,1962-01-11,,0,M,white,hispanic,S,Lowell,MA,1854,52016,63.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,594.79
+PT_643E31537D02,1973-07-11,,0,F,white,nonhispanic,S,Worcester,MA,1605,121603,51.5,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,28227.17
+PT_7FCCC9D2AF6B,1979-08-12,,0,F,white,hispanic,M,Quincy,MA,2169,61225,45.4,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,34272.950000000004
+PT_C3A49A7F8BA1,1990-03-22,,0,F,other,nonhispanic,M,Quincy,MA,2169,92554,34.8,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,5770.500000000001
+PT_31A57E78AD0F,1978-10-10,,0,M,white,nonhispanic,M,Quincy,MA,2169,79165,46.2,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,2479.24
+PT_E6ABA15E91BC,1953-06-18,,0,M,black,nonhispanic,D,Quincy,MA,2169,55609,71.5,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),13,16241.309999999998
+PT_EA5CE5ABE090,1985-09-21,,0,M,black,nonhispanic,D,Worcester,MA,1605,50129,39.3,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,166.74
+PT_8DE1A50B3A7A,1995-04-21,,0,F,white,nonhispanic,D,Lowell,MA,1854,52537,29.7,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1416.23
+PT_58143756C583,1941-05-21,,0,M,white,nonhispanic,M,Somerville,MA,2143,118316,83.6,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),11,5405.71
+PT_1117C2E4A7DF,1989-06-20,,0,F,white,nonhispanic,S,Worcester,MA,1605,36170,35.5,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),2,20259.05
+PT_7453C61314E8,1993-03-16,,0,M,white,nonhispanic,D,Quincy,MA,2169,58001,31.8,18-34 (Young Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,21750.5
+PT_0D27DB51200D,1985-05-24,,0,M,black,nonhispanic,D,Newton,MA,2458,38632,39.6,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,869.98
+PT_8C0ABF56A408,2007-06-18,,0,M,black,nonhispanic,M,Newton,MA,2458,49950,17.5,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,635.8399999999999
+PT_D73680820EBD,1952-10-24,,0,F,white,nonhispanic,D,Newton,MA,2458,47862,72.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,27979.98
+PT_A248A6ABAF6C,1969-10-08,,0,F,white,nonhispanic,M,Boston,MA,2115,69511,55.2,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,5126.079999999999
+PT_002A4FCE20B7,2014-04-14,,0,M,asian,nonhispanic,S,Quincy,MA,2169,31372,10.7,0-17 (Pediatric),2,Low-Intensity Outpatients,1 Visit (Single),1,235.95
+PT_0B3EC8DE8F6E,1959-05-08,,0,F,black,nonhispanic,S,Lowell,MA,1854,71912,65.7,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,2353.17
+PT_8C000D1AEC88,1981-05-23,,0,M,white,nonhispanic,D,Cambridge,MA,2138,30295,43.6,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2812.5199999999995
+PT_1DACAC19214A,1961-08-04,,0,M,white,nonhispanic,S,Worcester,MA,1605,103229,63.4,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,950.55
+PT_6B9347FC54EF,1965-03-14,,0,M,other,nonhispanic,D,Worcester,MA,1605,18000,59.8,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,25533.67
+PT_28F50F5B67C9,1937-08-09,,0,F,white,nonhispanic,S,Cambridge,MA,2138,84322,87.4,80+ (Senior),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1204.52
+PT_37F89C8D0A98,1993-03-16,,0,F,other,nonhispanic,M,Newton,MA,2458,39473,31.8,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,13004.44
+PT_6E3691F24A5D,2023-12-25,,0,M,black,nonhispanic,S,Lowell,MA,1854,100421,1.0,0-17 (Pediatric),2,Low-Intensity Outpatients,1 Visit (Single),1,417.95
+PT_72734554FC99,1977-10-28,,0,M,white,nonhispanic,M,Cambridge,MA,2138,18000,47.2,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,5167.55
+PT_A40D3DF3F505,1985-09-15,,0,M,white,nonhispanic,D,Boston,MA,2115,46761,39.3,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,408.47
+PT_FFAB186F0B3D,1981-01-03,,0,F,white,nonhispanic,S,Quincy,MA,2169,159896,44.0,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,4191.52
+PT_2A60997D3CBB,1965-09-05,,0,M,asian,nonhispanic,S,Springfield,MA,1199,122660,59.3,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,842.51
+PT_F13DD1AFFEAF,1952-11-14,,0,M,white,nonhispanic,M,Boston,MA,2115,58377,72.1,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,6951.72
+PT_E2C25282D4D0,1960-12-19,,0,M,white,nonhispanic,S,Newton,MA,2458,75316,64.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,2164.65
+PT_C8BAB5775D70,1977-08-02,,0,M,other,nonhispanic,M,Newton,MA,2458,75494,47.4,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,11692.630000000001
+PT_EFAB9755ACBA,1955-07-18,,0,M,white,nonhispanic,D,Somerville,MA,2143,65222,69.5,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1954.86
+PT_B06CD4696681,1968-01-07,,0,M,other,nonhispanic,S,Springfield,MA,1199,25090,57.0,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,20489.010000000002
+PT_17A3124AC1F8,1930-08-25,,0,F,white,nonhispanic,M,Springfield,MA,1199,53244,94.4,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,4441.63
+PT_DD1AA0DF07A3,1940-08-24,,0,F,white,nonhispanic,M,Quincy,MA,2169,41071,84.4,80+ (Senior),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,2241.1699999999996
+PT_0483E18034E0,1982-03-01,,0,F,white,nonhispanic,M,Springfield,MA,1199,70542,42.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,3591.7
+PT_7C2EA2B5329A,1983-12-22,,0,F,black,hispanic,S,Somerville,MA,2143,31343,41.0,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2434.03
+PT_E8C337ED939A,1945-01-03,,0,F,white,nonhispanic,D,Somerville,MA,2143,49008,80.0,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),14,40329.31
+PT_47CAC75632CF,1978-09-19,,0,M,white,nonhispanic,D,Boston,MA,2115,30521,46.3,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,29419.71
+PT_650BF209BE84,1963-02-11,,0,M,other,nonhispanic,D,Somerville,MA,2143,92763,61.9,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,302.14
+PT_B7C5513A66E2,1967-02-03,,0,F,white,nonhispanic,M,Lowell,MA,1854,83233,57.9,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,5237.75
+PT_E7A760D608E9,1953-10-20,,0,F,white,nonhispanic,S,Somerville,MA,2143,139292,71.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,53461.78
+PT_1A2A0EE7D4B1,1962-07-10,,0,M,black,nonhispanic,S,Quincy,MA,2169,48471,62.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1185.4499999999998
+PT_0E7A464275A2,1999-04-16,,0,F,white,nonhispanic,S,Newton,MA,2458,24290,25.7,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,978.48
+PT_2DF1A61677E9,1930-08-23,,0,M,asian,nonhispanic,S,Lowell,MA,1854,60284,94.4,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),13,8567.099999999999
+PT_A1A6479D8508,1943-09-20,,0,F,white,nonhispanic,M,Cambridge,MA,2138,60074,81.3,80+ (Senior),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,10177.06
+PT_72BD38AFF785,1983-07-15,,0,M,white,nonhispanic,S,Worcester,MA,1605,24417,41.5,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,6297.410000000001
+PT_611490C43C81,1981-02-10,,0,F,black,nonhispanic,D,Boston,MA,2115,136077,43.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,901.9700000000001
+PT_D4C29CEAAD39,2000-11-22,,0,F,white,nonhispanic,D,Somerville,MA,2143,100348,24.1,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,524.54
+PT_DF4CD889E0E2,1959-11-11,,0,M,white,nonhispanic,M,Somerville,MA,2143,18000,65.1,65-79 (Older Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,697.56
+PT_39D4EF233515,1997-10-05,,0,M,white,nonhispanic,M,Somerville,MA,2143,78900,27.2,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,10022.59
+PT_F6D5FB4EE4D4,1950-09-17,,0,F,black,nonhispanic,S,Somerville,MA,2143,97172,74.3,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,30272.62
+PT_6C1DCB30339C,1946-02-09,,0,F,white,nonhispanic,S,Newton,MA,2458,79147,78.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,5608.28
+PT_4DFF529B5889,1966-06-28,,0,M,white,nonhispanic,D,Somerville,MA,2143,33497,58.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,870.0999999999999
+PT_4506CE9BB054,2004-07-02,,0,M,asian,nonhispanic,D,Lowell,MA,1854,80999,20.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1064.38
+PT_7948F65786A0,1966-07-17,,0,F,black,hispanic,M,Lowell,MA,1854,44752,58.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),9,1873.41
+PT_D000C4B9C58F,2013-05-11,,0,F,white,nonhispanic,S,Lowell,MA,1854,55953,11.6,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,17110.63
+PT_BBBEC508C17B,1953-12-05,,0,F,white,hispanic,D,Lowell,MA,1854,24998,71.1,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,23581.949999999997
+PT_09D638D1182D,1978-04-16,,0,M,white,nonhispanic,S,Cambridge,MA,2138,147388,46.7,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,10006.55
+PT_B803DED3E553,1983-03-21,,0,F,white,nonhispanic,M,Worcester,MA,1605,56153,41.8,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,915.35
+PT_6E2812405E7A,1956-06-26,,0,F,white,nonhispanic,M,Lowell,MA,1854,71172,68.5,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,6177.24
+PT_6E3C1043B66F,1957-10-03,,0,M,other,hispanic,M,Boston,MA,2115,54770,67.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,24894.98
+PT_F1925B1EA909,1960-12-17,,0,F,white,nonhispanic,S,Somerville,MA,2143,67028,64.0,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,7893.5
+PT_6A323F2BBCE0,2023-04-02,,0,M,white,nonhispanic,D,Springfield,MA,1199,43360,1.7,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,5161.03
+PT_F998E27B1DD1,1956-03-24,,0,F,black,nonhispanic,M,Lowell,MA,1854,91034,68.8,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1613.54
+PT_27AF95ADA53D,1954-12-04,,0,M,white,hispanic,M,Boston,MA,2115,29799,70.1,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,26936.010000000006
+PT_7E6521C6F9B0,1959-09-22,,0,M,white,nonhispanic,M,Boston,MA,2115,21385,65.3,65-79 (Older Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,505.32
+PT_C4EC1F105752,2016-04-24,,0,F,white,hispanic,M,Springfield,MA,1199,77379,8.7,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,3038.6099999999997
+PT_CB77D8629457,1933-01-08,,0,M,black,nonhispanic,S,Somerville,MA,2143,55467,92.0,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,5527.110000000001
+PT_B192AB370531,1975-02-06,,0,M,white,nonhispanic,D,Quincy,MA,2169,139468,49.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,441.33
+PT_317129A9672D,1987-06-05,,0,M,black,hispanic,D,Cambridge,MA,2138,43813,37.6,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1465.98
+PT_8568171A4249,1935-04-05,,0,M,white,nonhispanic,S,Somerville,MA,2143,70021,89.7,80+ (Senior),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,2972.52
+PT_2E876BDDF876,1973-08-02,,0,F,other,nonhispanic,M,Worcester,MA,1605,77533,51.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,8610.95
+PT_9A6C89E6985A,1958-02-09,,0,F,white,hispanic,S,Somerville,MA,2143,52678,66.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,25922.659999999996
+PT_2E457F500D11,1993-10-08,,0,M,asian,nonhispanic,S,Boston,MA,2115,55822,31.2,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,655.34
+PT_666FB69A4D00,1954-06-27,,0,M,white,nonhispanic,M,Worcester,MA,1605,139020,70.5,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),13,55696.25
+PT_27DFEC84AF5B,2009-08-02,,0,F,white,nonhispanic,M,Cambridge,MA,2138,19022,15.4,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1030.98
+PT_721CC1502C97,2013-07-19,,0,M,white,nonhispanic,D,Cambridge,MA,2138,40939,11.5,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,8535.85
+PT_BE977DF2D12D,1939-12-01,,0,F,asian,nonhispanic,S,Somerville,MA,2143,53365,85.1,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,11885.670000000002
+PT_E5BE023515EA,2014-12-22,,0,F,white,nonhispanic,M,Newton,MA,2458,37177,10.0,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,3560.5699999999997
+PT_88B7E65FC5F5,2019-08-26,,0,F,white,nonhispanic,M,Springfield,MA,1199,81206,5.3,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,663.63
+PT_08AF242D9D01,1930-03-20,,0,F,white,nonhispanic,M,Worcester,MA,1605,112041,94.8,80+ (Senior),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,643.8399999999999
+PT_D03B1F6FEC06,1966-06-01,,0,F,white,nonhispanic,S,Somerville,MA,2143,62803,58.6,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,27472.25
+PT_1F157AFFD368,1990-07-12,,0,F,white,nonhispanic,D,Worcester,MA,1605,46794,34.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1240.38
+PT_A879786ECB2F,1980-09-14,,0,M,white,nonhispanic,M,Quincy,MA,2169,34817,44.3,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,951.67
+PT_C4790CAF59ED,1974-02-22,,0,M,white,nonhispanic,S,Somerville,MA,2143,20029,50.9,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,4643.18
+PT_42740351F0AC,1970-12-20,,0,F,white,nonhispanic,S,Somerville,MA,2143,57771,54.0,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,7655.860000000001
+PT_C23C18CF473C,1978-10-22,,0,F,white,hispanic,S,Somerville,MA,2143,39046,46.2,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,496.01
+PT_B49AB870E40F,1964-12-15,,0,M,white,nonhispanic,D,Newton,MA,2458,58952,60.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),8,2449.24
+PT_52AF172FA3DC,1950-01-06,,0,F,asian,nonhispanic,D,Springfield,MA,1199,28370,75.0,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,9519.779999999999
+PT_21185143A5BC,2013-08-19,,0,F,white,nonhispanic,D,Newton,MA,2458,18000,11.4,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,341.13
+PT_33822C2B1CC2,1969-01-16,,0,F,white,nonhispanic,S,Worcester,MA,1605,77044,56.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,2267.3199999999997
+PT_FDF0D3DC3EBC,2013-09-22,,0,F,white,nonhispanic,D,Newton,MA,2458,24129,11.3,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,828.24
+PT_EF96CD13D971,1951-07-22,,0,M,black,nonhispanic,D,Worcester,MA,1605,42743,73.4,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),14,36069.82
+PT_82FD6632C829,2008-03-27,,0,F,white,nonhispanic,M,Worcester,MA,1605,120857,16.8,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,8188.009999999999
+PT_F19426EC59DE,1998-02-16,,0,F,asian,nonhispanic,M,Boston,MA,2115,109365,26.9,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,282.42
+PT_B3DC5CF59B0D,1989-12-06,,0,F,white,nonhispanic,S,Cambridge,MA,2138,19729,35.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,698.8399999999999
+PT_866B0BCC1D83,1962-06-01,,0,F,black,nonhispanic,M,Newton,MA,2458,66887,62.6,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,48010.159999999996
+PT_355A7C4144A1,1973-11-05,,0,F,other,nonhispanic,M,Newton,MA,2458,66721,51.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,515.1800000000001
+PT_A3FD25E6A58C,2001-10-02,,0,M,white,nonhispanic,S,Boston,MA,2115,42692,23.2,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,4082.3599999999997
+PT_1D6729F88C3F,2006-02-17,,0,F,white,nonhispanic,D,Cambridge,MA,2138,48729,18.9,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,4021.44
+PT_99A32DB281DD,1944-02-27,,0,F,white,nonhispanic,M,Quincy,MA,2169,51204,80.8,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),13,36054.58
+PT_3C8CA3E81949,1976-11-11,,0,F,black,nonhispanic,M,Somerville,MA,2143,143811,48.1,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3437.4000000000005
+PT_01CF022EB2A5,1953-11-26,,0,F,black,nonhispanic,D,Worcester,MA,1605,39687,71.1,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,9016.67
+PT_22B74B2514A7,2008-07-15,,0,F,white,nonhispanic,D,Boston,MA,2115,54156,16.5,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1020.6700000000001
+PT_8ED4DB01FBBF,1986-09-20,,0,F,white,hispanic,M,Boston,MA,2115,49553,38.3,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,315.2
+PT_A453EEAF100E,1996-08-15,,0,F,white,nonhispanic,D,Quincy,MA,2169,44219,28.4,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,20968.13
+PT_5424190317E5,2004-10-20,,0,M,black,nonhispanic,S,Quincy,MA,2169,46437,20.2,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,13334.17
+PT_BA18E0F789E9,1969-12-24,,0,F,white,nonhispanic,D,Somerville,MA,2143,40012,55.0,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),3,25701.24
+PT_9D016B67FFAC,1983-07-27,,0,M,other,nonhispanic,S,Quincy,MA,2169,18000,41.4,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,1256.2
+PT_DE9D72460DE7,1978-07-20,,0,F,asian,nonhispanic,D,Lowell,MA,1854,23675,46.5,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,462.41999999999996
+PT_81C7A6F75B04,1992-10-22,,0,F,white,hispanic,M,Somerville,MA,2143,65174,32.2,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,896.8699999999999
+PT_4AD3B6552285,1956-01-23,,0,F,black,nonhispanic,D,Springfield,MA,1199,70272,68.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,8841.590000000002
+PT_168387EAFCDB,1930-06-18,2023-12-09,1,F,white,nonhispanic,M,Springfield,MA,1199,91173,94.5,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),13,11832.410000000002
+PT_2BA02BEC224B,1993-07-09,,0,M,white,nonhispanic,D,Lowell,MA,1854,33634,31.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3420.35
+PT_32B69761685E,1984-03-17,,0,F,black,nonhispanic,D,Cambridge,MA,2138,52803,40.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1551.8000000000002
+PT_885AE181F5C9,2002-06-15,,0,M,asian,nonhispanic,M,Springfield,MA,1199,64647,22.5,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,791.6099999999999
+PT_07FA95AE50A4,1986-06-17,,0,F,other,nonhispanic,D,Cambridge,MA,2138,135470,38.5,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4031.89
+PT_4AA01BF9AAD4,1946-08-23,,0,M,white,nonhispanic,S,Cambridge,MA,2138,37245,78.4,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,8909.03
+PT_AA79B078E931,1978-12-19,,0,M,black,nonhispanic,M,Boston,MA,2115,74807,46.0,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,238.26
+PT_DDE13FA816E7,1984-03-10,,0,F,other,nonhispanic,D,Newton,MA,2458,76823,40.8,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,810.41
+PT_7D8C7802B984,1964-05-07,,0,F,white,nonhispanic,S,Cambridge,MA,2138,44867,60.7,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),8,2308.86
+PT_35A9DE373DFD,1949-04-11,,0,F,white,nonhispanic,M,Newton,MA,2458,59839,75.7,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,10200.25
+PT_1F4B6E9D5DA2,1981-08-15,,0,F,black,nonhispanic,D,Newton,MA,2458,18000,43.4,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,3284.3500000000004
+PT_8C9F8B55A776,2021-10-07,,0,M,white,nonhispanic,D,Boston,MA,2115,76623,3.2,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,3521.29
+PT_B2831C3EFD21,2000-03-19,,0,M,black,nonhispanic,M,Worcester,MA,1605,40698,24.8,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,114.93
+PT_22BCFD135766,1979-01-02,,0,F,white,hispanic,D,Newton,MA,2458,59233,46.0,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1856.2600000000002
+PT_F5B8CC5B38D9,1973-06-16,,0,F,asian,nonhispanic,D,Quincy,MA,2169,98921,51.5,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,1414.0200000000002
+PT_05A8E7FE4787,1954-02-16,,0,F,white,nonhispanic,M,Quincy,MA,2169,18000,70.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,2989.71
+PT_C6DC6066975B,1970-08-28,,0,M,white,nonhispanic,D,Quincy,MA,2169,81256,54.3,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,4800.24
+PT_16EF1D8F279A,1947-07-05,,0,M,white,hispanic,M,Springfield,MA,1199,146368,77.5,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,4330.97
+PT_42D6B7E83BA3,2016-12-17,,0,M,white,nonhispanic,S,Somerville,MA,2143,79354,8.0,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,378.07
+PT_4046873DD00C,1955-09-14,,0,M,black,nonhispanic,M,Boston,MA,2115,53690,69.3,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1112.01
+PT_D63374522804,1988-11-13,,0,F,white,nonhispanic,D,Springfield,MA,1199,47636,36.1,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,592.95
+PT_2C9BF348E77A,1963-09-13,,0,M,black,nonhispanic,S,Newton,MA,2458,59898,61.3,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,3012.33
+PT_FEFBA12E7159,2023-10-21,,0,M,black,nonhispanic,D,Lowell,MA,1854,63410,1.2,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,1134.6599999999999
+PT_EAB9C76272BE,1934-04-21,2023-03-03,1,M,black,nonhispanic,D,Lowell,MA,1854,37769,90.7,80+ (Senior),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),6,2163.33
+PT_2814DDA2906D,1988-07-19,,0,F,white,nonhispanic,M,Boston,MA,2115,63075,36.5,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,23062.91
+PT_0AF418D84C51,1985-06-14,,0,M,white,nonhispanic,S,Newton,MA,2458,77252,39.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,4274.250000000001
+PT_C228F5455F7F,1996-08-24,,0,F,white,nonhispanic,D,Springfield,MA,1199,35836,28.4,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,11933.69
+PT_9189507203F2,2021-10-11,,0,M,asian,hispanic,D,Quincy,MA,2169,54489,3.2,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,105.77
+PT_9849FAF86B1C,2002-03-15,,0,F,black,nonhispanic,S,Cambridge,MA,2138,24086,22.8,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,9796.119999999999
+PT_A7E36EFC8875,1941-12-25,,0,F,white,nonhispanic,M,Somerville,MA,2143,20025,83.0,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,19878.39
+PT_434B52230068,1987-11-17,,0,F,black,nonhispanic,M,Newton,MA,2458,56840,37.1,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,8450.62
+PT_F9458312A335,1971-01-14,,0,F,white,nonhispanic,D,Cambridge,MA,2138,63374,54.0,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,545.55
+PT_D94EBCB3F72D,1934-11-26,,0,F,white,nonhispanic,S,Somerville,MA,2143,31232,90.1,80+ (Senior),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1169.92
+PT_4FF6D41EF8C8,1988-01-05,,0,F,white,hispanic,S,Springfield,MA,1199,61362,37.0,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,3744.7000000000003
+PT_B5AAF6700CF2,2002-05-08,,0,F,black,nonhispanic,D,Springfield,MA,1199,21751,22.7,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,7798.959999999999
+PT_A2DFDAFF897A,2014-12-21,,0,M,white,nonhispanic,S,Somerville,MA,2143,36311,10.0,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,1541.95
+PT_D96A11D808CE,1979-08-25,,0,M,white,nonhispanic,S,Quincy,MA,2169,104930,45.4,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,380.09999999999997
+PT_553B1C0638EF,1976-05-03,,0,F,white,nonhispanic,M,Somerville,MA,2143,108907,48.7,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,557.86
+PT_7E785FAF50EB,1984-06-01,,0,F,white,nonhispanic,M,Worcester,MA,1605,34197,40.6,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,20734.35
+PT_A8299812D1C0,2001-12-26,,0,F,white,nonhispanic,D,Boston,MA,2115,66539,23.0,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,3003.75
+PT_A3F4208FE196,2013-09-22,,0,M,white,nonhispanic,S,Springfield,MA,1199,36838,11.3,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,293.09
+PT_4DBA53BDCFE6,1967-04-21,,0,M,white,nonhispanic,S,Somerville,MA,2143,37730,57.7,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,9866.74
+PT_3EB620401775,1940-01-02,,0,M,black,nonhispanic,D,Worcester,MA,1605,29675,85.0,80+ (Senior),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1418.59
+PT_459AA2CD283F,1984-08-18,,0,M,white,nonhispanic,M,Lowell,MA,1854,56979,40.4,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1687.7399999999998
+PT_E27FF857699A,1972-12-06,,0,F,white,nonhispanic,M,Boston,MA,2115,58813,52.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,1635.4899999999998
+PT_86F3A3FBD3F7,2002-09-22,,0,F,white,hispanic,S,Cambridge,MA,2138,29722,22.3,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,127.77
+PT_AF65C6802D7A,1948-02-15,,0,M,white,nonhispanic,M,Boston,MA,2115,63294,76.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,11513.880000000001
+PT_40FD56C98CF3,1992-11-06,,0,M,black,nonhispanic,S,Somerville,MA,2143,62449,32.2,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,4400.04
+PT_5B1502BF84C8,2004-06-28,,0,F,white,nonhispanic,S,Newton,MA,2458,80516,20.5,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,25962.360000000004
+PT_CE86E9C3FBF9,1930-05-01,,0,M,white,nonhispanic,S,Springfield,MA,1199,50363,94.7,80+ (Senior),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1919.88
+PT_50EF5162EA02,2002-04-24,,0,F,black,nonhispanic,M,Cambridge,MA,2138,77692,22.7,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,842.6600000000001
+PT_AA0790BCA952,1989-02-28,,0,F,black,nonhispanic,M,Springfield,MA,1199,56605,35.8,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1663.72
+PT_E9A3E5DDD405,2012-03-05,,0,F,white,nonhispanic,S,Newton,MA,2458,22649,12.8,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,4747.820000000001
+PT_87A7A7B1383D,1960-05-25,,0,M,white,hispanic,D,Somerville,MA,2143,43444,64.6,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1329.28
+PT_AFE0D2BD9CCE,1962-11-12,,0,M,black,nonhispanic,D,Worcester,MA,1605,23681,62.1,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,40808.28
+PT_25E533475EEB,1984-10-22,,0,M,white,nonhispanic,S,Boston,MA,2115,18000,40.2,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,11369.97
+PT_492CEC886719,1955-04-13,,0,M,asian,nonhispanic,D,Cambridge,MA,2138,54698,69.7,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,7612.2
+PT_34D512D7DA54,2000-11-12,,0,M,white,nonhispanic,M,Newton,MA,2458,131531,24.1,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,215.37
+PT_F5BEEFE1A095,2018-10-28,,0,M,white,nonhispanic,D,Springfield,MA,1199,43911,6.2,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,417.06
+PT_DF1B071EA67F,1939-12-17,,0,M,other,hispanic,D,Somerville,MA,2143,91956,85.0,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,3343.67
+PT_5E7A1FD38906,2023-11-24,,0,F,white,nonhispanic,D,Lowell,MA,1854,64887,1.1,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,593.78
+PT_376170D059FC,1959-03-06,,0,F,white,nonhispanic,S,Springfield,MA,1199,88969,65.8,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,3935.14
+PT_F2ECB28CC8CC,1972-07-24,,0,M,white,hispanic,S,Newton,MA,2458,57505,52.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,13959.949999999999
+PT_2A5016E72F5A,2006-01-18,,0,M,white,nonhispanic,S,Somerville,MA,2143,25476,19.0,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,166.46
+PT_5BA8F17E57A0,1982-09-04,,0,M,black,hispanic,S,Worcester,MA,1605,61910,42.3,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),2,29198.91
+PT_BD83884275B2,1984-02-23,,0,M,white,nonhispanic,M,Quincy,MA,2169,107061,40.9,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3388.13
+PT_A944734AED91,1953-01-14,,0,M,white,nonhispanic,S,Quincy,MA,2169,48666,72.0,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),14,11365.390000000001
+PT_B19130B2561D,1947-03-05,2023-06-02,1,F,asian,nonhispanic,D,Worcester,MA,1605,80493,77.8,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,21760.46
+PT_0EA9FFFA4845,2021-02-25,,0,M,white,hispanic,S,Lowell,MA,1854,191893,3.8,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,434.47
+PT_8EC8E089C07C,2001-10-24,,0,M,white,nonhispanic,D,Cambridge,MA,2138,28000,23.2,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3354.9300000000003
+PT_68A89F04919E,2003-04-01,,0,F,white,nonhispanic,S,Cambridge,MA,2138,42924,21.8,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1198.87
+PT_239A3CA55800,1998-06-11,,0,M,black,nonhispanic,D,Somerville,MA,2143,37665,26.6,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,151.13
+PT_C6CF8BA40228,1957-01-27,,0,F,white,nonhispanic,S,Newton,MA,2458,55227,67.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,17641.430000000004
+PT_6BDB237396DF,2023-02-28,,0,F,black,nonhispanic,M,Lowell,MA,1854,21536,1.8,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,16644.89
+PT_25DA0910A53C,1952-09-05,,0,M,black,nonhispanic,S,Quincy,MA,2169,68257,72.3,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,19108.429999999997
+PT_84442EC58F93,1973-01-22,,0,M,white,hispanic,S,Cambridge,MA,2138,102409,51.9,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,978.03
+PT_FCAACB11EAA3,1949-02-07,,0,F,white,hispanic,S,Newton,MA,2458,102199,75.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,3366.2999999999993
+PT_10FAEB0CE5AB,1984-03-23,,0,M,white,nonhispanic,M,Quincy,MA,2169,152984,40.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1064.27
+PT_B8411ED36D07,1965-10-09,,0,F,white,nonhispanic,S,Newton,MA,2458,109639,59.2,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,14376.139999999998
+PT_5B25110650DC,1980-12-26,,0,M,white,nonhispanic,S,Cambridge,MA,2138,93358,44.0,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,139.46
+PT_1044524203BB,1970-04-06,,0,F,black,nonhispanic,M,Cambridge,MA,2138,72501,54.7,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,35858.57
+PT_06209CC00079,2003-11-22,,0,F,white,nonhispanic,S,Boston,MA,2115,31971,21.1,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,2276.08
+PT_5530E6F3983A,1956-02-19,2023-09-13,1,F,asian,nonhispanic,M,Worcester,MA,1605,41295,68.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,52558.48999999999
+PT_22851DA9A019,1979-05-28,,0,F,white,nonhispanic,D,Worcester,MA,1605,47843,45.6,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1692.0
+PT_D39842F3A001,1973-01-19,,0,F,asian,nonhispanic,D,Quincy,MA,2169,49169,51.9,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1915.72
+PT_8BF65D8DC071,1954-02-17,,0,F,white,nonhispanic,D,Cambridge,MA,2138,81531,70.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),3,26661.649999999998
+PT_289A6F902BC8,2013-05-10,,0,F,white,hispanic,S,Worcester,MA,1605,125534,11.6,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,20049.17
+PT_19AC755ABBBA,1930-09-03,,0,F,white,nonhispanic,M,Lowell,MA,1854,35904,94.3,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,12378.34
+PT_D63FB007A800,1930-10-27,,0,M,black,nonhispanic,S,Quincy,MA,2169,34392,94.2,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,13099.08
+PT_CE92380FBB41,1982-05-16,,0,F,white,nonhispanic,M,Springfield,MA,1199,47543,42.6,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,10192.38
+PT_0217E5F1939A,1982-05-21,,0,F,white,nonhispanic,M,Somerville,MA,2143,21807,42.6,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1423.93
+PT_784B1FA8B5D9,1937-04-24,,0,M,white,nonhispanic,D,Springfield,MA,1199,18000,87.7,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),12,26400.92
+PT_77506B524CA5,1969-11-03,,0,M,other,nonhispanic,S,Quincy,MA,2169,22517,55.2,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,4190.63
+PT_55AF984AD70E,1960-02-16,,0,F,white,nonhispanic,M,Springfield,MA,1199,48554,64.9,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,3858.1499999999996
+PT_74DF99F949E6,2008-01-02,,0,F,white,nonhispanic,M,Somerville,MA,2143,130499,17.0,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1126.4
+PT_18A033B685F7,1976-09-12,,0,F,black,nonhispanic,M,Newton,MA,2458,19823,48.3,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,1564.43
+PT_1C7E1C3ED265,1986-11-15,,0,F,white,nonhispanic,S,Springfield,MA,1199,85447,38.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1401.8
+PT_6F9E843A7AD4,2000-04-26,,0,M,other,hispanic,S,Quincy,MA,2169,56688,24.7,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,862.9200000000001
+PT_1ADC5BAD47F7,2009-02-15,,0,M,asian,nonhispanic,D,Worcester,MA,1605,70890,15.9,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1934.6799999999998
+PT_2B057B6126D7,2012-04-25,,0,M,white,nonhispanic,D,Boston,MA,2115,31114,12.7,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,254.74
+PT_F0DD423D0614,1970-01-06,,0,F,black,nonhispanic,S,Cambridge,MA,2138,23711,55.0,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,6628.16
+PT_6AB76D7B09D2,1983-08-20,,0,M,white,nonhispanic,S,Cambridge,MA,2138,36013,41.4,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,994.3800000000001
+PT_DB0645A144B2,1967-08-16,,0,M,white,hispanic,D,Worcester,MA,1605,23813,57.4,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,739.03
+PT_2C0AF708F80C,2009-02-03,,0,M,black,nonhispanic,M,Springfield,MA,1199,39200,15.9,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,556.81
+PT_5A67D95D7E84,1983-07-05,,0,M,other,nonhispanic,M,Springfield,MA,1199,42860,41.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,4393.6
+PT_EF8EC413E574,1980-07-06,,0,M,white,nonhispanic,S,Newton,MA,2458,58676,44.5,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,32657.1
+PT_160ABB747075,1990-10-05,,0,F,white,nonhispanic,D,Boston,MA,2115,49392,34.2,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,682.6800000000001
+PT_267891561681,1951-05-08,,0,M,white,nonhispanic,M,Cambridge,MA,2138,25750,73.7,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,60652.07
+PT_0773BAEFEAEB,1961-01-10,,0,M,black,nonhispanic,D,Somerville,MA,2143,64383,64.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,9073.52
+PT_4C6CB7FE912E,1989-01-12,,0,F,white,nonhispanic,S,Newton,MA,2458,36188,36.0,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,758.54
+PT_0C0BFB6E9D2C,2001-02-16,,0,M,white,nonhispanic,S,Lowell,MA,1854,87683,23.9,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,367.26
+PT_6C8EFEE4CA45,1969-02-23,,0,M,white,hispanic,S,Worcester,MA,1605,51902,55.9,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,905.24
+PT_C21C4F1B6030,1965-09-21,,0,M,white,nonhispanic,D,Newton,MA,2458,61276,59.3,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2263.15
+PT_751A8AC43159,1988-06-10,,0,F,white,nonhispanic,S,Boston,MA,2115,23123,36.6,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1830.02
+PT_F941E25CF7B4,1985-06-05,,0,M,white,hispanic,M,Newton,MA,2458,50991,39.6,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,887.3600000000001
+PT_937D6DB42980,2008-05-25,,0,F,black,nonhispanic,S,Worcester,MA,1605,94587,16.6,0-17 (Pediatric),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,23084.91
+PT_F2ADF05BF490,1988-09-08,,0,M,white,nonhispanic,D,Lowell,MA,1854,149317,36.3,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,176.64
+PT_6670372D0D06,1986-12-28,,0,F,white,nonhispanic,S,Somerville,MA,2143,34831,38.0,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,2207.04
+PT_5CCC69C202F8,1961-03-07,,0,F,white,hispanic,S,Lowell,MA,1854,23924,63.8,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,3570.27
+PT_39F9777A1964,2002-09-24,,0,F,white,nonhispanic,D,Quincy,MA,2169,29470,22.3,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,7743.300000000001
+PT_0CF7F96E0A3B,1993-08-19,,0,F,asian,nonhispanic,M,Somerville,MA,2143,45222,31.4,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,1108.16
+PT_DB086A3CAC70,1989-05-12,,0,F,white,hispanic,D,Somerville,MA,2143,25443,35.6,35-49 (Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,4421.3
+PT_DCF3E0A8F1BE,1983-09-19,,0,F,asian,nonhispanic,M,Newton,MA,2458,50505,41.3,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,3732.37
+PT_15F3E53BAA1E,1996-02-04,,0,M,other,nonhispanic,D,Worcester,MA,1605,36160,28.9,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,843.26
+PT_0C6FD5C62490,1988-05-05,,0,M,white,nonhispanic,M,Springfield,MA,1199,121715,36.7,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,166.71
+PT_6943E947760B,2008-05-02,,0,F,white,nonhispanic,S,Cambridge,MA,2138,63200,16.7,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,511.03999999999996
+PT_EE49CB5ABA47,1961-09-07,,0,M,other,nonhispanic,S,Springfield,MA,1199,44971,63.3,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,11396.6
+PT_77762B475EA2,2010-02-17,,0,F,white,nonhispanic,D,Worcester,MA,1605,22374,14.9,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,2046.0299999999997
+PT_88827FFCE68C,1947-08-22,,0,F,other,nonhispanic,D,Boston,MA,2115,23784,77.4,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,6875.56
+PT_C9B2CCC2269D,2013-07-04,,0,F,asian,nonhispanic,S,Springfield,MA,1199,22121,11.5,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,644.62
+PT_464A0E4286DA,1977-11-05,,0,F,white,nonhispanic,S,Boston,MA,2115,107696,47.2,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,194.97
+PT_07AFCE09128E,1951-05-18,,0,F,other,nonhispanic,D,Boston,MA,2115,21117,73.6,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,7115.129999999999
+PT_C8ADDC00B462,1953-08-25,,0,M,white,nonhispanic,S,Quincy,MA,2169,56490,71.4,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),8,2194.29
+PT_DB4EFA09D20C,1950-01-19,2023-06-12,1,F,black,nonhispanic,D,Boston,MA,2115,39538,74.9,65-79 (Older Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),6,1167.6699999999998
+PT_A26D666C51B6,1963-01-15,,0,F,white,hispanic,S,Somerville,MA,2143,22245,62.0,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,9352.280000000002
+PT_A1E21E0FDA9B,1953-10-10,,0,F,white,nonhispanic,M,Somerville,MA,2143,77561,71.2,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,6329.219999999999
+PT_9E8747DE56D3,2001-07-07,,0,F,black,nonhispanic,S,Newton,MA,2458,18000,23.5,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,122.72
+PT_9FE4B8BCF327,1987-08-07,,0,M,white,nonhispanic,S,Quincy,MA,2169,62825,37.4,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,15960.28
+PT_929B7A6ED902,1962-05-22,,0,M,white,nonhispanic,M,Springfield,MA,1199,32197,62.6,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,4265.72
+PT_CC22254DE04E,2005-09-06,,0,F,other,nonhispanic,D,Boston,MA,2115,18000,19.3,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,850.77
+PT_2FF3AF478539,1964-02-25,,0,M,white,nonhispanic,S,Newton,MA,2458,31251,60.8,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,68873.37000000001
+PT_E679C71299A9,1987-06-23,,0,M,white,nonhispanic,D,Cambridge,MA,2138,29852,37.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1644.69
+PT_71DF1C1D80C4,1956-11-04,,0,F,asian,nonhispanic,M,Springfield,MA,1199,98210,68.2,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,5495.29
+PT_EBA1EE17D07C,1982-02-27,,0,F,white,nonhispanic,D,Quincy,MA,2169,169831,42.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1028.87
+PT_9BF53A69FC9B,1947-11-15,,0,F,white,nonhispanic,S,Worcester,MA,1605,30581,77.1,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,6345.589999999999
+PT_CEBC775C775A,1966-10-27,,0,F,black,nonhispanic,D,Newton,MA,2458,44021,58.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,9638.18
+PT_F3391E2321D9,1981-07-20,,0,F,white,nonhispanic,M,Somerville,MA,2143,52585,43.4,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,1960.92
+PT_62B31A10D846,1989-07-28,,0,F,white,hispanic,S,Springfield,MA,1199,24537,35.4,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1786.3
+PT_8D58F744BD9D,2020-12-13,,0,F,black,nonhispanic,D,Springfield,MA,1199,67964,4.0,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3222.1400000000003
+PT_84CF60739ABD,1968-09-20,,0,M,white,nonhispanic,S,Somerville,MA,2143,56734,56.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,5562.29
+PT_DF5D3EA72B2D,1951-05-24,,0,M,white,hispanic,D,Somerville,MA,2143,79819,73.6,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,6365.96
+PT_E4AA5AE216C0,1980-03-02,,0,F,white,nonhispanic,D,Springfield,MA,1199,25593,44.8,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,29507.069999999996
+PT_3ECA2B2C689A,1940-03-27,,0,M,white,nonhispanic,D,Lowell,MA,1854,29126,84.8,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,15909.52
+PT_5CE137C2DBD2,1952-12-22,,0,M,white,nonhispanic,D,Lowell,MA,1854,97488,72.0,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1264.52
+PT_328C599F6B1C,1988-07-03,,0,M,asian,nonhispanic,D,Boston,MA,2115,73300,36.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1805.92
+PT_B0610D5FA91B,1968-02-27,,0,M,white,nonhispanic,S,Newton,MA,2458,104581,56.8,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,814.84
+PT_B34CFDCD9D0E,1971-03-16,,0,F,white,nonhispanic,M,Cambridge,MA,2138,109355,53.8,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,369.73
+PT_B0D68C758906,1943-02-15,,0,M,white,nonhispanic,S,Lowell,MA,1854,77723,81.9,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,19519.38
+PT_6B6D7712193C,1933-03-07,,0,F,asian,nonhispanic,D,Lowell,MA,1854,50796,91.8,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),14,13917.82
+PT_B7462993EA5D,1986-05-03,,0,F,white,nonhispanic,D,Worcester,MA,1605,142907,38.7,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,4235.41
+PT_29429AE2530F,1981-03-05,,0,F,other,nonhispanic,D,Quincy,MA,2169,119716,43.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,549.3199999999999
+PT_5EC282C97602,1976-07-16,,0,F,white,nonhispanic,D,Quincy,MA,2169,52831,48.5,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,12353.94
+PT_F5778D24A7DE,2001-10-22,,0,M,other,nonhispanic,S,Newton,MA,2458,74364,23.2,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,7388.990000000001
+PT_B81CB732F156,1967-12-03,,0,M,white,nonhispanic,M,Quincy,MA,2169,55329,57.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,8551.85
+PT_C230B5F08CAF,1960-02-11,,0,M,white,nonhispanic,D,Somerville,MA,2143,55503,64.9,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,23468.38
+PT_887DB8AF5D86,1997-02-04,,0,F,asian,nonhispanic,M,Cambridge,MA,2138,18000,27.9,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,2013.62
+PT_031455082EDF,1959-01-08,,0,M,white,nonhispanic,S,Quincy,MA,2169,24827,66.0,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,25939.510000000002
+PT_33DC48043859,1930-08-28,,0,F,other,nonhispanic,S,Newton,MA,2458,131237,94.3,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),13,4518.09
+PT_559B06A7DC95,1937-09-10,,0,M,black,nonhispanic,M,Lowell,MA,1854,19394,87.3,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,25994.37
+PT_462BFC12B243,1981-11-13,,0,F,asian,nonhispanic,D,Springfield,MA,1199,52217,43.1,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,270.57
+PT_C3253B30ACB1,1955-05-08,,0,M,black,hispanic,D,Lowell,MA,1854,34526,69.7,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,39856.770000000004
+PT_0E4AC5A1B96D,1994-05-10,,0,M,black,nonhispanic,D,Worcester,MA,1605,33307,30.6,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,3651.88
+PT_DAA97E4A2099,1966-02-12,,0,M,white,nonhispanic,M,Somerville,MA,2143,42315,58.9,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,2620.5
+PT_E36EB0ABE0DA,1965-04-15,,0,M,white,nonhispanic,S,Quincy,MA,2169,106502,59.7,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,35550.01
+PT_BDDFB48D7E06,1978-03-05,,0,F,white,hispanic,S,Somerville,MA,2143,81676,46.8,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,5654.64
+PT_09CFDB2EC328,1971-12-27,,0,F,black,nonhispanic,S,Worcester,MA,1605,45565,53.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1399.79
+PT_BFBC0DE0EE8D,1978-03-23,,0,M,white,nonhispanic,D,Boston,MA,2115,79724,46.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,9118.5
+PT_04FA806ACC5B,1967-09-06,,0,M,white,nonhispanic,S,Boston,MA,2115,53608,57.3,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,779.16
+PT_A28004FEE57A,1930-09-06,,0,F,white,nonhispanic,M,Worcester,MA,1605,35048,94.3,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,4179.72
+PT_90B3AB7A32B1,1943-02-02,,0,F,white,nonhispanic,M,Springfield,MA,1199,42885,81.9,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,9768.52
+PT_6B05EC17EB24,2013-05-19,,0,M,white,nonhispanic,D,Somerville,MA,2143,49121,11.6,0-17 (Pediatric),2,Low-Intensity Outpatients,1 Visit (Single),1,118.29
+PT_3AF153E82990,1990-01-16,,0,F,white,nonhispanic,D,Lowell,MA,1854,40530,35.0,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,4142.19
+PT_07568C8B94E6,1993-07-07,,0,M,asian,hispanic,M,Newton,MA,2458,65785,31.5,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,315.88
+PT_F74ABD9AFBA6,1983-01-22,,0,F,white,hispanic,D,Worcester,MA,1605,118298,41.9,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,300.13
+PT_9F9C085DC6BF,1960-12-01,,0,F,white,hispanic,D,Cambridge,MA,2138,45557,64.1,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,17521.149999999998
+PT_46461054C5AA,1943-08-23,,0,F,white,hispanic,D,Springfield,MA,1199,57542,81.4,80+ (Senior),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,15177.08
+PT_7560BE7B035D,1937-09-24,,0,M,asian,nonhispanic,S,Springfield,MA,1199,70894,87.3,80+ (Senior),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),4,4787.27
+PT_E4DCA1F887AD,1994-01-24,,0,F,white,hispanic,M,Springfield,MA,1199,51471,30.9,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,2251.1499999999996
+PT_EB96590748D7,1981-11-11,,0,M,white,nonhispanic,S,Lowell,MA,1854,97660,43.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1456.57
+PT_37A23503126B,1974-12-03,,0,M,white,nonhispanic,S,Worcester,MA,1605,45337,50.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,4171.17
+PT_8FC825082819,1999-10-20,,0,M,white,hispanic,D,Cambridge,MA,2138,83570,25.2,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,223.44
+PT_1E0E7A840353,1971-07-16,,0,M,white,nonhispanic,S,Quincy,MA,2169,58611,53.5,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,4002.7200000000003
+PT_FA1CF28D6792,1973-09-28,,0,M,white,nonhispanic,S,Boston,MA,2115,76568,51.3,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,18202.79
+PT_9CBC3B0B2DBF,1936-01-16,,0,M,white,nonhispanic,M,Boston,MA,2115,46921,89.0,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),12,62704.719999999994
+PT_8EFE3170BB96,1988-08-07,,0,M,white,nonhispanic,M,Newton,MA,2458,33636,36.4,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,432.71000000000004
+PT_3A2041A30BE6,1981-11-26,,0,M,white,nonhispanic,M,Cambridge,MA,2138,45637,43.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,865.26
+PT_7B8173D052D2,2023-04-02,,0,F,asian,nonhispanic,M,Springfield,MA,1199,30318,1.7,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,395.01000000000005
+PT_DC0DE398B98C,2012-07-25,,0,M,white,nonhispanic,S,Newton,MA,2458,36573,12.4,0-17 (Pediatric),2,Low-Intensity Outpatients,1 Visit (Single),1,291.15
+PT_353538638AC0,1957-04-13,,0,M,asian,nonhispanic,S,Somerville,MA,2143,100328,67.7,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1009.98
+PT_296624D92F01,1991-08-14,,0,F,white,nonhispanic,S,Somerville,MA,2143,45173,33.4,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2028.4900000000002
+PT_B8BC399E9712,1970-05-24,,0,M,white,nonhispanic,D,Lowell,MA,1854,79782,54.6,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),9,3595.81
+PT_F5CC52B601DB,1958-04-24,,0,M,white,nonhispanic,D,Quincy,MA,2169,54281,66.7,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,7898.5199999999995
+PT_3915177E2F25,1987-12-01,,0,M,black,nonhispanic,D,Quincy,MA,2169,36906,37.1,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,182.77
+PT_766E83B38422,1982-10-21,,0,M,other,nonhispanic,M,Somerville,MA,2143,38490,42.2,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1619.7900000000002
+PT_F09AAE07CF53,1973-07-10,,0,M,white,nonhispanic,S,Springfield,MA,1199,50162,51.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,3109.36
+PT_A19DAFDB96CD,1969-04-10,,0,M,black,nonhispanic,M,Somerville,MA,2143,21448,55.7,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2107.15
+PT_FC5434858AB3,2000-08-19,,0,M,black,nonhispanic,S,Boston,MA,2115,100840,24.4,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,454.24
+PT_B2E8CA866D0F,1987-11-06,,0,F,white,hispanic,D,Cambridge,MA,2138,26210,37.2,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,719.73
+PT_2439FD093C1B,1993-09-02,,0,M,white,nonhispanic,S,Quincy,MA,2169,68592,31.3,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,387.6
+PT_7AEB0E516ECB,1971-02-03,,0,F,black,nonhispanic,D,Springfield,MA,1199,47018,53.9,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1601.71
+PT_F124C12E7B74,1989-12-02,,0,M,white,nonhispanic,M,Springfield,MA,1199,65564,35.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,631.38
+PT_B13FA06A59B9,1971-04-07,,0,M,white,nonhispanic,S,Cambridge,MA,2138,59738,53.7,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,2463.4
+PT_EA8969D4F1C8,2023-02-08,,0,M,white,nonhispanic,S,Springfield,MA,1199,21113,1.9,0-17 (Pediatric),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,21181.489999999998
+PT_B97E55C73D2A,1990-02-20,,0,M,other,nonhispanic,M,Newton,MA,2458,66073,34.9,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,818.63
+PT_EF646ECA76BF,1940-02-10,,0,M,black,nonhispanic,S,Somerville,MA,2143,23760,84.9,80+ (Senior),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,2513.77
+PT_B37541D81F74,1972-07-21,,0,F,black,nonhispanic,D,Lowell,MA,1854,70593,52.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,3815.7999999999997
+PT_35B980F0BDE2,1970-03-07,,0,M,white,nonhispanic,D,Worcester,MA,1605,36518,54.8,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,4886.94
+PT_A7DDF66FC3EA,1979-08-03,,0,M,white,nonhispanic,M,Newton,MA,2458,43391,45.4,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1479.05
+PT_190257E2F8D4,1990-05-13,,0,M,white,nonhispanic,S,Quincy,MA,2169,47219,34.6,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3051.3900000000003
+PT_1BB22A958796,1964-10-03,,0,F,asian,hispanic,D,Somerville,MA,2143,72949,60.2,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,36333.119999999995
+PT_8082B28D1677,1983-10-15,,0,F,white,nonhispanic,S,Worcester,MA,1605,220000,41.2,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,1099.92
+PT_B5C2BAF88A44,1987-07-25,,0,F,white,nonhispanic,D,Cambridge,MA,2138,36287,37.4,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,5936.04
+PT_2F40A2B52302,2001-04-16,,0,F,white,nonhispanic,D,Worcester,MA,1605,53514,23.7,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,7323.219999999999
+PT_163796EDE244,1952-02-09,2023-01-19,1,F,white,nonhispanic,S,Springfield,MA,1199,20562,72.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),14,7168.57
+PT_A3A45C00BCFE,1987-01-12,,0,F,black,nonhispanic,M,Newton,MA,2458,92743,38.0,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,6078.039999999999
+PT_965A5766B1A3,1995-04-01,,0,F,white,nonhispanic,S,Newton,MA,2458,35483,29.8,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,30297.93
+PT_F7A7B20F8074,1972-09-19,,0,F,white,nonhispanic,M,Boston,MA,2115,26227,52.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,4408.34
+PT_40DEFA3875BD,1965-12-01,,0,M,other,nonhispanic,D,Worcester,MA,1605,41496,59.1,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,2894.66
+PT_BE9F97C0ECA6,2021-02-21,,0,F,white,nonhispanic,M,Newton,MA,2458,72609,3.9,0-17 (Pediatric),2,Low-Intensity Outpatients,1 Visit (Single),1,120.18
+PT_F66E97F673B6,1999-06-05,,0,M,other,nonhispanic,D,Newton,MA,2458,62299,25.6,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4180.7300000000005
+PT_5927CB62A0DE,1969-04-16,,0,F,white,nonhispanic,D,Quincy,MA,2169,33791,55.7,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,20701.44
+PT_D411AABC882B,1993-12-26,,0,M,black,nonhispanic,S,Springfield,MA,1199,77510,31.0,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1218.31
+PT_55DA6EA578BF,1945-05-23,,0,F,white,nonhispanic,D,Somerville,MA,2143,27338,79.6,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,3654.7300000000005
+PT_A05E5BF9AE27,1961-07-22,,0,M,other,nonhispanic,M,Worcester,MA,1605,71680,63.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,3649.37
+PT_2AA2E344415B,1991-11-03,,0,M,asian,nonhispanic,D,Quincy,MA,2169,25155,33.2,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,9900.349999999999
+PT_C13CC6D39361,2013-12-04,,0,F,white,hispanic,D,Worcester,MA,1605,66000,11.1,0-17 (Pediatric),2,Low-Intensity Outpatients,1 Visit (Single),1,992.47
+PT_546052D5925A,1965-10-23,,0,M,white,nonhispanic,M,Worcester,MA,1605,40177,59.2,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,23250.559999999998
+PT_FC6C2B491562,1985-01-08,,0,M,white,hispanic,D,Lowell,MA,1854,88381,40.0,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,590.49
+PT_05C1C5E94116,1969-04-05,,0,M,white,nonhispanic,M,Springfield,MA,1199,73718,55.7,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,5375.62
+PT_36AD9523FBB5,1959-11-24,,0,M,other,nonhispanic,S,Lowell,MA,1854,29616,65.1,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,6982.5199999999995
+PT_062FB8D4DFDC,1969-09-14,,0,M,white,nonhispanic,D,Cambridge,MA,2138,37862,55.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,5067.98
+PT_34F5DCD70F50,1969-06-23,,0,F,white,nonhispanic,S,Lowell,MA,1854,80197,55.5,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,38382.89
+PT_CB79F563CEAA,2002-01-24,,0,M,black,nonhispanic,S,Newton,MA,2458,71797,22.9,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,3821.39
+PT_927BF000CDD9,1952-02-10,,0,M,asian,nonhispanic,M,Newton,MA,2458,27630,72.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),13,26698.949999999997
+PT_2B235F6D9527,2023-09-23,,0,M,white,nonhispanic,D,Cambridge,MA,2138,102867,1.3,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1938.4499999999998
+PT_BE7FD623F128,1984-06-27,,0,M,white,hispanic,S,Worcester,MA,1605,43126,40.5,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,930.1
+PT_C594B0D7B775,1932-11-17,,0,M,other,hispanic,M,Boston,MA,2115,19101,92.1,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),11,24617.79
+PT_850E5EBFDE30,2000-08-01,,0,M,black,nonhispanic,D,Worcester,MA,1605,46713,24.4,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,5019.01
+PT_E132D057C5F8,1951-02-07,,0,F,white,nonhispanic,S,Worcester,MA,1605,80142,73.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),11,5721.41
+PT_D86634DA52B0,2000-02-04,,0,F,white,nonhispanic,M,Boston,MA,2115,40958,24.9,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,14776.0
+PT_C7BCC5A5FED3,1976-04-16,,0,M,black,nonhispanic,S,Cambridge,MA,2138,63374,48.7,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,485.07
+PT_B82D29D9951E,1936-09-10,,0,M,white,nonhispanic,M,Springfield,MA,1199,22290,88.3,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),11,34167.979999999996
+PT_40D810BB011D,1977-08-09,,0,M,white,nonhispanic,D,Cambridge,MA,2138,48364,47.4,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2302.62
+PT_76E89B26838E,1992-05-07,,0,F,white,nonhispanic,M,Somerville,MA,2143,68523,32.7,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,249.44
+PT_730C41C425D9,1978-04-14,,0,F,asian,nonhispanic,D,Lowell,MA,1854,110222,46.7,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,494.21000000000004
+PT_6A793F69CE8D,1983-01-19,,0,F,black,nonhispanic,S,Boston,MA,2115,73956,41.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1432.2
+PT_EDE5B687BD6F,1970-09-15,,0,M,white,nonhispanic,M,Lowell,MA,1854,79113,54.3,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,2933.5099999999998
+PT_E35BECC6499A,1943-04-18,,0,M,white,hispanic,M,Newton,MA,2458,83871,81.7,80+ (Senior),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,2285.33
+PT_DFC02D7599C1,1950-10-04,,0,F,other,nonhispanic,S,Somerville,MA,2143,68076,74.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),14,29126.339999999997
+PT_8526B5F2B780,1981-08-03,,0,F,white,nonhispanic,M,Quincy,MA,2169,77638,43.4,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,8362.67
+PT_00D4AF716048,1998-11-13,,0,M,black,nonhispanic,M,Cambridge,MA,2138,25113,26.1,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,44450.94999999999
+PT_87387110D6F9,1966-02-18,,0,M,asian,nonhispanic,M,Newton,MA,2458,33507,58.9,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,12418.849999999999
+PT_33C6954FC604,1972-07-13,,0,F,white,nonhispanic,D,Worcester,MA,1605,96199,52.5,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,3371.2700000000004
+PT_78259848E46B,1979-03-06,,0,M,white,nonhispanic,S,Somerville,MA,2143,60921,45.8,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1392.5500000000002
+PT_E803709790B3,1965-11-05,,0,M,white,nonhispanic,M,Newton,MA,2458,70629,59.2,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,10229.060000000003
+PT_3AF6CC84B272,1982-07-20,,0,F,white,hispanic,D,Newton,MA,2458,99067,42.5,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,1048.15
+PT_EA2F956977B2,1986-01-12,,0,M,other,hispanic,D,Quincy,MA,2169,24422,39.0,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,25395.850000000002
+PT_EC74214BB6DD,1965-12-23,,0,M,white,nonhispanic,M,Worcester,MA,1605,104990,59.0,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,5183.94
+PT_2C10A7F23F92,1965-03-16,,0,M,black,nonhispanic,M,Worcester,MA,1605,34520,59.8,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,6776.129999999999
+PT_4A01E8655F61,1996-07-27,,0,M,white,hispanic,M,Somerville,MA,2143,67980,28.4,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,3898.03
+PT_B7D5562C7FB2,1956-12-18,,0,M,black,nonhispanic,M,Cambridge,MA,2138,28654,68.0,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,890.65
+PT_A75B5F63C7BB,1969-05-06,,0,F,white,nonhispanic,D,Cambridge,MA,2138,71838,55.7,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,767.71
+PT_94115AED119F,1961-06-25,,0,M,other,nonhispanic,D,Lowell,MA,1854,35832,63.5,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,2388.6400000000003
+PT_EDD2AB89256E,1966-07-16,,0,M,white,nonhispanic,D,Boston,MA,2115,35213,58.5,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,16617.59
+PT_E5BA2BF5077D,1964-10-28,,0,F,white,nonhispanic,S,Somerville,MA,2143,62779,60.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,770.48
+PT_82196C31DC5F,1963-08-11,,0,M,other,nonhispanic,S,Worcester,MA,1605,34355,61.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,5026.33
+PT_21B19556D21F,1962-10-22,,0,F,white,nonhispanic,M,Worcester,MA,1605,59095,62.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,2463.3
+PT_9820D080FCEE,1994-02-10,,0,M,white,nonhispanic,S,Somerville,MA,2143,23897,30.9,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,719.5
+PT_45C40B132623,1983-06-20,,0,F,white,nonhispanic,D,Quincy,MA,2169,23674,41.5,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,194.67
+PT_02B6498E0963,1972-04-02,,0,F,asian,hispanic,D,Springfield,MA,1199,63508,52.7,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,774.6300000000001
+PT_2508886E276E,1932-07-11,,0,F,white,nonhispanic,M,Lowell,MA,1854,41824,92.5,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,3845.7200000000003
+PT_CFB84A1DD244,1961-11-27,,0,M,white,hispanic,D,Newton,MA,2458,119621,63.1,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,9120.55
+PT_F657FA24A758,1967-04-24,,0,M,white,nonhispanic,M,Springfield,MA,1199,28221,57.7,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,28779.259999999995
+PT_9DE77ED27710,1978-08-14,,0,M,white,nonhispanic,D,Somerville,MA,2143,45816,46.4,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,301.93
+PT_1E47EE2D73AD,1972-01-20,,0,M,white,nonhispanic,M,Somerville,MA,2143,64858,52.9,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,6795.1
+PT_A18EE927BBA6,1985-06-26,,0,M,white,nonhispanic,D,Quincy,MA,2169,110255,39.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,639.3499999999999
+PT_17AD35FEA57F,1958-01-01,,0,F,asian,nonhispanic,D,Newton,MA,2458,70531,67.0,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,40036.57
+PT_04CA7CA33C4E,1990-07-24,,0,F,white,nonhispanic,M,Worcester,MA,1605,31034,34.4,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1445.67
+PT_AF5643A16CA2,1975-10-23,,0,F,white,nonhispanic,D,Cambridge,MA,2138,91335,49.2,35-49 (Adult),3,High-Cost Complex Inpatients,1 Visit (Single),1,21952.78
+PT_7A303B6AE264,1989-02-05,,0,F,white,nonhispanic,S,Boston,MA,2115,23046,35.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,306.66999999999996
+PT_3DA214E7E450,2007-04-22,,0,M,white,nonhispanic,D,Somerville,MA,2143,22825,17.7,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,350.6
+PT_CA01F55AA8C0,1974-10-01,,0,F,white,nonhispanic,S,Boston,MA,2115,30952,50.3,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,30909.94
+PT_95CD6914341D,1968-07-07,,0,F,white,nonhispanic,S,Lowell,MA,1854,85352,56.5,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,14674.980000000001
+PT_FE0280CDDC3F,1998-02-20,,0,F,white,nonhispanic,D,Somerville,MA,2143,34433,26.9,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,5637.27
+PT_3636D18FC27F,1946-07-26,,0,F,white,nonhispanic,S,Springfield,MA,1199,26964,78.4,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),9,2548.35
+PT_17D10C940006,1950-09-09,,0,M,white,nonhispanic,S,Cambridge,MA,2138,68318,74.3,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),12,30283.010000000002
+PT_8AED1D164F93,1992-11-26,,0,F,asian,nonhispanic,M,Boston,MA,2115,88331,32.1,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,5406.139999999999
+PT_DE3BF35689C8,1985-06-13,,0,F,white,nonhispanic,M,Cambridge,MA,2138,59312,39.6,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,6508.969999999999
+PT_20667249ACDA,1970-06-27,,0,F,other,hispanic,S,Boston,MA,2115,18000,54.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,318.40999999999997
+PT_5884E2A558AD,1964-06-28,,0,F,black,hispanic,S,Worcester,MA,1605,110997,60.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1204.5700000000002
+PT_E81F223F6D74,1979-09-27,,0,M,white,nonhispanic,M,Springfield,MA,1199,35300,45.3,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,1345.8
+PT_F53FDAAC3951,1968-08-21,,0,F,asian,nonhispanic,D,Worcester,MA,1605,39533,56.4,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,9514.789999999999
+PT_22F202004570,1951-04-01,,0,M,white,nonhispanic,S,Worcester,MA,1605,51485,73.8,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),13,23297.170000000002
+PT_4B8498AB9992,2002-02-02,,0,F,black,nonhispanic,D,Somerville,MA,2143,34372,22.9,18-34 (Young Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,25863.12
+PT_EF8D089E3097,1977-02-09,,0,M,asian,nonhispanic,M,Springfield,MA,1199,41697,47.9,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,3607.58
+PT_69E44BF9129B,1968-03-17,,0,F,black,nonhispanic,S,Quincy,MA,2169,61891,56.8,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,3612.85
+PT_743301124B5D,1976-06-16,,0,M,white,nonhispanic,S,Boston,MA,2115,101430,48.5,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,1619.24
+PT_17A98F8140BD,1980-06-15,,0,F,asian,nonhispanic,D,Boston,MA,2115,34374,44.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3105.5
+PT_64D3CC981320,1993-12-23,,0,M,white,nonhispanic,S,Somerville,MA,2143,164160,31.0,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,150.48
+PT_5D86933C8BAE,1976-01-19,,0,F,asian,nonhispanic,M,Newton,MA,2458,98865,49.0,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,380.31
+PT_CDAC399C10F0,1986-01-15,,0,M,white,nonhispanic,S,Boston,MA,2115,22980,39.0,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,2800.79
+PT_42DDAF887E2D,1938-05-05,,0,M,white,hispanic,D,Springfield,MA,1199,88713,86.7,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,3645.7999999999997
+PT_E17BAE0C250A,1975-07-18,,0,F,white,nonhispanic,S,Springfield,MA,1199,58960,49.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,3349.96
+PT_AD3C9D1F8382,1993-08-14,,0,F,white,hispanic,M,Somerville,MA,2143,55931,31.4,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3807.97
+PT_7281E304FE48,1938-11-04,,0,F,asian,nonhispanic,D,Cambridge,MA,2138,208114,86.2,80+ (Senior),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1478.5099999999998
+PT_B65F2B868B27,1963-05-24,,0,M,black,nonhispanic,M,Boston,MA,2115,50367,61.6,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,1856.7200000000003
+PT_320F14452823,1994-11-20,,0,M,white,nonhispanic,D,Cambridge,MA,2138,59603,30.1,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,302.39
+PT_3330199DFE1C,1992-12-26,,0,F,white,nonhispanic,D,Cambridge,MA,2138,29572,32.0,18-34 (Young Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,1240.3400000000001
+PT_39604A402CC0,1958-01-06,,0,F,white,nonhispanic,D,Springfield,MA,1199,43472,67.0,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,13648.74
+PT_74D5A83DC25B,1993-10-22,,0,F,white,hispanic,M,Worcester,MA,1605,89083,31.2,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,2075.37
+PT_1B4A84F6FB79,1936-08-11,,0,M,white,hispanic,D,Springfield,MA,1199,71775,88.4,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),13,7486.71
+PT_5A085D78640E,1945-02-23,,0,M,other,nonhispanic,M,Worcester,MA,1605,32420,79.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,19464.48
+PT_F2F4AC437218,1959-06-25,,0,M,white,hispanic,D,Somerville,MA,2143,29255,65.5,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,5508.050000000001
+PT_85CB4069DD70,2020-07-21,,0,M,asian,nonhispanic,M,Somerville,MA,2143,22139,4.4,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,1402.74
+PT_229E6A61EE27,2005-03-10,,0,F,white,nonhispanic,S,Cambridge,MA,2138,51380,19.8,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1766.2800000000002
+PT_31ED4FE8789E,1942-01-05,,0,F,other,nonhispanic,D,Newton,MA,2458,81583,83.0,80+ (Senior),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,613.29
+PT_69858181E1BC,1978-08-17,,0,F,white,nonhispanic,S,Springfield,MA,1199,18000,46.4,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,160.52
+PT_CFAF9B8686BB,1987-07-23,,0,F,white,nonhispanic,M,Worcester,MA,1605,25251,37.4,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,18444.579999999998
+PT_9D6BDD44CFF0,1976-09-19,,0,M,other,nonhispanic,S,Boston,MA,2115,163990,48.3,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,759.49
+PT_D4ACCFD63872,2016-07-16,,0,F,white,nonhispanic,S,Cambridge,MA,2138,86525,8.5,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,661.89
+PT_E538A0A5E8B4,1986-06-14,,0,F,white,nonhispanic,S,Quincy,MA,2169,18000,38.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3185.3500000000004
+PT_9E34C9D56773,1979-07-10,,0,F,white,nonhispanic,D,Cambridge,MA,2138,43401,45.5,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,5022.030000000001
+PT_F33A2B22354B,2013-05-26,,0,F,black,nonhispanic,D,Springfield,MA,1199,89217,11.6,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,248.75
+PT_8DC2269542D7,2006-12-19,,0,F,white,nonhispanic,D,Lowell,MA,1854,27756,18.0,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,627.01
+PT_D07DE4FF8A18,1994-05-28,,0,M,white,nonhispanic,D,Worcester,MA,1605,32812,30.6,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,2223.81
+PT_51D366A609FE,1985-08-05,,0,F,white,nonhispanic,D,Springfield,MA,1199,55700,39.4,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,9836.93
+PT_E1B914680051,1995-06-18,,0,F,white,nonhispanic,S,Boston,MA,2115,22427,29.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,6345.959999999999
+PT_8BE2012799D0,2016-11-12,,0,F,other,nonhispanic,S,Quincy,MA,2169,22834,8.1,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,477.28
+PT_C7AC1EF1D461,1974-12-05,,0,F,black,nonhispanic,S,Somerville,MA,2143,82646,50.1,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,24585.9
+PT_4140D5774118,1981-06-08,,0,M,white,hispanic,M,Quincy,MA,2169,70128,43.6,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,5505.289999999999
+PT_A5386B9EBEC1,2014-03-18,,0,F,black,nonhispanic,M,Springfield,MA,1199,54242,10.8,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3289.0400000000004
+PT_2EA499DA32C0,1994-08-01,,0,M,white,nonhispanic,M,Worcester,MA,1605,109534,30.4,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,164.63
+PT_114FC43DD446,1953-04-23,,0,F,asian,hispanic,S,Newton,MA,2458,62668,71.7,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,2561.19
+PT_87FADB016D3B,1952-01-19,,0,M,white,nonhispanic,D,Quincy,MA,2169,50094,73.0,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,28850.86
+PT_D08ED0222E35,2004-03-02,,0,F,white,nonhispanic,M,Springfield,MA,1199,86669,20.8,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,615.89
+PT_16F25BB6644C,1952-05-05,2023-09-27,1,M,white,hispanic,D,Worcester,MA,1605,137120,72.7,65-79 (Older Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,3552.5599999999995
+PT_72C3C7F4119D,1950-02-15,,0,F,white,hispanic,S,Quincy,MA,2169,26612,74.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,5091.07
+PT_9B1B97683B87,1955-01-14,,0,M,white,nonhispanic,M,Newton,MA,2458,124173,70.0,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,2184.14
+PT_5CAD62D618B8,1988-11-03,,0,F,white,nonhispanic,S,Springfield,MA,1199,52843,36.2,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,357.28999999999996
+PT_0E09A2C82879,1976-05-22,,0,F,white,nonhispanic,S,Quincy,MA,2169,61118,48.6,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,772.25
+PT_5EF0A4B1C6BA,1986-08-27,,0,M,white,nonhispanic,S,Quincy,MA,2169,25278,38.3,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,11244.42
+PT_9D1843677617,1970-05-02,,0,F,white,nonhispanic,D,Lowell,MA,1854,56781,54.7,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,18705.18
+PT_94C3F6CFE8E8,2004-06-12,,0,M,white,nonhispanic,S,Cambridge,MA,2138,41065,20.6,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,1341.3200000000002
+PT_D348F2C62940,1950-01-25,,0,M,white,nonhispanic,D,Cambridge,MA,2138,25408,74.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,6612.34
+PT_6B7AC1CFC02A,1978-02-03,,0,F,white,nonhispanic,S,Cambridge,MA,2138,84540,46.9,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,2603.88
+PT_B7C121725F1B,1994-02-09,,0,F,white,nonhispanic,S,Quincy,MA,2169,30285,30.9,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,8432.1
+PT_D79AC3FD4001,1981-04-15,,0,M,white,nonhispanic,D,Newton,MA,2458,39039,43.7,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1259.97
+PT_2934E020A44E,1979-08-09,,0,F,white,nonhispanic,D,Somerville,MA,2143,28854,45.4,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1549.5500000000002
+PT_EC303C38B259,2004-12-24,,0,F,other,nonhispanic,S,Cambridge,MA,2138,30169,20.0,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,13292.0
+PT_3ACB0EF2C70A,1974-02-14,,0,F,black,hispanic,D,Lowell,MA,1854,34624,50.9,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,47305.049999999996
+PT_91B3412788EE,1930-12-28,,0,F,white,nonhispanic,D,Worcester,MA,1605,20652,94.0,80+ (Senior),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1472.5499999999997
+PT_2AD466170158,1996-06-21,,0,F,white,nonhispanic,D,Springfield,MA,1199,31508,28.5,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,772.93
+PT_ED5468432702,1974-10-04,,0,M,black,nonhispanic,M,Worcester,MA,1605,73779,50.2,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,8513.84
+PT_D5C77ED1FF3D,1963-08-28,,0,M,white,hispanic,M,Boston,MA,2115,19072,61.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,6667.05
+PT_0D93D89DCA7E,1966-02-20,,0,F,other,hispanic,D,Springfield,MA,1199,161073,58.9,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),8,2240.7
+PT_BFB1BC63FF40,1993-07-07,,0,F,white,nonhispanic,D,Springfield,MA,1199,43227,31.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,2818.66
+PT_FF9898BCC3A4,1942-05-21,2023-10-27,1,F,asian,hispanic,D,Boston,MA,2115,48100,82.6,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,20445.02
+PT_C29A5FE1E1BC,1977-02-02,,0,M,white,nonhispanic,D,Quincy,MA,2169,19756,47.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1146.04
+PT_85E1BD7E9D8D,2011-11-02,,0,F,white,nonhispanic,D,Cambridge,MA,2138,29889,13.2,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,842.76
+PT_5454B9A2B4C4,1953-06-15,,0,F,white,nonhispanic,M,Cambridge,MA,2138,65522,71.5,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1968.86
+PT_F08EED706FC3,1944-03-09,,0,M,white,nonhispanic,S,Newton,MA,2458,36605,80.8,80+ (Senior),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1755.46
+PT_082E477B4086,1965-10-13,,0,F,white,nonhispanic,S,Worcester,MA,1605,67418,59.2,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,9780.369999999999
+PT_A88A247DAEC9,1966-11-21,,0,M,white,nonhispanic,M,Worcester,MA,1605,32284,58.1,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),6,2506.98
+PT_8F15C493FAEF,1974-06-10,,0,M,white,nonhispanic,S,Worcester,MA,1605,44102,50.6,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,2119.65
+PT_B75A9C79C3F4,1992-10-13,,0,M,white,nonhispanic,S,Boston,MA,2115,29461,32.2,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,378.4
+PT_2E4479D5D366,1969-06-15,,0,F,white,nonhispanic,S,Somerville,MA,2143,39245,55.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1137.4199999999998
+PT_C60918DDB204,1971-07-27,,0,F,black,nonhispanic,S,Quincy,MA,2169,67002,53.4,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,40174.13
+PT_ADE82CD78A85,1952-10-06,,0,M,white,nonhispanic,M,Newton,MA,2458,43757,72.2,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4380.7699999999995
+PT_EF7FBBC34450,2007-01-09,,0,M,white,nonhispanic,S,Somerville,MA,2143,50010,18.0,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,775.5
+PT_1F3B1DB6B0F2,1950-11-22,,0,F,white,nonhispanic,M,Boston,MA,2115,69444,74.1,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1472.3600000000001
+PT_AFF2A45FF3D9,1930-12-19,,0,F,white,nonhispanic,M,Quincy,MA,2169,46954,94.0,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,2864.6099999999997
+PT_D42CDA1D6297,1974-01-20,,0,F,white,nonhispanic,S,Cambridge,MA,2138,67980,50.9,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,996.83
+PT_764D68014FFD,1979-10-24,,0,F,white,hispanic,D,Cambridge,MA,2138,76443,45.2,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,5081.02
+PT_6ABD6C4DAB30,1971-10-16,,0,M,black,nonhispanic,S,Springfield,MA,1199,154233,53.2,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4925.15
+PT_CA2232B2C3CF,1980-11-11,,0,F,white,nonhispanic,S,Cambridge,MA,2138,40424,44.1,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,5415.9400000000005
+PT_46EA7567F5C9,1947-08-05,,0,F,white,nonhispanic,D,Quincy,MA,2169,62269,77.4,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,1844.8300000000002
+PT_E3B0E83BA543,1989-10-06,,0,F,white,nonhispanic,M,Newton,MA,2458,146813,35.2,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1177.93
+PT_F1D83A87FF9F,1974-03-25,,0,M,white,nonhispanic,D,Somerville,MA,2143,18183,50.8,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,3809.7500000000005
+PT_DAAE6735B31F,1965-03-13,,0,F,white,nonhispanic,M,Lowell,MA,1854,107709,59.8,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1718.05
+PT_618CFEB1CC15,1982-06-20,,0,M,white,nonhispanic,M,Springfield,MA,1199,79906,42.5,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,690.75
+PT_F58792C27EB9,1971-10-15,,0,F,white,nonhispanic,M,Quincy,MA,2169,129800,53.2,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,14381.23
+PT_51F44FF98FCE,1974-07-03,,0,F,other,hispanic,S,Somerville,MA,2143,56119,50.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,2072.39
+PT_D77782426379,1949-08-14,,0,F,white,nonhispanic,M,Cambridge,MA,2138,190707,75.4,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),8,2944.93
+PT_B09F089942F8,1990-12-16,,0,M,black,nonhispanic,D,Springfield,MA,1199,65574,34.0,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,1904.69
+PT_65F3F3B25F9A,1964-11-10,,0,F,black,nonhispanic,D,Quincy,MA,2169,18509,60.1,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3626.37
+PT_EE485560A009,1981-03-12,,0,F,white,nonhispanic,M,Worcester,MA,1605,50950,43.8,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,5398.8
+PT_185EB2C12F6A,1959-12-26,,0,F,white,nonhispanic,S,Cambridge,MA,2138,30344,65.0,65-79 (Older Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),3,23890.84
+PT_B2C8FA45073E,1952-09-28,,0,M,other,nonhispanic,M,Cambridge,MA,2138,53706,72.3,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,27877.95
+PT_9ED1DA1B455B,1961-02-05,,0,F,white,nonhispanic,M,Lowell,MA,1854,60512,63.9,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,4968.15
+PT_177771E3F5EF,1938-10-01,,0,M,black,nonhispanic,S,Cambridge,MA,2138,70062,86.3,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4668.7699999999995
+PT_77B4A9C46BAC,1990-04-11,,0,F,white,nonhispanic,M,Lowell,MA,1854,56719,34.7,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,573.19
+PT_4503CA38FCD6,1934-11-22,,0,M,white,nonhispanic,M,Worcester,MA,1605,32909,90.1,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,6031.889999999999
+PT_792DADF16E7B,1970-11-06,,0,M,other,hispanic,M,Newton,MA,2458,103557,54.2,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,10749.92
+PT_712163F0C455,1965-07-19,,0,F,black,nonhispanic,S,Somerville,MA,2143,37606,59.5,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,8226.099999999999
+PT_833A9B50793E,2010-04-20,,0,F,asian,nonhispanic,D,Quincy,MA,2169,33124,14.7,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,612.34
+PT_DEA7A3D084AB,1989-01-21,,0,F,white,nonhispanic,S,Newton,MA,2458,21948,35.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,2843.84
+PT_292633527DEE,1939-02-28,,0,F,other,nonhispanic,D,Newton,MA,2458,148847,85.8,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),11,9060.49
+PT_0B0323FAB406,1971-11-14,,0,M,white,nonhispanic,S,Somerville,MA,2143,18279,53.1,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,10235.54
+PT_AAEB502E7A5D,1968-09-25,,0,F,white,nonhispanic,D,Cambridge,MA,2138,149518,56.3,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,2547.0099999999998
+PT_AB72BCEFB0F0,1972-12-24,,0,F,asian,nonhispanic,D,Somerville,MA,2143,27889,52.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1631.86
+PT_8C1D0284F2D3,1944-03-07,,0,M,white,nonhispanic,M,Springfield,MA,1199,91107,80.8,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,7064.26
+PT_95AE4392E2AD,2007-04-25,,0,F,white,hispanic,D,Newton,MA,2458,45300,17.7,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,749.39
+PT_7D737B5649E1,2005-06-14,,0,M,white,nonhispanic,S,Springfield,MA,1199,49693,19.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1989.27
+PT_C6B2992E24CB,1999-11-10,,0,F,other,nonhispanic,M,Springfield,MA,1199,62452,25.1,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1493.5
+PT_04DEDB7231A2,1948-04-28,,0,M,white,nonhispanic,M,Lowell,MA,1854,32015,76.7,65-79 (Older Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,2439.3
+PT_C608DBD0ECF6,1969-06-01,,0,F,white,hispanic,M,Boston,MA,2115,35766,55.6,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,4069.3200000000006
+PT_C6F2C36F2D99,1952-01-10,,0,F,white,nonhispanic,M,Lowell,MA,1854,34266,73.0,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),14,8088.009999999999
+PT_09F2F279E6CE,2008-10-04,,0,F,white,nonhispanic,M,Springfield,MA,1199,62588,16.2,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,634.4
+PT_7263A524C504,1963-03-01,,0,M,white,nonhispanic,S,Worcester,MA,1605,31340,61.8,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1437.78
+PT_DA7FE36A23D5,1972-12-09,,0,F,white,hispanic,S,Newton,MA,2458,18000,52.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,2658.0
+PT_F153263313AE,1973-02-04,,0,M,white,nonhispanic,M,Lowell,MA,1854,43945,51.9,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,2136.47
+PT_4C914411040F,1952-12-12,,0,M,white,nonhispanic,M,Worcester,MA,1605,18055,72.1,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,17514.46
+PT_8F118C658633,1948-04-09,2023-07-10,1,M,asian,hispanic,D,Somerville,MA,2143,105011,76.7,65-79 (Older Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),9,4440.88
+PT_7B26938034A1,1987-07-05,,0,M,white,nonhispanic,M,Worcester,MA,1605,110062,37.5,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1002.14
+PT_D3E9A2D6036F,1980-03-07,,0,F,white,nonhispanic,M,Quincy,MA,2169,30064,44.8,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,2162.45
+PT_E7CAC56AEF2A,2023-05-02,,0,M,asian,nonhispanic,M,Somerville,MA,2143,61544,1.7,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,6563.43
+PT_D7523987458E,1961-12-14,,0,F,white,nonhispanic,S,Somerville,MA,2143,60785,63.0,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,2533.2299999999996
+PT_2A69B5215BC3,1997-12-16,,0,F,white,hispanic,M,Somerville,MA,2143,58691,27.0,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,4182.55
+PT_27C5DD60ACAD,1977-08-28,,0,F,white,nonhispanic,M,Quincy,MA,2169,88702,47.3,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1425.37
+PT_E2A93CA233DB,1997-11-12,,0,F,other,nonhispanic,D,Newton,MA,2458,46241,27.1,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,3443.7999999999997
+PT_E8380AF305DB,1986-06-20,,0,F,white,nonhispanic,S,Springfield,MA,1199,37962,38.5,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1690.45
+PT_9B7E32A83CB8,1976-04-19,,0,F,asian,nonhispanic,D,Lowell,MA,1854,63320,48.7,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2357.87
+PT_EB3327A072AA,1984-07-04,,0,M,white,hispanic,M,Lowell,MA,1854,38796,40.5,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,571.03
+PT_F6DB23795F38,1967-04-05,,0,M,white,hispanic,D,Boston,MA,2115,99927,57.7,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,4420.790000000001
+PT_79B46171D2FD,1970-05-14,,0,F,white,hispanic,D,Newton,MA,2458,27062,54.6,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,798.47
+PT_DBDBEACF6515,1997-12-21,,0,M,white,nonhispanic,M,Springfield,MA,1199,48764,27.0,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,17377.55
+PT_EE0AAE0DA480,1960-05-24,,0,M,black,nonhispanic,D,Boston,MA,2115,44055,64.6,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,19911.210000000003
+PT_812DF1B042D3,1981-02-25,,0,M,white,nonhispanic,S,Cambridge,MA,2138,118975,43.8,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,126.1
+PT_E3FBD3450B54,2005-03-28,,0,F,white,nonhispanic,D,Newton,MA,2458,27367,19.8,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,13476.75
+PT_39420614E68C,1958-10-02,,0,M,black,nonhispanic,M,Boston,MA,2115,23264,66.2,65-79 (Older Adult),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),4,7665.48
+PT_75E3F6EEF462,1943-10-12,,0,M,black,hispanic,S,Quincy,MA,2169,33189,81.2,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,23819.300000000003
+PT_0D7FFF118436,2011-04-20,,0,M,other,hispanic,S,Worcester,MA,1605,53146,13.7,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,3170.34
+PT_5DC99A6322B8,2007-08-26,,0,M,asian,nonhispanic,M,Cambridge,MA,2138,220000,17.3,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,964.3800000000001
+PT_294D62F76E82,1938-07-13,,0,M,white,nonhispanic,M,Cambridge,MA,2138,34333,86.5,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,19279.98
+PT_6D98CF05F530,1971-05-13,,0,M,white,nonhispanic,M,Springfield,MA,1199,140800,53.6,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,31627.54
+PT_73AC7E86C578,1975-12-07,,0,M,white,nonhispanic,M,Quincy,MA,2169,18505,49.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,4001.8199999999997
+PT_7ACA36970B92,1976-07-22,,0,M,white,hispanic,S,Lowell,MA,1854,68518,48.4,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,284.67
+PT_3E2773907213,1944-08-05,,0,F,white,nonhispanic,D,Springfield,MA,1199,18702,80.4,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,4859.63
+PT_257EA4F8728B,1968-09-02,,0,M,white,nonhispanic,S,Quincy,MA,2169,22537,56.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,7399.48
+PT_BEE1762C04F5,1989-04-24,,0,M,white,nonhispanic,S,Newton,MA,2458,35914,35.7,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,2084.6000000000004
+PT_F09DE42CFE3A,1977-08-03,,0,M,white,nonhispanic,M,Springfield,MA,1199,22691,47.4,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1122.36
+PT_C56F5DA6766A,1981-03-04,,0,F,white,nonhispanic,D,Springfield,MA,1199,23338,43.8,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,10520.800000000001
+PT_E22876261AC7,1994-12-08,,0,F,white,nonhispanic,D,Quincy,MA,2169,123203,30.1,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3575.16
+PT_9E3A5D4472D4,1993-12-01,,0,F,black,nonhispanic,S,Somerville,MA,2143,42507,31.1,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,744.92
+PT_C0AF96EC474D,1996-11-13,,0,F,black,nonhispanic,S,Worcester,MA,1605,34197,28.1,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3303.25
+PT_7A5373BC42DF,1972-09-21,,0,M,white,nonhispanic,D,Quincy,MA,2169,103866,52.3,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,746.46
+PT_6C62699E5A21,1985-12-22,,0,M,white,nonhispanic,D,Worcester,MA,1605,70586,39.0,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1411.6499999999999
+PT_38345FBFC235,1992-01-01,,0,M,white,nonhispanic,S,Boston,MA,2115,97784,33.0,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,148.48
+PT_004AD2F5B4FF,1990-03-05,,0,F,white,nonhispanic,S,Worcester,MA,1605,56650,34.8,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,8562.78
+PT_9F72428B31FF,1939-08-06,,0,F,other,nonhispanic,S,Newton,MA,2458,89402,85.4,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,28006.850000000002
+PT_A75F9E519697,1989-02-12,,0,M,white,hispanic,S,Quincy,MA,2169,44271,35.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1268.3200000000002
+PT_152BA16E2BF4,2023-07-11,,0,F,white,hispanic,M,Boston,MA,2115,78712,1.5,0-17 (Pediatric),2,Low-Intensity Outpatients,1 Visit (Single),1,286.61
+PT_00764D389333,1994-07-14,,0,F,white,nonhispanic,M,Newton,MA,2458,36168,30.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1486.72
+PT_B16167EF4AEE,1957-03-12,2023-10-26,1,M,black,hispanic,D,Springfield,MA,1199,56573,67.8,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,6136.370000000001
+PT_5BC928F60EE1,1978-07-26,,0,M,white,nonhispanic,D,Springfield,MA,1199,35924,46.4,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,4833.31
+PT_84C1A6EE80DD,1986-01-03,,0,F,other,nonhispanic,M,Worcester,MA,1605,122620,39.0,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,2713.12
+PT_F1D75922EF27,1986-05-27,,0,F,black,nonhispanic,D,Newton,MA,2458,18000,38.6,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,23223.21
+PT_70458F144419,1988-06-23,,0,M,white,nonhispanic,D,Cambridge,MA,2138,36675,36.5,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,21354.97
+PT_7BC0B6EF75AF,1962-07-15,,0,F,white,nonhispanic,M,Quincy,MA,2169,76446,62.5,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,29219.929999999997
+PT_37D42B5447B2,1990-03-07,,0,M,white,nonhispanic,S,Cambridge,MA,2138,36535,34.8,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1936.6100000000001
+PT_112E5CB66DFD,1930-02-11,,0,M,white,nonhispanic,S,Lowell,MA,1854,48650,94.9,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),13,21830.41
+PT_8597593890C0,1956-12-12,,0,M,white,hispanic,S,Worcester,MA,1605,21735,68.1,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1758.67
+PT_AC0A104780CE,1963-11-19,,0,F,black,nonhispanic,D,Springfield,MA,1199,75319,61.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,15716.89
+PT_BD64E3F8647C,1963-07-25,,0,F,black,nonhispanic,S,Springfield,MA,1199,26836,61.4,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,2531.94
+PT_68CBA45FEE6F,1986-12-02,,0,M,white,nonhispanic,S,Springfield,MA,1199,32360,38.1,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2111.53
+PT_48978D7465FC,1983-08-25,,0,F,white,nonhispanic,M,Worcester,MA,1605,25972,41.4,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),3,27254.530000000002
+PT_861EA1AFF551,1988-03-11,,0,M,white,nonhispanic,D,Somerville,MA,2143,62892,36.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,793.22
+PT_8EDDAEBEF1DE,1954-02-05,,0,M,other,nonhispanic,D,Worcester,MA,1605,36915,70.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),13,5273.79
+PT_1E12D19B9A75,1956-05-08,,0,M,white,nonhispanic,D,Boston,MA,2115,33626,68.6,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),9,3291.57
+PT_2A8B25D2ECB0,1945-11-23,,0,F,white,nonhispanic,M,Cambridge,MA,2138,23902,79.1,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,2992.2
+PT_7D3BF7BE61F7,1992-04-25,,0,F,white,nonhispanic,M,Lowell,MA,1854,37046,32.7,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,2712.0
+PT_0AFBBF99F6E7,1961-10-24,,0,M,asian,nonhispanic,S,Lowell,MA,1854,42134,63.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,12011.61
+PT_119FE1DD0801,1956-06-15,,0,F,other,nonhispanic,M,Worcester,MA,1605,79677,68.5,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,5132.62
+PT_EF8C16EC038A,1984-01-12,,0,F,white,hispanic,S,Springfield,MA,1199,72905,41.0,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,32434.64
+PT_DBA78DD42031,1967-04-15,,0,M,white,nonhispanic,S,Lowell,MA,1854,45355,57.7,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,6245.18
+PT_69CE91F55312,1976-02-25,,0,M,black,nonhispanic,D,Lowell,MA,1854,32284,48.8,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,2073.65
+PT_EE88108AFF13,1972-01-10,,0,F,white,nonhispanic,S,Newton,MA,2458,101202,53.0,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,1951.8300000000002
+PT_F71F4BDBFB21,1934-05-05,,0,F,white,nonhispanic,D,Quincy,MA,2169,36512,90.7,80+ (Senior),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1049.96
+PT_21CC79AF037E,1966-07-03,,0,M,asian,hispanic,S,Somerville,MA,2143,53866,58.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,920.36
+PT_1F052A10877D,2016-11-27,,0,F,white,nonhispanic,D,Somerville,MA,2143,33483,8.1,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,2145.35
+PT_9E540EC71A8C,1976-04-18,,0,M,other,nonhispanic,S,Cambridge,MA,2138,24170,48.7,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,591.72
+PT_71374B918A5E,1995-10-10,,0,F,white,nonhispanic,M,Newton,MA,2458,40973,29.2,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,25038.25
+PT_9E02E56C770A,1988-06-22,,0,F,other,nonhispanic,M,Quincy,MA,2169,27759,36.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,2879.8999999999996
+PT_3D7100F56B98,2005-10-14,,0,F,white,nonhispanic,S,Cambridge,MA,2138,109856,19.2,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,1431.91
+PT_16F846EF911E,1973-10-11,,0,M,white,nonhispanic,S,Somerville,MA,2143,75629,51.2,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),2,5122.91
+PT_2A4663EB052D,1981-08-26,,0,F,white,nonhispanic,S,Cambridge,MA,2138,54994,43.3,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4359.88
+PT_992BBC145DE4,1938-11-12,,0,F,asian,hispanic,M,Springfield,MA,1199,30775,86.1,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,10400.6
+PT_FAB4573F0FAD,1953-04-05,,0,M,white,nonhispanic,M,Somerville,MA,2143,68474,71.7,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,841.73
+PT_D8388A09B0B8,1973-09-21,,0,F,white,nonhispanic,D,Cambridge,MA,2138,52742,51.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,5905.32
+PT_9455391916B8,1963-07-02,,0,F,black,nonhispanic,D,Newton,MA,2458,36839,61.5,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,18743.24
+PT_4FD5A7F0A1BA,1950-07-03,,0,F,black,nonhispanic,S,Worcester,MA,1605,35645,74.5,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,13147.130000000001
+PT_4AD00830E69D,1963-06-03,,0,F,other,nonhispanic,S,Quincy,MA,2169,55704,61.6,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,13613.38
+PT_1FCD494E4458,1993-05-09,,0,F,white,nonhispanic,S,Somerville,MA,2143,84630,31.6,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3945.83
+PT_4822A8795A67,1948-10-26,,0,F,white,nonhispanic,D,Newton,MA,2458,48817,76.2,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1069.6499999999999
+PT_8EED2E992226,1957-08-15,,0,F,white,nonhispanic,M,Lowell,MA,1854,63471,67.4,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,3762.2000000000003
+PT_283A26A9E9BF,1930-02-24,,0,F,white,nonhispanic,D,Springfield,MA,1199,36587,94.9,80+ (Senior),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,34658.380000000005
+PT_9C909AC35E53,2017-02-19,,0,F,black,nonhispanic,D,Lowell,MA,1854,31567,7.9,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1051.1299999999999
+PT_A8EF67A7C0EB,2013-04-04,,0,F,white,nonhispanic,S,Cambridge,MA,2138,19359,11.7,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,2279.42
+PT_C0FA714BC351,1959-03-26,,0,M,white,nonhispanic,M,Somerville,MA,2143,43043,65.8,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,4015.2000000000003
+PT_1921519320AA,2005-06-12,,0,M,white,nonhispanic,M,Somerville,MA,2143,44456,19.6,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,3174.99
+PT_CB6CF869226E,2001-02-23,,0,M,white,nonhispanic,S,Worcester,MA,1605,110534,23.9,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,785.35
+PT_E9BEED9E3447,1949-11-26,,0,M,white,nonhispanic,S,Worcester,MA,1605,44581,75.1,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,4588.83
+PT_7EC879704C56,1965-03-08,,0,F,white,nonhispanic,M,Boston,MA,2115,18000,59.8,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1604.23
+PT_B4C70BD493C8,1952-08-06,,0,F,white,nonhispanic,D,Springfield,MA,1199,28976,72.4,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,4930.910000000001
+PT_22DF9EE9DF48,1964-08-05,,0,F,white,nonhispanic,M,Boston,MA,2115,40360,60.4,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),3,28378.05
+PT_344CB73B296E,1982-10-26,,0,M,white,nonhispanic,M,Worcester,MA,1605,29709,42.2,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,176.28
+PT_10DA60A8DD57,1991-07-21,,0,M,white,nonhispanic,M,Somerville,MA,2143,102446,33.4,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,8135.1900000000005
+PT_7BA0AC80BC5C,1962-12-18,,0,M,white,nonhispanic,S,Lowell,MA,1854,60714,62.0,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,28636.28
+PT_C5A5D7A0E0C2,2014-01-22,,0,M,other,nonhispanic,M,Cambridge,MA,2138,80738,10.9,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1784.33
+PT_08D3047DDD33,1974-05-01,,0,M,white,nonhispanic,M,Worcester,MA,1605,30112,50.7,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,2974.44
+PT_920E7A51F24A,1965-11-16,,0,M,white,nonhispanic,D,Cambridge,MA,2138,143320,59.1,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,4334.959999999999
+PT_F6DB02D2793F,1983-01-14,,0,F,white,hispanic,M,Quincy,MA,2169,78896,42.0,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,859.37
+PT_CBF15E32947D,1993-04-06,,0,F,other,nonhispanic,S,Quincy,MA,2169,22748,31.7,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1796.14
+PT_849F58D7048C,1984-04-10,,0,M,white,nonhispanic,D,Springfield,MA,1199,29104,40.7,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,269.33
+PT_82E96E23C9D9,1982-05-27,,0,M,white,hispanic,D,Newton,MA,2458,90800,42.6,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,26280.41
+PT_30E96F20BA37,1975-07-27,,0,M,white,nonhispanic,M,Quincy,MA,2169,62989,49.4,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1589.99
+PT_661C124EF727,1981-06-22,,0,F,black,nonhispanic,M,Worcester,MA,1605,36459,43.5,35-49 (Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,17555.38
+PT_2F0DD7B163A0,1955-10-04,,0,M,white,nonhispanic,D,Quincy,MA,2169,35047,69.2,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,2620.07
+PT_8A99D44F4572,1982-03-13,,0,F,white,nonhispanic,D,Springfield,MA,1199,26732,42.8,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4626.959999999999
+PT_6CDA1E172E04,1976-03-09,,0,M,white,hispanic,S,Somerville,MA,2143,41037,48.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1723.5400000000002
+PT_2705E061009F,1951-09-07,,0,F,black,nonhispanic,D,Newton,MA,2458,69268,73.3,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,3394.85
+PT_B3AEDE7D3E43,1976-06-01,,0,F,white,hispanic,D,Somerville,MA,2143,41823,48.6,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1066.21
+PT_D28F2A78F4C0,1961-04-27,,0,F,white,nonhispanic,D,Quincy,MA,2169,95962,63.7,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,3238.04
+PT_F7B3568AB538,1976-04-13,,0,F,white,nonhispanic,D,Newton,MA,2458,20404,48.7,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1329.9499999999998
+PT_8E0403D0E856,1964-03-12,,0,F,black,nonhispanic,M,Cambridge,MA,2138,57234,60.8,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,4063.1000000000004
+PT_E1B0C40F790E,1985-11-20,,0,F,black,nonhispanic,M,Lowell,MA,1854,29440,39.1,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1941.86
+PT_A2ABB56A3BDF,1976-06-28,,0,M,black,nonhispanic,D,Somerville,MA,2143,201010,48.5,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,7337.03
+PT_5C58F90F6B34,1997-06-21,,0,F,white,nonhispanic,S,Newton,MA,2458,46692,27.5,18-34 (Young Adult),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),4,10815.940000000002
+PT_1CB798BC4F41,2023-12-25,,0,M,white,nonhispanic,M,Newton,MA,2458,110615,1.0,0-17 (Pediatric),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,42120.15
+PT_F703E89C2772,1974-05-11,,0,F,other,hispanic,M,Somerville,MA,2143,37069,50.6,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,902.3599999999999
+PT_A12E64E1F079,1939-06-04,,0,F,white,nonhispanic,D,Springfield,MA,1199,24981,85.6,80+ (Senior),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,997.96
+PT_1F3E72BF030D,1982-07-03,,0,M,white,nonhispanic,S,Newton,MA,2458,54272,42.5,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,327.21
+PT_8740AA47F195,1961-10-23,,0,M,white,nonhispanic,M,Cambridge,MA,2138,18157,63.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1786.66
+PT_DEF99CF3BE83,1949-04-02,,0,M,white,nonhispanic,M,Somerville,MA,2143,37451,75.7,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,7721.450000000001
+PT_64C5730B18EA,1988-05-23,,0,F,white,nonhispanic,S,Worcester,MA,1605,20030,36.6,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,10545.970000000001
+PT_2441D57DDDA9,1968-02-11,,0,M,white,nonhispanic,D,Springfield,MA,1199,58320,56.9,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,4481.889999999999
+PT_ABE02E09929B,1947-11-08,,0,F,white,nonhispanic,S,Lowell,MA,1854,45179,77.1,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,7545.89
+PT_9002DDD1FCFC,2008-09-03,,0,M,white,nonhispanic,M,Quincy,MA,2169,41466,16.3,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,214.32
+PT_CF8A764B9090,1966-09-21,,0,M,white,nonhispanic,D,Worcester,MA,1605,52739,58.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,4713.13
+PT_373DCB8E2590,1930-08-17,2023-01-11,1,M,white,nonhispanic,D,Somerville,MA,2143,34407,94.4,80+ (Senior),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),7,2165.39
+PT_4829142720F9,1991-04-11,,0,F,asian,nonhispanic,M,Boston,MA,2115,86688,33.7,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1545.6899999999998
+PT_5AA2BEB05D2A,1974-12-03,,0,F,black,hispanic,S,Cambridge,MA,2138,45709,50.1,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,6187.84
+PT_3DF7C81967BD,1985-02-03,,0,F,black,nonhispanic,S,Lowell,MA,1854,85461,39.9,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2006.6500000000003
+PT_35EFD12E280F,1963-09-19,,0,F,other,nonhispanic,D,Springfield,MA,1199,43684,61.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),4,5587.21
+PT_7C08F1AFBAA5,1963-04-07,,0,M,white,nonhispanic,D,Worcester,MA,1605,42770,61.7,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,1895.35
+PT_74D76FD448EB,1973-01-06,,0,M,white,nonhispanic,S,Newton,MA,2458,90122,52.0,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,6001.42
+PT_2E8A40F87C3E,1962-11-19,,0,F,other,nonhispanic,D,Springfield,MA,1199,85503,62.1,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,3198.9900000000002
+PT_30833A7B67CE,2003-01-08,,0,M,white,nonhispanic,M,Cambridge,MA,2138,83759,22.0,18-34 (Young Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,3668.2699999999995
+PT_876A6BA806E9,1995-09-03,,0,M,white,nonhispanic,D,Lowell,MA,1854,46153,29.3,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,196.37
+PT_C43B3FD98397,1983-03-22,,0,M,other,nonhispanic,S,Lowell,MA,1854,24015,41.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,686.0799999999999
+PT_2A684C72C087,2016-01-24,,0,F,other,nonhispanic,M,Worcester,MA,1605,116216,8.9,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,3788.24
+PT_91980CACAE9B,2019-02-05,,0,F,asian,nonhispanic,M,Worcester,MA,1605,55869,5.9,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,10304.02
+PT_4E82C5E5E4A4,1994-09-05,,0,F,white,nonhispanic,D,Somerville,MA,2143,31482,30.3,18-34 (Young Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,25581.260000000002
+PT_80EA06566A4A,1956-07-07,,0,M,white,nonhispanic,D,Quincy,MA,2169,83797,68.5,65-79 (Older Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,2243.77
+PT_33AAD1BA3A8C,1982-11-06,,0,M,white,hispanic,M,Quincy,MA,2169,50308,42.2,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1672.49
+PT_3A4D9507787D,2023-10-21,,0,F,white,nonhispanic,S,Lowell,MA,1854,31056,1.2,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,738.72
+PT_1E7371E0A0B4,1992-06-25,,0,F,asian,nonhispanic,D,Lowell,MA,1854,43081,32.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,5144.95
+PT_B2AEED7B1928,1963-05-28,,0,F,white,hispanic,D,Lowell,MA,1854,71195,61.6,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,15113.39
+PT_FD859FE9FB5C,1973-12-11,,0,M,white,nonhispanic,S,Boston,MA,2115,33261,51.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,372.75
+PT_99E126657826,1983-02-23,,0,M,white,nonhispanic,S,Quincy,MA,2169,93827,41.9,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,21563.83
+PT_4313EB33129A,1981-02-03,,0,M,black,nonhispanic,M,Quincy,MA,2169,39671,43.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,495.5
+PT_629E6A914E73,1973-07-04,,0,M,asian,nonhispanic,D,Worcester,MA,1605,30610,51.5,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,1726.56
+PT_0E9BEF9112EB,1959-02-26,,0,F,asian,nonhispanic,S,Cambridge,MA,2138,53458,65.8,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,4887.1
+PT_67A2E9DE915E,1970-04-15,,0,M,white,nonhispanic,M,Lowell,MA,1854,200656,54.7,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,24810.95
+PT_3C24EB46BCE5,1941-09-23,2023-12-05,1,F,black,nonhispanic,D,Somerville,MA,2143,29692,83.3,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),13,38331.66
+PT_C9E4985FB0EB,1984-06-12,,0,M,black,nonhispanic,D,Boston,MA,2115,22891,40.6,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,3531.7099999999996
+PT_FD8F81FB22BE,1986-09-15,,0,M,white,nonhispanic,M,Springfield,MA,1199,82187,38.3,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1425.46
+PT_FE52726DB456,1950-06-19,,0,M,black,nonhispanic,S,Cambridge,MA,2138,54299,74.5,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3777.62
+PT_BFE0B193400E,1989-06-19,,0,F,white,nonhispanic,M,Somerville,MA,2143,21245,35.5,35-49 (Adult),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),4,8288.26
+PT_2B5D44F84479,1978-09-02,,0,F,white,nonhispanic,M,Somerville,MA,2143,52603,46.3,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,1933.95
+PT_83C3E4575D5E,1991-06-21,,0,M,asian,nonhispanic,D,Springfield,MA,1199,70887,33.5,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,108.26
+PT_2D990F6A23AE,2003-09-26,,0,F,white,nonhispanic,D,Worcester,MA,1605,51723,21.3,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,4180.16
+PT_5A73D9A004C1,1992-03-25,,0,F,black,nonhispanic,M,Springfield,MA,1199,78788,32.8,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,354.21
+PT_D7C8FBC07B23,2006-11-28,,0,M,white,hispanic,M,Somerville,MA,2143,42381,18.1,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4751.38
+PT_55EBDA24244E,1982-12-11,,0,F,white,nonhispanic,S,Boston,MA,2115,107060,42.1,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,272.63
+PT_859B4711F1A2,1983-10-10,,0,F,white,nonhispanic,D,Somerville,MA,2143,46120,41.2,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,123.65
+PT_CF9E99030158,1964-12-20,,0,F,black,nonhispanic,M,Cambridge,MA,2138,39256,60.0,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,39128.100000000006
+PT_85069F761836,1973-07-04,,0,M,white,nonhispanic,S,Quincy,MA,2169,80142,51.5,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,15946.23
+PT_AED8CE5A45E0,2005-06-13,,0,F,white,nonhispanic,S,Cambridge,MA,2138,118872,19.6,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,9734.369999999999
+PT_4E0C69715938,1976-01-08,,0,F,white,nonhispanic,M,Quincy,MA,2169,22600,49.0,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,564.51
+PT_DDDD8FF8AAA2,1965-03-04,,0,M,white,hispanic,M,Springfield,MA,1199,40418,59.8,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1211.6
+PT_A9AB51F9DE16,2001-11-11,,0,M,white,nonhispanic,S,Somerville,MA,2143,67832,23.1,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,1772.52
+PT_2598607AAE45,1971-01-13,,0,F,white,nonhispanic,S,Worcester,MA,1605,20191,54.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,4988.0
+PT_69F5ECC89A3A,1997-11-25,,0,M,white,nonhispanic,S,Worcester,MA,1605,36494,27.1,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,227.86
+PT_26DA339B7369,1972-06-26,,0,M,other,nonhispanic,S,Boston,MA,2115,38367,52.5,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,55114.829999999994
+PT_543E3D837D0E,1980-06-15,,0,M,other,nonhispanic,S,Quincy,MA,2169,26970,44.5,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1657.6799999999998
+PT_3067BE029EFC,1996-09-05,,0,M,white,nonhispanic,M,Somerville,MA,2143,31649,28.3,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,325.18
+PT_B28A39D91F1E,1993-12-09,,0,M,white,hispanic,M,Boston,MA,2115,75459,31.1,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1732.44
+PT_B94A4AE94627,1977-07-15,,0,F,white,nonhispanic,M,Somerville,MA,2143,77628,47.5,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,17800.829999999998
+PT_0C59AD9D685E,1930-03-09,2023-11-11,1,M,white,nonhispanic,M,Worcester,MA,1605,129949,94.8,80+ (Senior),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1748.18
+PT_9BC944359C84,1943-02-18,,0,F,white,hispanic,D,Newton,MA,2458,48316,81.9,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),12,21666.719999999998
+PT_B2C08F95BA16,2017-10-04,,0,M,other,nonhispanic,M,Cambridge,MA,2138,47217,7.2,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,621.4100000000001
+PT_A72153118A57,1995-06-07,,0,M,white,nonhispanic,S,Cambridge,MA,2138,57321,29.6,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,22951.29
+PT_2285BC4DB061,1971-11-26,,0,F,white,nonhispanic,D,Cambridge,MA,2138,28616,53.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1486.24
+PT_37BF1B5E4EA2,1974-09-28,,0,F,white,hispanic,S,Newton,MA,2458,134869,50.3,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,14831.509999999998
+PT_8792044BE3B0,1950-12-11,,0,M,white,nonhispanic,D,Lowell,MA,1854,76665,74.1,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,4042.84
+PT_26C94D321CA0,1948-01-02,,0,F,white,nonhispanic,S,Lowell,MA,1854,59724,77.0,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,3576.99
+PT_5F10A9B67B5F,1944-02-10,,0,F,white,nonhispanic,D,Somerville,MA,2143,63617,80.9,80+ (Senior),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1641.1399999999999
+PT_167022F80D48,1940-12-06,,0,M,white,hispanic,M,Lowell,MA,1854,56196,84.1,80+ (Senior),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,8850.900000000001
+PT_0AEF114AE4C9,2023-02-02,,0,M,black,hispanic,D,Somerville,MA,2143,50741,1.9,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,220.25
+PT_B63EF7235EF5,1966-08-15,,0,M,white,hispanic,D,Newton,MA,2458,53474,58.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,4924.080000000001
+PT_1636C282FB68,2022-11-18,,0,F,black,nonhispanic,M,Springfield,MA,1199,52161,2.1,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,15127.580000000002
+PT_68743805A0BB,1971-10-20,,0,M,black,hispanic,S,Springfield,MA,1199,120467,53.2,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),3,5886.41
+PT_B2D7FA1106CE,1965-05-09,,0,M,white,nonhispanic,D,Somerville,MA,2143,42257,59.6,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,940.48
+PT_FDF98EADE6BF,1953-10-15,2023-10-06,1,F,white,nonhispanic,D,Quincy,MA,2169,45774,71.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,24772.13
+PT_8C43F5F30B44,1995-06-13,,0,M,white,nonhispanic,D,Boston,MA,2115,83877,29.6,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,212.26
+PT_FBAF785E21F6,1991-11-18,,0,M,other,nonhispanic,M,Somerville,MA,2143,31463,33.1,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,33977.0
+PT_697B0E7EDAB0,1978-03-21,,0,M,black,nonhispanic,M,Worcester,MA,1605,56230,46.8,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,2162.5
+PT_8D0A38AEC587,1947-08-03,,0,M,white,nonhispanic,D,Cambridge,MA,2138,32093,77.4,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,27206.62
+PT_9C232DB7D298,1960-07-13,,0,M,white,nonhispanic,D,Cambridge,MA,2138,40181,64.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),9,2178.8199999999997
+PT_993D2E411DDB,1991-11-06,,0,M,white,nonhispanic,M,Quincy,MA,2169,31996,33.2,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,6489.29
+PT_09FA1ED0C3EA,1953-01-19,,0,M,white,nonhispanic,M,Worcester,MA,1605,67121,71.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4463.89
+PT_C9830C6562D0,1967-08-04,,0,M,white,nonhispanic,M,Worcester,MA,1605,39517,57.4,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,2075.1400000000003
+PT_F94E3EA93288,1975-02-12,,0,F,white,nonhispanic,M,Worcester,MA,1605,37264,49.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,2027.43
+PT_F54CB67C5ADB,1980-11-21,,0,M,white,nonhispanic,S,Boston,MA,2115,36522,44.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,946.8800000000001
+PT_61D4BC76AAF0,1933-10-22,,0,M,white,nonhispanic,M,Newton,MA,2458,31345,91.2,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),13,19538.51
+PT_7BFDFBF49EEB,1930-07-18,,0,M,white,nonhispanic,S,Quincy,MA,2169,29627,94.5,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,10238.1
+PT_046D1F0ADF0E,1968-01-15,,0,M,white,nonhispanic,D,Cambridge,MA,2138,45970,57.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,2628.19
+PT_7C2DCF3127CF,1978-10-14,,0,F,white,nonhispanic,S,Worcester,MA,1605,68061,46.2,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,807.38
+PT_CEDA3097B606,1981-08-09,,0,M,asian,nonhispanic,M,Somerville,MA,2143,28036,43.4,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,243.07
+PT_EF0FACF26614,2008-02-02,,0,F,white,nonhispanic,D,Quincy,MA,2169,29226,16.9,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,537.16
+PT_1B4BEECF16D4,1996-04-22,,0,F,white,nonhispanic,S,Cambridge,MA,2138,25761,28.7,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,374.15
+PT_5E17929752CC,1960-10-18,,0,F,white,hispanic,M,Lowell,MA,1854,35371,64.2,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,9925.130000000001
+PT_9E0041291E21,1961-08-26,,0,F,white,nonhispanic,M,Boston,MA,2115,30570,63.3,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,2426.19
+PT_232EBC97F6D5,1930-02-08,,0,F,asian,hispanic,M,Quincy,MA,2169,22658,94.9,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,6355.129999999999
+PT_67BC1C830859,1998-02-15,,0,F,white,nonhispanic,S,Newton,MA,2458,106585,26.9,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,1148.4
+PT_7F9D4453E524,1994-07-03,,0,M,other,nonhispanic,M,Cambridge,MA,2138,48933,30.5,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,275.09
+PT_392E86C06563,1984-01-19,,0,F,white,nonhispanic,D,Newton,MA,2458,53847,41.0,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,4114.84
+PT_50A14F3BBD09,1972-11-22,,0,F,white,nonhispanic,S,Somerville,MA,2143,65514,52.1,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,3090.28
+PT_820633223B40,2001-06-04,,0,M,white,hispanic,D,Somerville,MA,2143,26382,23.6,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,24886.81
+PT_465955E3E15A,1982-01-14,,0,F,other,nonhispanic,M,Worcester,MA,1605,52594,43.0,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,928.9100000000001
+PT_4F896DF12DBB,1991-10-21,,0,M,other,hispanic,M,Worcester,MA,1605,62804,33.2,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,10024.359999999999
+PT_E7A253F0338F,1974-03-12,,0,F,black,nonhispanic,S,Lowell,MA,1854,25901,50.8,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,9984.67
+PT_D7B6E95D4740,1981-09-05,,0,F,white,nonhispanic,S,Lowell,MA,1854,51538,43.3,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,2787.86
+PT_4A1C53D66A76,1983-07-21,,0,M,other,nonhispanic,S,Somerville,MA,2143,63558,41.4,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,694.42
+PT_40928222B31F,1964-06-19,,0,F,other,nonhispanic,M,Lowell,MA,1854,19191,60.5,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,1019.55
+PT_5769B84941FF,1963-09-26,,0,F,white,nonhispanic,S,Somerville,MA,2143,35741,61.3,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,35126.96
+PT_90399AB99D0A,2000-09-19,,0,F,white,nonhispanic,S,Lowell,MA,1854,39987,24.3,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,583.38
+PT_D6126A75DEA1,1960-08-11,,0,F,white,nonhispanic,S,Boston,MA,2115,36702,64.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,4219.68
+PT_FE83E5C0ABB0,1996-07-11,,0,M,white,nonhispanic,M,Lowell,MA,1854,31693,28.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,275.28
+PT_AD96742769BE,2008-05-13,,0,F,black,nonhispanic,S,Worcester,MA,1605,43210,16.6,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,179.32
+PT_2CD547336B1F,1972-09-01,,0,M,white,nonhispanic,S,Cambridge,MA,2138,33857,52.3,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1838.5800000000002
+PT_DC8515356D9F,1954-05-28,,0,F,white,nonhispanic,D,Somerville,MA,2143,50939,70.6,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,22354.04
+PT_75E550243642,1977-09-06,,0,M,white,nonhispanic,S,Lowell,MA,1854,63650,47.3,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,1008.05
+PT_AC861094669B,1968-02-04,,0,F,other,nonhispanic,S,Worcester,MA,1605,72885,56.9,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,25492.39
+PT_60FE4E4E5892,1965-01-07,,0,M,black,nonhispanic,S,Somerville,MA,2143,92353,60.0,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3383.78
+PT_432D380FB81E,1982-03-09,,0,F,white,nonhispanic,S,Springfield,MA,1199,39833,42.8,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,20010.3
+PT_795ADCE9529F,2002-03-09,,0,M,white,nonhispanic,D,Lowell,MA,1854,40296,22.8,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1433.3600000000001
+PT_850FD1697FF9,1991-12-22,,0,M,white,nonhispanic,D,Newton,MA,2458,25125,33.0,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1736.72
+PT_C65FB4463D95,2011-06-16,,0,M,asian,nonhispanic,M,Worcester,MA,1605,146728,13.5,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,399.18999999999994
+PT_66140E4B06AB,1993-02-05,,0,M,other,nonhispanic,D,Cambridge,MA,2138,49018,31.9,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,511.49
+PT_97C4B521FE8D,1979-02-02,,0,M,white,nonhispanic,D,Cambridge,MA,2138,67594,45.9,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,7159.31
+PT_08C02F030477,1967-05-07,,0,F,white,nonhispanic,D,Newton,MA,2458,87212,57.7,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,4559.11
+PT_BE4797DC4C79,1976-11-26,,0,F,white,nonhispanic,M,Cambridge,MA,2138,87496,48.1,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,27962.95
+PT_C3148FCCF190,1988-02-03,,0,F,asian,nonhispanic,M,Boston,MA,2115,18000,36.9,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,238.93
+PT_84FF5EC96570,1997-09-20,,0,F,white,nonhispanic,M,Boston,MA,2115,28520,27.3,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,858.04
+PT_D756262DEF2A,2021-10-04,,0,M,white,nonhispanic,S,Quincy,MA,2169,95200,3.2,0-17 (Pediatric),2,Low-Intensity Outpatients,1 Visit (Single),1,294.51
+PT_B59F192FB821,1993-10-08,,0,F,white,nonhispanic,M,Worcester,MA,1605,38721,31.2,18-34 (Young Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,3117.1899999999996
+PT_254437C86A3F,1971-08-12,,0,M,white,hispanic,D,Newton,MA,2458,22779,53.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,7250.48
+PT_C1A2DB2EECED,1970-10-23,,0,M,other,nonhispanic,D,Somerville,MA,2143,33290,54.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,631.99
+PT_67BC533B799B,2008-06-16,,0,M,white,nonhispanic,M,Boston,MA,2115,21880,16.5,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1980.3500000000001
+PT_2776B13C7D45,1987-04-27,,0,M,white,hispanic,S,Worcester,MA,1605,148777,37.7,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),3,19748.82
+PT_0B7FD59239C2,1978-02-05,,0,M,white,hispanic,D,Somerville,MA,2143,92255,46.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,834.74
+PT_66FAC6C38F5B,1952-10-06,,0,M,other,nonhispanic,D,Cambridge,MA,2138,35151,72.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,28959.629999999997
+PT_5945BA6C01BA,1978-08-09,,0,M,asian,nonhispanic,S,Cambridge,MA,2138,25095,46.4,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,10831.63
+PT_FC3CC5E363BC,1973-10-09,,0,F,other,nonhispanic,D,Lowell,MA,1854,35122,51.2,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,7159.03
+PT_B1A003E55677,1983-09-22,,0,M,white,nonhispanic,M,Somerville,MA,2143,46796,41.3,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,16228.839999999998
+PT_59A61CA23053,1965-05-18,,0,M,white,nonhispanic,D,Somerville,MA,2143,24408,59.6,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,6546.58
+PT_AB9294BC481C,1930-05-13,,0,M,white,nonhispanic,M,Boston,MA,2115,69381,94.6,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,6602.489999999999
+PT_FE32A75070A7,1982-06-04,,0,M,white,nonhispanic,D,Boston,MA,2115,99797,42.6,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1865.6
+PT_241F3C793CAB,1965-08-22,,0,M,white,nonhispanic,M,Somerville,MA,2143,69927,59.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,4722.58
+PT_025E50F50536,2009-01-01,,0,F,asian,nonhispanic,D,Worcester,MA,1605,60869,16.0,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,984.89
+PT_99036458C9F4,1973-03-15,,0,M,other,nonhispanic,S,Boston,MA,2115,56725,51.8,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,22742.210000000003
+PT_D99C70AAA081,2011-10-04,,0,M,white,nonhispanic,S,Boston,MA,2115,96681,13.2,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,794.55
+PT_6E1F93C32E14,1976-11-19,,0,F,white,nonhispanic,S,Newton,MA,2458,61357,48.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,639.0799999999999
+PT_3C2DCF98B05C,2023-05-23,,0,M,black,hispanic,S,Worcester,MA,1605,72297,1.6,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1007.6999999999999
+PT_6075AE2435A7,1963-06-27,,0,M,white,nonhispanic,M,Boston,MA,2115,41500,61.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,2253.55
+PT_97D26A2A456A,1976-04-10,,0,M,asian,nonhispanic,M,Newton,MA,2458,38209,48.7,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,542.1700000000001
+PT_B044BE538A75,2013-10-01,,0,M,asian,nonhispanic,M,Lowell,MA,1854,18000,11.2,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,603.23
+PT_E04182A1DBA4,1963-07-02,,0,F,other,nonhispanic,M,Springfield,MA,1199,218780,61.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),9,2006.8799999999999
+PT_ABC78C97663D,1967-06-27,,0,M,white,nonhispanic,D,Worcester,MA,1605,62820,57.5,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),3,4730.23
+PT_16D4DD3D9124,1982-06-19,,0,F,white,nonhispanic,S,Cambridge,MA,2138,49221,42.5,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,414.44
+PT_808BCCB7B2C3,1956-04-16,,0,M,white,hispanic,S,Springfield,MA,1199,55954,68.7,65-79 (Older Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,1031.96
+PT_36C62C300C16,1977-08-06,,0,M,white,nonhispanic,M,Boston,MA,2115,63295,47.4,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,340.98
+PT_830C9904940E,1952-09-24,,0,F,other,hispanic,M,Somerville,MA,2143,64523,72.3,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,3196.7
+PT_F05D46A4FB90,1950-12-15,,0,M,black,nonhispanic,M,Worcester,MA,1605,41678,74.0,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,23548.29
+PT_1FE5462ACA5A,1972-08-15,,0,M,white,hispanic,S,Quincy,MA,2169,19954,52.4,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,31880.86
+PT_3241CAF66EE5,1992-07-28,,0,M,asian,nonhispanic,M,Boston,MA,2115,84669,32.4,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,2428.36
+PT_D28F33382964,1980-01-12,,0,M,white,nonhispanic,M,Somerville,MA,2143,106650,45.0,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,18077.039999999997
+PT_6DAEDC9DE310,1975-10-10,,0,F,white,nonhispanic,S,Lowell,MA,1854,107702,49.2,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4620.88
+PT_B600BDFE0F95,1971-02-03,,0,M,other,nonhispanic,M,Lowell,MA,1854,118120,53.9,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,789.0
+PT_B8B75D3C2747,1966-11-20,,0,M,black,hispanic,M,Cambridge,MA,2138,30410,58.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1423.66
+PT_F34A2EFF5C3D,1963-06-22,,0,M,white,nonhispanic,M,Boston,MA,2115,60565,61.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,334.54999999999995
+PT_C89F6F5A4A79,1979-12-19,,0,F,white,nonhispanic,S,Lowell,MA,1854,34454,45.0,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,3807.91
+PT_27244A5AFA4C,1950-09-13,,0,F,white,hispanic,D,Cambridge,MA,2138,30723,74.3,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,1889.2
+PT_3FADD5AE623E,1989-03-11,,0,M,white,nonhispanic,S,Newton,MA,2458,75585,35.8,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2954.45
+PT_A58B02510EA6,1948-01-22,,0,F,white,hispanic,S,Springfield,MA,1199,36323,76.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,20221.550000000003
+PT_5A15D957B9EE,1948-11-22,,0,M,other,nonhispanic,M,Quincy,MA,2169,26400,76.1,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),13,42852.0
+PT_E1E9430B31AE,1944-05-09,,0,M,white,nonhispanic,D,Quincy,MA,2169,58440,80.6,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,7725.450000000001
+PT_3FFF15A0D916,1998-10-14,,0,F,black,nonhispanic,M,Somerville,MA,2143,38450,26.2,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,1665.93
+PT_C05FE8B9D39E,1954-11-06,,0,M,white,nonhispanic,M,Cambridge,MA,2138,61439,70.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,27097.62
+PT_76DDAE0B9E05,1989-03-17,,0,F,white,nonhispanic,S,Somerville,MA,2143,55698,35.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1250.08
+PT_F5158061D9EC,1961-08-08,,0,M,asian,nonhispanic,M,Springfield,MA,1199,30625,63.4,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,708.3900000000001
+PT_8E97E90B9EF9,1949-02-02,,0,M,white,nonhispanic,M,Quincy,MA,2169,82450,75.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,11302.57
+PT_BCACD690A722,1953-09-08,,0,M,black,hispanic,S,Worcester,MA,1605,47336,71.3,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),12,54131.909999999996
+PT_6016C76C90C6,2010-04-23,,0,M,white,nonhispanic,M,Worcester,MA,1605,18000,14.7,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,435.41
+PT_80D473510305,1963-06-07,,0,M,white,hispanic,S,Newton,MA,2458,86977,61.6,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,727.52
+PT_29C9E2930F10,2004-08-22,,0,M,white,nonhispanic,M,Newton,MA,2458,38997,20.4,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1587.72
+PT_97121B172D50,2008-11-12,,0,F,white,nonhispanic,D,Somerville,MA,2143,31782,16.1,0-17 (Pediatric),2,Low-Intensity Outpatients,1 Visit (Single),1,8586.61
+PT_C2D28E355243,1992-05-01,,0,F,white,nonhispanic,M,Cambridge,MA,2138,44334,32.7,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,398.4
+PT_9303FAE9735C,1978-05-03,,0,F,white,nonhispanic,D,Springfield,MA,1199,18000,46.7,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,7859.12
+PT_2CCD10755EDC,1986-02-26,,0,F,white,nonhispanic,S,Worcester,MA,1605,59002,38.8,35-49 (Adult),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),4,4901.639999999999
+PT_02A0232BF038,1969-07-11,,0,M,white,hispanic,M,Lowell,MA,1854,112021,55.5,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,6861.36
+PT_42FE5D343823,1970-07-09,,0,F,white,nonhispanic,D,Lowell,MA,1854,112934,54.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,740.73
+PT_9C7F2644224D,1996-07-27,,0,F,white,nonhispanic,S,Springfield,MA,1199,60058,28.4,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,2536.46
+PT_A097B2E0674D,1930-03-15,,0,F,asian,nonhispanic,M,Cambridge,MA,2138,34921,94.8,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,2408.4600000000005
+PT_6F67C7572820,1987-04-03,,0,M,white,hispanic,D,Newton,MA,2458,65006,37.7,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1055.67
+PT_97811FC1634E,1997-04-10,,0,F,black,nonhispanic,S,Lowell,MA,1854,39026,27.7,18-34 (Young Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),3,25997.1
+PT_602B73E64EEE,2009-11-23,,0,F,white,nonhispanic,S,Worcester,MA,1605,36135,15.1,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,208.07
+PT_BA6D71ECB235,1982-01-23,,0,M,white,nonhispanic,S,Worcester,MA,1605,24386,42.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,941.47
+PT_457C692824A6,1958-10-14,,0,M,other,nonhispanic,M,Somerville,MA,2143,63796,66.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,32016.99
+PT_FF3630157F42,1975-12-20,,0,F,white,nonhispanic,M,Somerville,MA,2143,111451,49.0,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,331.41999999999996
+PT_D69774D1138B,1987-02-03,,0,M,other,nonhispanic,S,Springfield,MA,1199,80516,37.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,528.8
+PT_18B7C8210381,1957-05-08,,0,M,white,nonhispanic,S,Somerville,MA,2143,81891,67.6,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1135.5
+PT_8AE86A2A7857,1990-05-03,,0,M,white,hispanic,D,Quincy,MA,2169,18000,34.7,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,1178.0500000000002
+PT_49714D95AF07,1998-06-24,,0,F,white,nonhispanic,M,Worcester,MA,1605,35693,26.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,2736.4100000000003
+PT_2A7790C537FB,1945-06-27,2023-07-05,1,M,white,nonhispanic,M,Quincy,MA,2169,75373,79.5,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),12,17664.43
+PT_4C68702AA537,1999-04-01,,0,F,white,hispanic,D,Springfield,MA,1199,52911,25.8,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1149.5
+PT_64D4C3C553A3,1963-05-22,,0,F,black,hispanic,D,Quincy,MA,2169,94082,61.6,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,4566.82
+PT_C7416235B47A,2009-09-08,,0,F,white,nonhispanic,D,Quincy,MA,2169,59928,15.3,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,248.24
+PT_D45E8A40EDC7,2013-04-16,,0,F,white,nonhispanic,D,Springfield,MA,1199,66186,11.7,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,3913.24
+PT_E43AB7945CAF,1978-02-15,,0,F,asian,nonhispanic,D,Boston,MA,2115,131417,46.9,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,13342.19
+PT_5273E4CA15BC,1971-08-13,,0,M,white,nonhispanic,D,Lowell,MA,1854,75532,53.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,3890.2799999999997
+PT_197A0AA78359,1966-09-27,,0,M,white,nonhispanic,D,Springfield,MA,1199,18000,58.3,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,33370.100000000006
+PT_6B8BA8BDA15C,2000-09-22,,0,M,white,nonhispanic,D,Newton,MA,2458,19792,24.3,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,3110.71
+PT_17D8A774CD13,1953-05-06,,0,F,white,nonhispanic,D,Quincy,MA,2169,28404,71.7,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),14,26329.289999999997
+PT_57ED2FC43B30,1978-07-07,,0,M,white,nonhispanic,M,Boston,MA,2115,118975,46.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1081.0900000000001
+PT_C3354E79C98E,1968-07-03,,0,M,white,nonhispanic,D,Newton,MA,2458,39937,56.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,672.49
+PT_E003782008B7,1985-03-04,,0,M,black,nonhispanic,S,Worcester,MA,1605,26307,39.8,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,2350.02
+PT_0CCFF727D3E8,1987-10-04,,0,M,white,nonhispanic,S,Newton,MA,2458,220000,37.2,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,31273.1
+PT_B13484B85B29,1978-07-10,,0,F,black,nonhispanic,S,Somerville,MA,2143,24465,46.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,2013.86
+PT_E3A8637BDDBE,1998-12-03,,0,M,white,nonhispanic,D,Boston,MA,2115,57573,26.1,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,1070.88
+PT_3F9A57517CC7,1958-02-24,,0,F,white,nonhispanic,D,Boston,MA,2115,34419,66.9,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1324.44
+PT_94DEEAD27A4E,1948-11-02,,0,M,white,hispanic,M,Worcester,MA,1605,122107,76.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,35040.770000000004
+PT_21821EA4FD7C,2004-03-27,,0,M,black,hispanic,S,Quincy,MA,2169,76700,20.8,18-34 (Young Adult),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),3,3229.01
+PT_6378C3B37BF0,1956-11-18,,0,F,white,nonhispanic,M,Somerville,MA,2143,27458,68.1,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,4774.599999999999
+PT_E22CCC331C21,2002-04-12,,0,M,white,nonhispanic,S,Worcester,MA,1605,106642,22.7,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3479.14
+PT_988EA434CCD8,1983-11-18,,0,F,asian,nonhispanic,S,Cambridge,MA,2138,37006,41.1,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,15562.88
+PT_0F33ACB3281C,1984-11-01,,0,M,black,nonhispanic,M,Worcester,MA,1605,152184,40.2,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,2909.96
+PT_77A2676C3BCD,1988-04-20,,0,M,white,nonhispanic,D,Lowell,MA,1854,19742,36.7,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1219.76
+PT_D8B242ACD67F,1974-07-16,,0,F,white,nonhispanic,D,Boston,MA,2115,56473,50.5,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,15318.060000000001
+PT_BCD35D1F7F04,2005-08-08,,0,F,asian,nonhispanic,D,Lowell,MA,1854,58015,19.4,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,24766.2
+PT_85275CB99821,1930-02-27,,0,M,white,nonhispanic,S,Boston,MA,2115,45683,94.8,80+ (Senior),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,29292.52
+PT_82CFEE0CD144,1973-09-18,,0,M,asian,nonhispanic,D,Springfield,MA,1199,38101,51.3,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1229.54
+PT_CE7BB6593021,1939-01-02,2023-01-22,1,M,black,nonhispanic,S,Newton,MA,2458,38404,86.0,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),14,55441.87
+PT_6FE601517623,1986-11-28,,0,M,white,nonhispanic,S,Lowell,MA,1854,49278,38.1,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,4090.0699999999997
+PT_0493A9FC8D2A,1968-04-09,,0,M,white,hispanic,S,Lowell,MA,1854,19202,56.7,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,22867.600000000002
+PT_43FE2486289F,1984-03-04,,0,M,asian,nonhispanic,D,Newton,MA,2458,43228,40.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,536.31
+PT_06C3CAC15727,1951-08-13,,0,F,black,nonhispanic,M,Lowell,MA,1854,62996,73.4,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,7907.650000000001
+PT_EE278137B2B1,1972-12-27,,0,M,white,nonhispanic,D,Boston,MA,2115,30635,52.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1152.8799999999999
+PT_843F4B2423AF,1988-11-11,,0,F,white,nonhispanic,S,Newton,MA,2458,26138,36.1,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,3646.87
+PT_D7187B113D28,1961-01-17,,0,M,white,nonhispanic,S,Boston,MA,2115,31079,64.0,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,572.46
+PT_7A80C7F7A22B,1970-06-19,,0,F,black,hispanic,M,Lowell,MA,1854,46333,54.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1670.4299999999998
+PT_5377C3DC4FA2,2000-02-23,,0,F,white,nonhispanic,S,Springfield,MA,1199,45345,24.9,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,227.66
+PT_C2D3331208C1,1984-02-15,,0,F,white,nonhispanic,M,Lowell,MA,1854,31581,40.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,14122.119999999999
+PT_541131884306,1994-07-16,,0,F,black,nonhispanic,M,Cambridge,MA,2138,42241,30.5,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,109.51
+PT_9E0FD9E42EBA,1957-10-19,,0,F,black,nonhispanic,M,Boston,MA,2115,52811,67.2,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,3737.7799999999997
+PT_D46510D56430,1980-11-10,,0,F,white,hispanic,D,Somerville,MA,2143,73506,44.1,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2886.31
+PT_946B32DECC6C,1982-09-05,,0,F,asian,nonhispanic,M,Cambridge,MA,2138,25421,42.3,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,3391.1400000000003
+PT_122014D5EC88,1996-06-25,,0,M,asian,nonhispanic,S,Lowell,MA,1854,40310,28.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,8843.84
+PT_AB418281D34E,1996-07-28,,0,M,black,nonhispanic,S,Cambridge,MA,2138,97813,28.4,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,1013.23
+PT_74026D4FED7C,1980-04-08,,0,F,white,nonhispanic,D,Newton,MA,2458,33244,44.7,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,677.95
+PT_C3E194D1CC4B,1979-09-05,,0,M,white,nonhispanic,M,Quincy,MA,2169,39476,45.3,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,5201.72
+PT_E6B4F981F9B8,1978-03-10,,0,F,black,nonhispanic,S,Springfield,MA,1199,24973,46.8,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),2,19034.6
+PT_7FECF65EC032,2000-01-23,,0,F,white,nonhispanic,S,Boston,MA,2115,90853,24.9,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,938.75
+PT_2AAB024D3245,1945-02-04,,0,M,white,nonhispanic,D,Springfield,MA,1199,49558,79.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),13,3940.5800000000004
+PT_41028EBEF902,1998-05-09,,0,M,black,nonhispanic,S,Cambridge,MA,2138,74516,26.6,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1809.02
+PT_8FFD9E1217FC,1979-04-22,,0,F,white,hispanic,S,Boston,MA,2115,42486,45.7,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,327.35
+PT_8B807631DA2A,1954-01-14,,0,F,black,hispanic,S,Lowell,MA,1854,74381,71.0,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),11,6696.09
+PT_63FCB8477953,1973-12-08,,0,F,white,hispanic,M,Newton,MA,2458,23471,51.1,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,53156.81999999999
+PT_04EBA4C538D5,1982-09-25,,0,F,white,nonhispanic,S,Cambridge,MA,2138,44845,42.3,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,29600.95
+PT_C991AA6E9A19,1962-02-12,,0,M,white,nonhispanic,S,Springfield,MA,1199,45016,62.9,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,1011.66
+PT_533FD64142CB,1945-08-15,,0,M,black,nonhispanic,D,Lowell,MA,1854,164440,79.4,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,6045.24
+PT_923658EF8CBA,1970-03-05,,0,F,white,nonhispanic,M,Lowell,MA,1854,68864,54.8,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2088.77
+PT_64544301F6CE,1981-11-22,,0,M,white,nonhispanic,M,Springfield,MA,1199,53711,43.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,677.01
+PT_89D1F6560499,1930-11-06,2023-03-25,1,F,white,nonhispanic,D,Boston,MA,2115,80352,94.2,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,48112.73
+PT_51E8BC2CFD21,1963-06-26,,0,F,white,nonhispanic,D,Boston,MA,2115,55847,61.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1285.3
+PT_98C4C7AF2A4D,1967-07-16,,0,F,white,nonhispanic,D,Worcester,MA,1605,79790,57.5,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,6931.329999999999
+PT_B0FB8873B543,1984-03-27,,0,M,black,nonhispanic,S,Springfield,MA,1199,33507,40.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,786.8599999999999
+PT_D18BE82FF83A,1955-12-27,,0,M,asian,nonhispanic,D,Quincy,MA,2169,39416,69.0,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,362.92999999999995
+PT_6C23D7B38370,1937-06-19,,0,M,white,nonhispanic,D,Cambridge,MA,2138,18000,87.5,80+ (Senior),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1582.52
+PT_056504EEA015,1990-09-14,,0,F,white,nonhispanic,D,Somerville,MA,2143,49034,34.3,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,2310.31
+PT_F9DDC60F86B6,1979-10-24,,0,M,white,hispanic,S,Springfield,MA,1199,106433,45.2,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1997.9699999999998
+PT_C4D46423AF73,1970-10-17,,0,M,white,nonhispanic,M,Somerville,MA,2143,18000,54.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,2401.24
+PT_13F8FF790BDC,1967-07-15,,0,M,white,nonhispanic,M,Springfield,MA,1199,92876,57.5,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3614.5299999999997
+PT_3FECC3C38F2F,2011-11-16,,0,M,other,nonhispanic,D,Springfield,MA,1199,58704,13.1,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,2689.5699999999997
+PT_C3783D9993EA,1955-01-02,2023-10-27,1,M,black,nonhispanic,M,Lowell,MA,1854,87325,70.0,65-79 (Older Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,16638.19
+PT_1256F4C29344,1977-11-09,,0,M,white,nonhispanic,D,Boston,MA,2115,71274,47.1,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,23365.680000000004
+PT_B3E864933708,1965-11-24,,0,M,black,nonhispanic,D,Boston,MA,2115,51240,59.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,831.49
+PT_ECBFC5CFDD0B,1972-09-12,,0,F,white,nonhispanic,M,Cambridge,MA,2138,107220,52.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,8677.69
+PT_67D602B58DC1,2023-09-05,,0,F,white,nonhispanic,S,Newton,MA,2458,44803,1.3,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1566.97
+PT_402DF074D28B,2023-05-14,,0,M,white,nonhispanic,D,Somerville,MA,2143,55974,1.6,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,5833.68
+PT_1D6CF49A801C,1933-12-12,2023-12-14,1,M,black,nonhispanic,M,Somerville,MA,2143,24233,91.1,80+ (Senior),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,1807.0100000000002
+PT_574B58BB6C8B,2007-02-11,,0,M,white,nonhispanic,S,Springfield,MA,1199,95805,17.9,0-17 (Pediatric),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,2427.81
+PT_D5B69F1A3A53,1942-12-22,,0,F,white,nonhispanic,S,Quincy,MA,2169,46700,82.0,80+ (Senior),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,1811.1199999999997
+PT_02F949720E95,1990-09-15,,0,F,black,nonhispanic,M,Lowell,MA,1854,47247,34.3,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,1087.26
+PT_DCCAB293A1B3,1963-05-26,,0,F,white,nonhispanic,S,Springfield,MA,1199,35658,61.6,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,30624.84
+PT_783BB70212B0,1963-05-19,,0,F,white,nonhispanic,D,Worcester,MA,1605,131644,61.6,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,5478.1
+PT_38D1A224534A,1984-04-11,,0,M,white,hispanic,S,Lowell,MA,1854,153637,40.7,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,2940.5800000000004
+PT_9CCAD169AF4B,1990-03-03,,0,M,black,nonhispanic,M,Worcester,MA,1605,18000,34.8,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1773.94
+PT_A55259E41F6B,1952-02-23,,0,F,white,nonhispanic,M,Somerville,MA,2143,22978,72.9,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,7247.17
+PT_5289AE039A95,1985-02-25,,0,F,black,nonhispanic,D,Quincy,MA,2169,44411,39.8,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,262.63
+PT_CED50A7C5140,2002-11-15,,0,F,asian,hispanic,M,Newton,MA,2458,56585,22.1,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,341.0
+PT_F342E578E9EC,2011-03-25,,0,F,white,nonhispanic,M,Quincy,MA,2169,35711,13.8,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,163.96
+PT_30B211EAC0DE,1988-04-16,,0,F,asian,nonhispanic,D,Newton,MA,2458,118694,36.7,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1683.93
+PT_201E0D1F2537,1976-11-09,,0,M,white,nonhispanic,S,Lowell,MA,1854,30091,48.1,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,233.19
+PT_E432DCB90CAB,1996-07-26,,0,F,black,nonhispanic,M,Quincy,MA,2169,39756,28.4,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,8880.0
+PT_534FA9A0B3C0,1962-01-16,,0,M,white,nonhispanic,M,Boston,MA,2115,94543,63.0,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,5660.32
+PT_062AF7F0C63B,1958-02-24,,0,F,black,nonhispanic,S,Cambridge,MA,2138,35327,66.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,12772.310000000001
+PT_D01C9FB18794,1974-09-03,,0,F,white,nonhispanic,D,Cambridge,MA,2138,101934,50.3,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,874.64
+PT_69DEAE916615,1970-08-11,,0,M,white,nonhispanic,D,Cambridge,MA,2138,84394,54.4,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,27151.5
+PT_3AE6E9A9F0B4,2023-05-26,,0,F,white,nonhispanic,D,Lowell,MA,1854,42287,1.6,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,713.1600000000001
+PT_1E47DAD8C21E,1940-08-22,,0,F,white,nonhispanic,M,Springfield,MA,1199,39107,84.4,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,7149.86
+PT_D9784F974D0A,1978-08-06,,0,F,other,nonhispanic,D,Lowell,MA,1854,45023,46.4,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,187.48
+PT_8D1D1F427850,1984-03-07,,0,F,black,nonhispanic,M,Somerville,MA,2143,59054,40.8,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,278.16
+PT_F8FB66ED83AD,1996-01-12,,0,F,black,hispanic,S,Boston,MA,2115,55556,29.0,18-34 (Young Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,20548.31
+PT_CDBF4428B7CA,1953-10-15,,0,F,white,nonhispanic,S,Newton,MA,2458,117360,71.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,25380.260000000002
+PT_5E13120E683F,1968-12-06,,0,M,other,nonhispanic,S,Worcester,MA,1605,66523,56.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,2657.09
+PT_9478F92F23E2,1965-09-08,,0,M,white,hispanic,M,Boston,MA,2115,72265,59.3,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3972.4
+PT_9C8E8880BB78,1996-09-01,,0,M,white,hispanic,S,Cambridge,MA,2138,69061,28.3,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,478.63
+PT_610DC4972AF1,1958-04-28,,0,F,white,nonhispanic,D,Quincy,MA,2169,25492,66.7,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,3318.45
+PT_2A97E9309C4D,1987-10-08,,0,F,white,nonhispanic,D,Springfield,MA,1199,51335,37.2,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,5474.83
+PT_2FF76411CAEC,1992-03-15,,0,F,white,nonhispanic,M,Worcester,MA,1605,18688,32.8,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,7362.759999999999
+PT_C2D88F5C764C,1964-01-18,,0,F,white,hispanic,M,Boston,MA,2115,74969,61.0,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,11128.05
+PT_70C4831B9436,1960-04-08,,0,M,white,hispanic,M,Springfield,MA,1199,36984,64.7,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,16195.13
+PT_86823DA2D931,1989-12-22,,0,F,white,nonhispanic,S,Boston,MA,2115,49509,35.0,35-49 (Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,34252.03
+PT_4DFA5919AF98,1975-10-24,,0,F,white,nonhispanic,D,Springfield,MA,1199,162960,49.2,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,4001.2200000000003
+PT_E66DD06EFE82,1981-08-13,,0,M,white,nonhispanic,D,Springfield,MA,1199,55571,43.4,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,1185.26
+PT_ED2521BA6757,1983-04-04,,0,M,white,nonhispanic,S,Quincy,MA,2169,25233,41.7,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,611.49
+PT_0715F9B6B2FA,1971-08-26,,0,M,white,nonhispanic,M,Springfield,MA,1199,18000,53.3,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,2308.96
+PT_363EB136CDE7,1967-04-24,,0,M,white,nonhispanic,S,Worcester,MA,1605,26417,57.7,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,3290.0499999999997
+PT_00E2D41B12CD,1976-02-17,,0,F,black,nonhispanic,S,Springfield,MA,1199,77019,48.9,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,576.95
+PT_B05A21698CCA,1949-10-19,,0,F,white,nonhispanic,D,Somerville,MA,2143,55730,75.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),11,15429.49
+PT_FCB2E6C1FB28,2002-12-18,,0,F,other,nonhispanic,D,Worcester,MA,1605,35840,22.0,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1420.7800000000002
+PT_E02DAE7223DC,2004-07-06,,0,M,white,hispanic,D,Worcester,MA,1605,18000,20.5,18-34 (Young Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,18521.38
+PT_E677FE54F2ED,1949-03-26,,0,M,white,nonhispanic,S,Lowell,MA,1854,44252,75.8,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,25387.559999999998
+PT_933485F76CA8,1967-05-21,,0,F,white,nonhispanic,S,Boston,MA,2115,28334,57.6,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1292.78
+PT_0C9B274EA8A7,1953-01-14,,0,F,white,nonhispanic,S,Worcester,MA,1605,37905,72.0,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),12,32760.030000000002
+PT_5BDB6AAD9F29,1991-03-07,,0,F,white,nonhispanic,D,Lowell,MA,1854,44813,33.8,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1447.74
+PT_8338D3C3BBBC,1983-04-23,,0,F,white,nonhispanic,S,Cambridge,MA,2138,70925,41.7,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,5793.240000000001
+PT_8BF2E4819902,1977-10-02,,0,F,asian,nonhispanic,M,Lowell,MA,1854,40399,47.2,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,268.86
+PT_392C4730B6AB,1958-04-15,,0,M,white,nonhispanic,S,Lowell,MA,1854,31514,66.7,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,31145.09
+PT_C8FA75743275,2012-07-27,,0,F,white,nonhispanic,M,Worcester,MA,1605,32091,12.4,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1942.2399999999998
+PT_BE1606D410A7,1985-12-09,,0,F,white,nonhispanic,D,Worcester,MA,1605,18000,39.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,12617.95
+PT_96E00C89DE09,1972-09-09,,0,F,white,nonhispanic,M,Lowell,MA,1854,63288,52.3,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),3,29760.070000000003
+PT_E6F50287D852,1951-11-10,,0,F,white,nonhispanic,D,Cambridge,MA,2138,88600,73.1,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,5865.410000000001
+PT_CF15EFB514D7,1956-07-02,,0,F,white,nonhispanic,M,Boston,MA,2115,32307,68.5,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,24620.239999999998
+PT_094BA6CB7730,1980-12-06,,0,M,white,nonhispanic,D,Somerville,MA,2143,160104,44.1,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,20849.33
+PT_62C4E12121C8,1991-07-07,,0,F,white,nonhispanic,M,Lowell,MA,1854,51047,33.5,18-34 (Young Adult),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),3,6416.5599999999995
+PT_C96747341056,1974-02-23,,0,M,white,nonhispanic,S,Quincy,MA,2169,64044,50.9,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,12455.54
+PT_7F661C8C3155,1950-11-01,,0,M,black,nonhispanic,M,Worcester,MA,1605,70552,74.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,29689.3
+PT_565588A15051,1933-02-15,,0,M,white,nonhispanic,D,Boston,MA,2115,37496,91.9,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),13,17333.48
+PT_3FD8165C11B0,1989-12-01,,0,M,white,nonhispanic,D,Cambridge,MA,2138,59611,35.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,655.36
+PT_81F394E1AD5C,2006-09-17,,0,M,white,nonhispanic,D,Lowell,MA,1854,160949,18.3,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1770.2399999999998
+PT_2E22D2C5CE48,1975-11-17,,0,F,white,nonhispanic,S,Boston,MA,2115,18000,49.1,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,21269.56
+PT_B1ECB062DD55,1966-05-02,,0,M,asian,nonhispanic,M,Quincy,MA,2169,50485,58.7,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,8267.29
+PT_03B38F664754,1985-01-22,,0,M,white,nonhispanic,D,Boston,MA,2115,73865,39.9,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,259.94
+PT_F684A38EBD55,1951-08-13,,0,M,white,nonhispanic,S,Boston,MA,2115,77765,73.4,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,3611.9300000000003
+PT_2ADD9C1BFA3E,1978-11-27,,0,F,asian,nonhispanic,M,Quincy,MA,2169,31598,46.1,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,111.45
+PT_24932344DFF3,1930-08-13,,0,M,white,nonhispanic,S,Boston,MA,2115,90178,94.4,80+ (Senior),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3338.64
+PT_F3C5D8BCCF3A,2012-11-01,,0,M,asian,nonhispanic,S,Springfield,MA,1199,49617,12.2,0-17 (Pediatric),0,Moderate-Need Chronic Care,1 Visit (Single),1,167.35
+PT_CE75919EACDD,1938-04-14,2023-07-26,1,M,white,nonhispanic,M,Quincy,MA,2169,51102,86.7,80+ (Senior),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,1532.73
+PT_9A5167DEFC5D,1949-03-01,,0,F,white,nonhispanic,D,Somerville,MA,2143,142335,75.8,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3527.1099999999997
+PT_D05F27E718DD,1983-09-15,,0,F,white,nonhispanic,S,Quincy,MA,2169,104502,41.3,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,31167.2
+PT_C541E94F4DD4,1987-03-13,,0,M,white,hispanic,S,Boston,MA,2115,39030,37.8,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,146.23
+PT_ACCDE6A3C06E,1984-10-03,,0,M,white,nonhispanic,D,Springfield,MA,1199,51029,40.2,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,336.5
+PT_BDCA3267E252,1978-12-05,,0,F,asian,nonhispanic,S,Lowell,MA,1854,39390,46.1,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,2246.8
+PT_ECDF2CC543BB,2009-09-05,,0,M,white,nonhispanic,D,Boston,MA,2115,44824,15.3,0-17 (Pediatric),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,21074.609999999997
+PT_4B93119BCC31,1971-05-04,,0,M,white,hispanic,S,Worcester,MA,1605,66928,53.7,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,865.97
+PT_3B1D80620199,1995-04-14,,0,F,black,nonhispanic,S,Cambridge,MA,2138,163457,29.7,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,7295.39
+PT_3971E5D198F9,1966-10-01,,0,F,white,nonhispanic,M,Lowell,MA,1854,85169,58.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,7068.4
+PT_A42DAEBD21AC,1991-12-18,,0,F,white,nonhispanic,S,Newton,MA,2458,52064,33.0,18-34 (Young Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,24100.98
+PT_3B20B2E51DE9,1957-05-23,,0,M,white,nonhispanic,S,Somerville,MA,2143,19576,67.6,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,46248.86
+PT_C017BD329A4C,1991-12-18,,0,M,white,nonhispanic,D,Worcester,MA,1605,29058,33.0,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,557.35
+PT_1280C5C32BFD,1989-06-06,,0,M,white,hispanic,M,Newton,MA,2458,32928,35.6,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,210.99
+PT_107757163169,1980-01-17,,0,F,black,nonhispanic,D,Boston,MA,2115,47749,45.0,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,770.76
+PT_C62F9E388F25,1949-03-26,,0,F,white,nonhispanic,D,Cambridge,MA,2138,55576,75.8,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,3064.4900000000007
+PT_D076DE925FC1,1958-06-08,,0,M,white,nonhispanic,D,Quincy,MA,2169,101798,66.6,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,5647.799999999999
+PT_6C10D912F4A9,1949-06-24,,0,F,white,nonhispanic,M,Lowell,MA,1854,25879,75.5,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),10,36170.990000000005
+PT_2C878C72F7C6,1963-06-16,,0,F,white,hispanic,M,Quincy,MA,2169,49927,61.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1111.72
+PT_A4A433C1B261,1960-10-04,,0,M,asian,nonhispanic,S,Boston,MA,2115,57935,64.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,745.0799999999999
+PT_CE1BE4BDF639,2003-11-27,,0,M,other,nonhispanic,D,Worcester,MA,1605,64343,21.1,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,152.29
+PT_087980E1FBC3,1983-10-10,,0,M,other,nonhispanic,S,Lowell,MA,1854,18915,41.2,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,157.39
+PT_75C73CE2D4D7,1949-07-06,,0,F,white,nonhispanic,S,Newton,MA,2458,48656,75.5,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,2790.9
+PT_EBF9CDFFAD12,1973-04-12,,0,M,white,nonhispanic,S,Cambridge,MA,2138,59859,51.7,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,25373.42
+PT_EF3068BDD422,1978-03-09,,0,M,white,nonhispanic,D,Lowell,MA,1854,35581,46.8,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,4620.71
+PT_89E66DCC185F,1978-12-03,,0,F,white,nonhispanic,S,Somerville,MA,2143,23622,46.1,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,6209.97
+PT_12BC5DA75BCD,1988-01-12,,0,F,white,nonhispanic,D,Quincy,MA,2169,18000,37.0,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,459.33000000000004
+PT_F54B7B766F26,1976-03-23,,0,F,white,nonhispanic,S,Quincy,MA,2169,42952,48.8,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,34982.049999999996
+PT_0617CE2B430E,1962-08-16,,0,M,white,nonhispanic,D,Springfield,MA,1199,26603,62.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,2861.26
+PT_AF3C46A4C841,1963-03-17,,0,M,white,nonhispanic,S,Lowell,MA,1854,26515,61.8,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,445.05999999999995
+PT_378AAE69CF41,1942-07-02,,0,F,white,nonhispanic,M,Quincy,MA,2169,55323,82.5,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),12,13188.16
+PT_5535EC3F6D07,1960-08-07,,0,F,other,nonhispanic,D,Springfield,MA,1199,106397,64.4,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1376.9499999999998
+PT_3001A1ABB402,1959-06-06,,0,M,white,nonhispanic,S,Lowell,MA,1854,44556,65.6,65-79 (Older Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,624.15
+PT_CD6F8B965A9E,1995-01-27,,0,M,asian,nonhispanic,S,Somerville,MA,2143,25664,29.9,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3848.8499999999995
+PT_A042EE790928,1966-09-07,,0,F,black,nonhispanic,D,Quincy,MA,2169,190320,58.3,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,3095.6000000000004
+PT_3C4D1DA9FF66,1960-07-10,,0,F,white,nonhispanic,S,Springfield,MA,1199,42577,64.5,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,4169.01
+PT_2843E2D98B71,2011-02-06,,0,M,white,nonhispanic,D,Quincy,MA,2169,32817,13.9,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,3114.18
+PT_22AB9BA9164A,1962-09-21,,0,M,white,nonhispanic,D,Quincy,MA,2169,97262,62.3,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1180.9299999999998
+PT_73296F16D29D,1980-11-11,,0,F,black,nonhispanic,S,Somerville,MA,2143,68956,44.1,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,374.31
+PT_745905F11BE9,1957-01-04,,0,M,asian,nonhispanic,S,Newton,MA,2458,67487,68.0,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,535.97
+PT_BC7BFB46B50E,1965-07-09,,0,M,white,nonhispanic,M,Boston,MA,2115,43688,59.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,3174.23
+PT_3A574F2BADD5,1942-05-03,,0,M,other,nonhispanic,M,Quincy,MA,2169,29214,82.7,80+ (Senior),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,588.27
+PT_865FCFE543A6,2004-01-20,,0,M,black,nonhispanic,D,Lowell,MA,1854,118107,20.9,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1348.33
+PT_0B479043EEBB,1980-10-25,,0,F,white,nonhispanic,M,Somerville,MA,2143,46691,44.2,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,179.49
+PT_14B052F0453F,1948-01-10,,0,F,white,nonhispanic,M,Boston,MA,2115,150240,77.0,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),13,7527.189999999999
+PT_2A7B56779FB8,1989-03-23,,0,F,white,nonhispanic,M,Lowell,MA,1854,36253,35.8,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,17491.66
+PT_B7CE34D12C56,1996-10-24,,0,M,white,nonhispanic,S,Quincy,MA,2169,52164,28.2,18-34 (Young Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),6,6315.9400000000005
+PT_5FE311835D2F,2013-03-27,,0,M,black,nonhispanic,M,Newton,MA,2458,39360,11.8,0-17 (Pediatric),2,Low-Intensity Outpatients,1 Visit (Single),1,185.65
+PT_32E6B68EC147,1977-10-25,,0,F,white,nonhispanic,D,Lowell,MA,1854,37116,47.2,35-49 (Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,1678.0500000000002
+PT_C2DF75905C65,1950-02-15,,0,M,white,nonhispanic,S,Worcester,MA,1605,40491,74.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),11,15586.960000000001
+PT_E8079147E393,1980-08-04,,0,M,white,hispanic,D,Quincy,MA,2169,25840,44.4,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,28169.940000000002
+PT_2A6B53267A76,2006-02-21,,0,F,white,nonhispanic,D,Quincy,MA,2169,25734,18.9,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,944.8100000000001
+PT_FFF38F42CE87,1993-10-02,,0,M,white,hispanic,D,Lowell,MA,1854,101079,31.2,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1518.33
+PT_476CB4C28682,1985-04-19,,0,M,black,nonhispanic,D,Somerville,MA,2143,65321,39.7,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,11227.53
+PT_3C7B5B2C4CCD,1975-01-21,,0,M,white,nonhispanic,M,Quincy,MA,2169,214341,49.9,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,1877.47
+PT_68718E82CD8C,1989-05-23,,0,M,white,nonhispanic,D,Somerville,MA,2143,46652,35.6,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1251.8899999999999
+PT_552714B483AF,1986-06-23,,0,M,white,nonhispanic,S,Quincy,MA,2169,36231,38.5,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),6,14413.18
+PT_3082FA7FD9EB,1959-11-03,,0,F,white,nonhispanic,M,Quincy,MA,2169,81569,65.2,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),8,2788.06
+PT_952931195D1E,1988-12-04,,0,F,other,hispanic,D,Worcester,MA,1605,25119,36.1,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,10084.15
+PT_D96294ADB6C6,1965-05-26,,0,F,white,nonhispanic,M,Lowell,MA,1854,54640,59.6,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1187.11
+PT_7BA5ABDBCED2,1987-02-12,,0,F,white,nonhispanic,M,Quincy,MA,2169,82173,37.9,35-49 (Adult),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),2,4031.04
+PT_291250222D29,1975-02-13,,0,F,white,nonhispanic,S,Newton,MA,2458,83421,49.9,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4688.959999999999
+PT_18B5A050BFE9,1963-12-21,,0,M,white,nonhispanic,S,Newton,MA,2458,114230,61.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,918.09
+PT_890AD04A2819,1988-09-03,,0,M,asian,nonhispanic,D,Lowell,MA,1854,74832,36.3,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1943.1499999999999
+PT_AF7671168D9E,1996-03-19,,0,F,white,nonhispanic,D,Worcester,MA,1605,59028,28.8,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,4120.54
+PT_B274E13EA3AF,1990-07-15,,0,F,white,nonhispanic,M,Quincy,MA,2169,115890,34.5,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,13349.84
+PT_FE05AE8D5BD4,1982-10-19,,0,M,white,hispanic,D,Boston,MA,2115,81457,42.2,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1259.6399999999999
+PT_601EAB69B27F,1977-03-07,,0,F,black,nonhispanic,S,Springfield,MA,1199,36621,47.8,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,122.95
+PT_5D3CCC82F63F,1971-10-26,,0,M,black,nonhispanic,S,Newton,MA,2458,148171,53.2,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2354.58
+PT_5B5B6653DBD2,1967-09-11,,0,F,other,nonhispanic,M,Boston,MA,2115,40868,57.3,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,30334.61
+PT_0B1EA935B395,1934-04-08,2023-06-09,1,M,black,nonhispanic,D,Somerville,MA,2143,38143,90.7,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),12,34516.42
+PT_8C8CC108F071,1935-01-10,2023-06-10,1,F,white,nonhispanic,D,Springfield,MA,1199,41816,90.0,80+ (Senior),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),4,1808.96
+PT_144A29293FA8,1959-02-11,,0,F,other,nonhispanic,M,Cambridge,MA,2138,42278,65.9,65-79 (Older Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,455.22
+PT_882D71F2239E,1951-01-14,,0,F,white,nonhispanic,M,Boston,MA,2115,54194,74.0,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1129.55
+PT_2FCA979024C6,1950-12-11,,0,F,white,hispanic,M,Boston,MA,2115,29044,74.1,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,799.2
+PT_E10218AF772F,1954-04-07,,0,M,white,nonhispanic,M,Worcester,MA,1605,18000,70.7,65-79 (Older Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),8,25631.399999999998
+PT_1D0075887089,1979-04-09,,0,M,white,nonhispanic,D,Lowell,MA,1854,20258,45.7,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,323.77
+PT_36016900DAC9,1963-09-13,,0,F,black,nonhispanic,M,Lowell,MA,1854,36867,61.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,8476.96
+PT_E48F802AE826,1963-08-21,,0,M,white,hispanic,S,Quincy,MA,2169,22384,61.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,5259.29
+PT_CE2F00EFF096,1990-02-09,,0,M,black,nonhispanic,S,Quincy,MA,2169,107321,34.9,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,6601.15
+PT_BC83B7821A33,1962-08-25,,0,F,other,nonhispanic,D,Lowell,MA,1854,96652,62.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,4707.34
+PT_35EBE95CD71C,1952-07-16,,0,M,white,nonhispanic,M,Worcester,MA,1605,18000,72.5,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),13,8410.210000000001
+PT_F51762ABF1DA,2001-06-17,,0,F,white,nonhispanic,D,Somerville,MA,2143,44369,23.5,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,20283.73
+PT_C8B315852847,1986-09-03,,0,M,white,nonhispanic,S,Cambridge,MA,2138,82875,38.3,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,3024.25
+PT_5873447A5345,1964-09-20,,0,M,black,hispanic,M,Somerville,MA,2143,95311,60.3,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,6476.599999999999
+PT_9890149676A6,1984-03-24,,0,F,white,nonhispanic,D,Worcester,MA,1605,37449,40.8,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,786.44
+PT_237EC82F810B,1961-11-03,,0,F,white,nonhispanic,M,Cambridge,MA,2138,52882,63.2,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,296.22
+PT_7CA0E29CE00A,1999-01-04,,0,F,black,nonhispanic,M,Somerville,MA,2143,72362,26.0,18-34 (Young Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),3,3060.27
+PT_A4CD9F95777D,1946-05-18,,0,F,white,nonhispanic,S,Lowell,MA,1854,74332,78.6,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,2375.9300000000003
+PT_61E90FBCA60B,1934-11-06,,0,F,white,nonhispanic,M,Boston,MA,2115,102300,90.2,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),14,46576.229999999996
+PT_A552068C547A,1970-05-05,,0,F,white,nonhispanic,M,Boston,MA,2115,38107,54.7,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),7,2801.5899999999992
+PT_CBD5C42EB886,1973-12-04,,0,M,other,nonhispanic,M,Lowell,MA,1854,37046,51.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,8014.72
+PT_48968D5F269C,1965-08-23,,0,F,black,nonhispanic,D,Cambridge,MA,2138,123441,59.4,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,8836.279999999999
+PT_81F898617ECF,1945-07-04,,0,F,white,nonhispanic,D,Lowell,MA,1854,28346,79.5,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),13,5863.860000000001
+PT_1572AD13DB1D,1982-09-09,,0,F,white,hispanic,D,Newton,MA,2458,18565,42.3,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1714.3300000000002
+PT_53BE85155E8C,1990-10-20,,0,F,other,nonhispanic,S,Springfield,MA,1199,67066,34.2,18-34 (Young Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1279.09
+PT_3CC56D80EDD3,1965-07-13,,0,M,black,nonhispanic,D,Worcester,MA,1605,40749,59.5,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),9,61423.11
+PT_649065F7B1F4,1974-12-17,,0,F,black,nonhispanic,M,Quincy,MA,2169,113647,50.0,50-64 (Middle-Aged),2,Low-Intensity Outpatients,5-9 Visits (Frequent),9,3469.03
+PT_F89C6D7A7AC8,1971-11-06,,0,M,white,nonhispanic,M,Worcester,MA,1605,23395,53.2,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),7,30627.09
+PT_B5BFDFD4F202,1977-09-09,,0,F,white,nonhispanic,S,Quincy,MA,2169,26934,47.3,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,2558.83
+PT_22F6A6B5D4C7,1970-07-10,,0,M,white,hispanic,M,Cambridge,MA,2138,36921,54.5,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,4323.49
+PT_1D40595D9079,1987-06-08,,0,F,white,nonhispanic,S,Lowell,MA,1854,171061,37.6,35-49 (Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,13717.52
+PT_3AFE8DA758D4,1934-11-17,,0,M,white,nonhispanic,M,Springfield,MA,1199,60509,90.1,80+ (Senior),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),14,48373.19
+PT_E3B88D17F0A8,1962-12-13,,0,F,white,nonhispanic,M,Boston,MA,2115,37135,62.1,50-64 (Middle-Aged),2,Low-Intensity Outpatients,10+ Visits (High Utilizer),10,3958.57
+PT_4BE916C9CD84,1985-11-02,,0,F,white,nonhispanic,M,Lowell,MA,1854,62490,39.2,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,1962.07
+PT_273A5D70242F,1986-02-08,,0,M,white,nonhispanic,S,Somerville,MA,2143,59965,38.9,35-49 (Adult),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),3,7846.06
+PT_E7FA7F22B3B2,1955-05-15,,0,F,asian,nonhispanic,M,Quincy,MA,2169,54169,69.6,65-79 (Older Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,3238.52
+PT_41555909EF88,1985-07-20,,0,F,white,nonhispanic,S,Cambridge,MA,2138,37165,39.4,35-49 (Adult),0,Moderate-Need Chronic Care,5-9 Visits (Frequent),5,9117.38
+PT_DCB9D27A0AC1,1962-03-20,,0,M,white,nonhispanic,M,Newton,MA,2458,32150,62.8,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1040.79
+PT_4AC33FBE32D3,1949-10-03,,0,F,white,hispanic,M,Cambridge,MA,2138,89693,75.2,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,2616.9700000000003
+PT_241B6E7A8EFB,1995-01-13,,0,M,other,nonhispanic,M,Springfield,MA,1199,29528,30.0,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,2733.41
+PT_DA40031D56B0,1975-06-20,,0,M,white,nonhispanic,S,Springfield,MA,1199,58940,49.5,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,953.26
+PT_C598F8F2C094,1960-12-12,,0,F,other,nonhispanic,M,Newton,MA,2458,85452,64.1,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,24137.47
+PT_1EECB7F8E3EB,1953-02-10,,0,F,white,nonhispanic,S,Lowell,MA,1854,93133,71.9,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),5,43593.54
+PT_6DD429C380A2,1990-03-22,,0,F,white,nonhispanic,D,Quincy,MA,2169,58346,34.8,18-34 (Young Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,120.01
+PT_CD4CD535C0C6,2004-08-01,,0,M,white,nonhispanic,D,Somerville,MA,2143,43820,20.4,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,961.0
+PT_49DC329120BA,1973-04-16,,0,F,white,nonhispanic,D,Cambridge,MA,2138,56132,51.7,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,500.75
+PT_6A84401835EF,1962-10-22,,0,M,white,nonhispanic,D,Somerville,MA,2143,51485,62.2,50-64 (Middle-Aged),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,27154.14
+PT_88BA2E99921A,1958-02-04,,0,M,black,nonhispanic,S,Boston,MA,2115,26763,66.9,65-79 (Older Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2141.58
+PT_5693114179A8,1955-06-22,,0,F,white,hispanic,M,Somerville,MA,2143,31513,69.5,65-79 (Older Adult),1,Frequent Emergency Utilizers,2-4 Visits (Occasional),3,4435.3
+PT_F20E5A75645F,1990-10-05,,0,F,white,nonhispanic,M,Somerville,MA,2143,40449,34.2,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,2886.01
+PT_CBBCC33E1CF6,1974-05-28,,0,M,white,nonhispanic,S,Worcester,MA,1605,18000,50.6,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,4138.030000000001
+PT_2BFA844D308C,1993-06-16,,0,M,asian,nonhispanic,D,Quincy,MA,2169,21535,31.5,18-34 (Young Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,1110.29
+PT_A8B2D244A827,2010-03-23,,0,M,other,nonhispanic,S,Boston,MA,2115,38053,14.8,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,855.86
+PT_9355CEDD1D19,1964-02-03,,0,F,asian,nonhispanic,M,Worcester,MA,1605,63308,60.9,50-64 (Middle-Aged),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,653.39
+PT_E23D92A837E4,2023-12-18,,0,F,white,nonhispanic,D,Somerville,MA,2143,28637,1.0,0-17 (Pediatric),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,557.32
+PT_ACB0DCC19AD0,1980-12-27,,0,F,white,nonhispanic,M,Boston,MA,2115,33211,44.0,35-49 (Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,3013.3900000000003
+PT_5147A9490369,2003-12-23,,0,F,white,nonhispanic,M,Boston,MA,2115,67977,21.0,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),6,4398.169999999999
+PT_08E3204B9452,1937-04-27,,0,F,white,nonhispanic,S,Cambridge,MA,2138,46953,87.7,80+ (Senior),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),9,4223.1
+PT_25EFBD18EFB3,1934-01-05,,0,F,white,nonhispanic,S,Cambridge,MA,2138,86127,91.0,80+ (Senior),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),11,3058.1100000000006
+PT_F2B9EA5B7C57,1949-10-19,,0,F,white,nonhispanic,D,Somerville,MA,2143,64503,75.2,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),12,25204.38
+PT_21DCD23AAB90,1993-09-12,,0,M,white,nonhispanic,D,Springfield,MA,1199,23018,31.3,18-34 (Young Adult),3,High-Cost Complex Inpatients,2-4 Visits (Occasional),4,25399.33
+PT_C7260A5B9C35,1946-01-03,,0,F,other,nonhispanic,M,Lowell,MA,1854,43528,79.0,65-79 (Older Adult),3,High-Cost Complex Inpatients,5-9 Visits (Frequent),8,25399.070000000003
+PT_3063FBF2E4D7,2006-05-11,,0,F,white,nonhispanic,D,Cambridge,MA,2138,63506,18.6,18-34 (Young Adult),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),5,5314.53
+PT_80E820E08D27,1988-12-27,,0,M,white,nonhispanic,M,Boston,MA,2115,86579,36.0,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,768.98
+PT_52C626B40C61,1975-08-03,,0,F,white,nonhispanic,S,Worcester,MA,1605,66748,49.4,35-49 (Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,253.67
+PT_8CBF6D99DD61,1984-10-27,,0,F,other,nonhispanic,S,Somerville,MA,2143,57629,40.2,35-49 (Adult),2,Low-Intensity Outpatients,1 Visit (Single),1,462.8
+PT_67C1B6ACC885,1981-01-20,,0,F,white,hispanic,D,Newton,MA,2458,109903,43.9,35-49 (Adult),2,Low-Intensity Outpatients,5-9 Visits (Frequent),5,1985.6999999999998
+PT_BD6E1A12AF97,1960-06-23,,0,M,white,nonhispanic,M,Lowell,MA,1854,48026,64.5,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,7231.0
+PT_07A76EC5795B,1988-06-18,,0,F,white,nonhispanic,D,Springfield,MA,1199,139915,36.5,35-49 (Adult),0,Moderate-Need Chronic Care,2-4 Visits (Occasional),2,28674.54
+PT_05E87C7BB3B3,1977-10-13,,0,M,white,nonhispanic,S,Quincy,MA,2169,110719,47.2,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,2307.2799999999997
+PT_55EBC091B07A,1974-07-18,,0,F,white,hispanic,M,Newton,MA,2458,48908,50.5,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,697.3299999999999
+PT_50FC9059D9EC,1988-10-01,,0,M,white,nonhispanic,S,Newton,MA,2458,48765,36.2,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),2,481.76
+PT_E9E28665080E,1970-01-19,,0,M,white,nonhispanic,D,Boston,MA,2115,26615,54.9,50-64 (Middle-Aged),2,Low-Intensity Outpatients,2-4 Visits (Occasional),3,730.79
+PT_3BC9BF4A9374,1981-09-20,,0,F,white,nonhispanic,S,Worcester,MA,1605,63540,43.3,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,926.21
+PT_19FE3A3F3A64,1944-07-17,2023-10-10,1,M,asian,hispanic,D,Quincy,MA,2169,61763,80.5,80+ (Senior),2,Low-Intensity Outpatients,5-9 Visits (Frequent),6,2878.62
+PT_3562A444FE17,1980-04-16,,0,M,black,nonhispanic,M,Somerville,MA,2143,40574,44.7,35-49 (Adult),2,Low-Intensity Outpatients,2-4 Visits (Occasional),4,1235.07
+PT_8BDAA9E418B2,1974-11-22,,0,M,white,nonhispanic,M,Newton,MA,2458,30472,50.1,50-64 (Middle-Aged),1,Frequent Emergency Utilizers,5-9 Visits (Frequent),7,7472.7
+PT_BE57E9575667,1949-11-13,2023-07-27,1,M,white,nonhispanic,D,Newton,MA,2458,76676,75.1,65-79 (Older Adult),3,High-Cost Complex Inpatients,10+ Visits (High Utilizer),14,38508.229999999996
+PT_6920138403E4,1990-08-05,,0,M,white,nonhispanic,S,Somerville,MA,2143,48735,34.4,18-34 (Young Adult),0,Moderate-Need Chronic Care,1 Visit (Single),1,144.7
+PT_AAB8F94B5085,1955-08-04,,0,F,white,nonhispanic,M,Somerville,MA,2143,110334,69.4,65-79 (Older Adult),1,Frequent Emergency Utilizers,10+ Visits (High Utilizer),10,15108.58

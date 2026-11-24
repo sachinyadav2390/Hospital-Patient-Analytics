@@ -1,0 +1,228 @@
+{
+  "status": "SUCCESS",
+  "source_type": "MITRE Synthea Synthetic Data",
+  "tables": {
+    "patients": {
+      "table_name": "patients",
+      "row_count": 1200,
+      "column_count": 26,
+      "columns": [
+        "Id",
+        "BIRTHDATE",
+        "DEATHDATE",
+        "SSN",
+        "DRIVERS",
+        "PASSPORT",
+        "PREFIX",
+        "FIRST",
+        "LAST",
+        "SUFFIX",
+        "MAIDEN",
+        "MARITAL",
+        "RACE",
+        "ETHNICITY",
+        "GENDER",
+        "BIRTHPLACE",
+        "ADDRESS",
+        "CITY",
+        "STATE",
+        "COUNTY",
+        "ZIP",
+        "LAT",
+        "LON",
+        "HEALTHCARE_EXPENSES",
+        "HEALTHCARE_COVERAGE",
+        "INCOME"
+      ],
+      "missing_required_columns": [],
+      "is_schema_valid": true,
+      "primary_key": "Id",
+      "pk_duplicates": 0,
+      "full_row_duplicates": 0,
+      "missing_values_summary": {
+        "DEATHDATE": {
+          "null_count": 1175,
+          "null_percentage": 97.92
+        },
+        "SUFFIX": {
+          "null_count": 1200,
+          "null_percentage": 100.0
+        },
+        "MAIDEN": {
+          "null_count": 1023,
+          "null_percentage": 85.25
+        }
+      }
+    },
+    "encounters": {
+      "table_name": "encounters",
+      "row_count": 5960,
+      "column_count": 15,
+      "columns": [
+        "Id",
+        "START",
+        "STOP",
+        "PATIENT",
+        "ORGANIZATION",
+        "PROVIDER",
+        "PAYER",
+        "ENCOUNTERCLASS",
+        "CODE",
+        "DESCRIPTION",
+        "BASE_ENCOUNTER_COST",
+        "TOTAL_CLAIM_COST",
+        "PAYER_COVERAGE",
+        "REASONCODE",
+        "REASONDESCRIPTION"
+      ],
+      "missing_required_columns": [],
+      "is_schema_valid": true,
+      "primary_key": "Id",
+      "pk_duplicates": 0,
+      "full_row_duplicates": 0,
+      "missing_values_summary": {}
+    },
+    "conditions": {
+      "table_name": "conditions",
+      "row_count": 4501,
+      "column_count": 6,
+      "columns": [
+        "START",
+        "STOP",
+        "PATIENT",
+        "ENCOUNTER",
+        "CODE",
+        "DESCRIPTION"
+      ],
+      "missing_required_columns": [],
+      "is_schema_valid": true,
+      "primary_key": null,
+      "pk_duplicates": 0,
+      "full_row_duplicates": 0,
+      "missing_values_summary": {
+        "STOP": {
+          "null_count": 3207,
+          "null_percentage": 71.25
+        }
+      }
+    },
+    "procedures": {
+      "table_name": "procedures",
+      "row_count": 2970,
+      "column_count": 8,
+      "columns": [
+        "DATE",
+        "PATIENT",
+        "ENCOUNTER",
+        "CODE",
+        "DESCRIPTION",
+        "BASE_COST",
+        "REASONCODE",
+        "REASONDESCRIPTION"
+      ],
+      "missing_required_columns": [],
+      "is_schema_valid": true,
+      "primary_key": null,
+      "pk_duplicates": 0,
+      "full_row_duplicates": 0,
+      "missing_values_summary": {}
+    },
+    "medications": {
+      "table_name": "medications",
+      "row_count": 3585,
+      "column_count": 13,
+      "columns": [
+        "START",
+        "STOP",
+        "PATIENT",
+        "PAYER",
+        "ENCOUNTER",
+        "CODE",
+        "DESCRIPTION",
+        "BASE_COST",
+        "PAYER_COVERAGE",
+        "DISPENSES",
+        "TOTALCOST",
+        "REASONCODE",
+        "REASONDESCRIPTION"
+      ],
+      "missing_required_columns": [],
+      "is_schema_valid": true,
+      "primary_key": null,
+      "pk_duplicates": 0,
+      "full_row_duplicates": 0,
+      "missing_values_summary": {}
+    },
+    "observations": {
+      "table_name": "observations",
+      "row_count": 26780,
+      "column_count": 8,
+      "columns": [
+        "DATE",
+        "PATIENT",
+        "ENCOUNTER",
+        "CODE",
+        "DESCRIPTION",
+        "VALUE",
+        "UNITS",
+        "TYPE"
+      ],
+      "missing_required_columns": [],
+      "is_schema_valid": true,
+      "primary_key": null,
+      "pk_duplicates": 0,
+      "full_row_duplicates": 0,
+      "missing_values_summary": {}
+    },
+    "organizations": {
+      "table_name": "organizations",
+      "row_count": 6,
+      "column_count": 11,
+      "columns": [
+        "Id",
+        "NAME",
+        "ADDRESS",
+        "CITY",
+        "STATE",
+        "ZIP",
+        "LAT",
+        "LON",
+        "PHONE",
+        "REVENUE",
+        "UTILIZATION"
+      ],
+      "missing_required_columns": [],
+      "is_schema_valid": true,
+      "primary_key": "Id",
+      "pk_duplicates": 0,
+      "full_row_duplicates": 0,
+      "missing_values_summary": {}
+    },
+    "providers": {
+      "table_name": "providers",
+      "row_count": 48,
+      "column_count": 12,
+      "columns": [
+        "Id",
+        "ORGANIZATION",
+        "NAME",
+        "GENDER",
+        "SPECIALITY",
+        "ADDRESS",
+        "CITY",
+        "STATE",
+        "ZIP",
+        "LAT",
+        "LON",
+        "UTILIZATION"
+      ],
+      "missing_required_columns": [],
+      "is_schema_valid": true,
+      "primary_key": "Id",
+      "pk_duplicates": 0,
+      "full_row_duplicates": 0,
+      "missing_values_summary": {}
+    }
+  },
+  "total_tables_ingested": 8
+}

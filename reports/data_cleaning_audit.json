@@ -1,0 +1,140 @@
+{
+  "cleaning_rules_applied": [
+    {
+      "table": "patients",
+      "rule": "Deduplicate on Id",
+      "rows_affected": 0,
+      "rationale": "Ensure 1:1 patient entity integrity."
+    },
+    {
+      "table": "patients",
+      "rule": "Remove direct PII identifiers",
+      "rows_affected": 1200,
+      "rationale": "Removed 9 direct identifier columns (SSN, DRIVERS, PASSPORT, PREFIX, FIRST, LAST, SUFFIX, MAIDEN, ADDRESS) to ensure HIPAA de-identification standards."
+    },
+    {
+      "table": "patients",
+      "rule": "Validate birth dates",
+      "rows_affected": 0,
+      "rationale": "Removed records with missing or future birth dates."
+    },
+    {
+      "table": "patients",
+      "rule": "Validate death dates against birth date",
+      "rows_affected": 0,
+      "rationale": "Nullified death dates occurring prior to birth."
+    },
+    {
+      "table": "encounters",
+      "rule": "Deduplicate encounter Id",
+      "rows_affected": 0,
+      "rationale": "Ensure unique encounter identity."
+    },
+    {
+      "table": "encounters",
+      "rule": "Enforce Patient Referential Integrity",
+      "rows_affected": 0,
+      "rationale": "Dropped encounters without valid matching patient record."
+    },
+    {
+      "table": "encounters",
+      "rule": "Drop null timestamps",
+      "rows_affected": 0,
+      "rationale": "Encounters require valid start and stop timestamps."
+    },
+    {
+      "table": "encounters",
+      "rule": "Correct inverted encounter timestamps (STOP < START)",
+      "rows_affected": 0,
+      "rationale": "Adjusted stop time to start time + 30 mins for logical operational validity."
+    },
+    {
+      "table": "encounters",
+      "rule": "Enforce encounter START >= patient BIRTHDATE",
+      "rows_affected": 32,
+      "rationale": "Adjusted encounters scheduled prior to birth date to post-birth date."
+    },
+    {
+      "table": "conditions",
+      "rule": "Filter orphaned patient keys",
+      "rows_affected": 0,
+      "rationale": "Removed conditions records without matching patient."
+    },
+    {
+      "table": "conditions",
+      "rule": "Filter orphaned encounter records",
+      "rows_affected": 0,
+      "rationale": "Removed conditions records referencing non-existent encounters."
+    },
+    {
+      "table": "procedures",
+      "rule": "Filter orphaned patient keys",
+      "rows_affected": 0,
+      "rationale": "Removed procedures records without matching patient."
+    },
+    {
+      "table": "procedures",
+      "rule": "Filter orphaned encounter records",
+      "rows_affected": 0,
+      "rationale": "Removed procedures records referencing non-existent encounters."
+    },
+    {
+      "table": "medications",
+      "rule": "Filter orphaned patient keys",
+      "rows_affected": 0,
+      "rationale": "Removed medications records without matching patient."
+    },
+    {
+      "table": "medications",
+      "rule": "Filter orphaned encounter records",
+      "rows_affected": 0,
+      "rationale": "Removed medications records referencing non-existent encounters."
+    },
+    {
+      "table": "observations",
+      "rule": "Filter orphaned patient keys",
+      "rows_affected": 0,
+      "rationale": "Removed observations records without matching patient."
+    },
+    {
+      "table": "observations",
+      "rule": "Filter orphaned encounter records",
+      "rows_affected": 0,
+      "rationale": "Removed observations records referencing non-existent encounters."
+    }
+  ],
+  "table_metrics": {
+    "patients": {
+      "initial_rows": 1200,
+      "cleaned_rows": 1200
+    },
+    "encounters": {
+      "initial_rows": 5960,
+      "cleaned_rows": 5960
+    },
+    "conditions": {
+      "initial_rows": 4501,
+      "cleaned_rows": 4501
+    },
+    "procedures": {
+      "initial_rows": 2970,
+      "cleaned_rows": 2970
+    },
+    "medications": {
+      "initial_rows": 3585,
+      "cleaned_rows": 3585
+    },
+    "observations": {
+      "initial_rows": 26780,
+      "cleaned_rows": 26780
+    },
+    "organizations": {
+      "initial_rows": 6,
+      "cleaned_rows": 6
+    },
+    "providers": {
+      "initial_rows": 48,
+      "cleaned_rows": 48
+    }
+  }
+}
