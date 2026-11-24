@@ -12,9 +12,16 @@ Executes all 7 core pipeline stages sequentially:
 7. Production Excel Analytics & Power BI Data Model Export
 """
 
+import sys
 import time
 import logging
 from pathlib import Path
+
+# Ensure project root is in sys.path
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from src.ingestion import DataIngestionPipeline
 from src.cleaning import DataCleaningPipeline
 from src.features import FeatureEngineeringPipeline

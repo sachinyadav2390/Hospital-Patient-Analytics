@@ -17,6 +17,10 @@ import numpy as np
 from sqlalchemy import create_engine, text
 from sqlalchemy.engine import Engine
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from src.config import (
     PROCESSED_DATA_DIR,
     SQL_DIR,

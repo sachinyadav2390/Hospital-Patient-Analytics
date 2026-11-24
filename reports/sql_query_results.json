@@ -22,7 +22,7 @@
         "prior_month_encounters",
         "mom_growth_pct"
       ],
-      "execution_time_ms": 52.44,
+      "execution_time_ms": 31.08,
       "sample_data": [
         {
           "year_month": "2021-01",
@@ -78,7 +78,7 @@
         "avg_encounters",
         "spend_percentage_of_hospital_total"
       ],
-      "execution_time_ms": 56.52,
+      "execution_time_ms": 33.2,
       "sample_data": [
         {
           "cost_decile": 1,
@@ -118,7 +118,7 @@
         "reencounter_rate_pct",
         "avg_index_claim_cost"
       ],
-      "execution_time_ms": 11.56,
+      "execution_time_ms": 9.72,
       "sample_data": [
         {
           "clinical_department": "Surgical Services",
@@ -157,7 +157,7 @@
         "high_stay_outliers",
         "avg_admission_claim_cost"
       ],
-      "execution_time_ms": 6.07,
+      "execution_time_ms": 4.97,
       "sample_data": [
         {
           "clinical_department": "Department of Internal Medicine",
@@ -202,7 +202,7 @@
         "unique_patients_diagnosed",
         "attributed_avg_encounter_cost"
       ],
-      "execution_time_ms": 57.44,
+      "execution_time_ms": 44.62,
       "sample_data": [
         {
           "condition_code": "22298006",
@@ -247,7 +247,7 @@
         "payer_reimbursement_rate_pct",
         "patient_copay_burden_pct"
       ],
-      "execution_time_ms": 17.8,
+      "execution_time_ms": 14.27,
       "sample_data": [
         {
           "payer": "Medicare",
@@ -292,7 +292,7 @@
         "m12_active",
         "m6_retention_rate_pct"
       ],
-      "execution_time_ms": 72.61,
+      "execution_time_ms": 54.11,
       "sample_data": [
         {
           "cohort_month": "2021-01",
@@ -335,7 +335,7 @@
         "max_sequence",
         "avg_days_between_visits"
       ],
-      "execution_time_ms": 71.39,
+      "execution_time_ms": 62.59,
       "sample_data": [
         {
           "patient_key": "PT_CE7BB6593021",
@@ -374,7 +374,7 @@
         "rank_in_department",
         "pct_of_department_revenue"
       ],
-      "execution_time_ms": 31.92,
+      "execution_time_ms": 42.4,
       "sample_data": [
         {
           "clinical_department": "Children's Health Services",
@@ -419,7 +419,7 @@
         "avg_cost_per_encounter",
         "avg_duration_hours"
       ],
-      "execution_time_ms": 15.4,
+      "execution_time_ms": 15.16,
       "sample_data": [
         {
           "clinical_department": "Emergency Services",
@@ -464,7 +464,7 @@
         "inpatient_admissions",
         "emergency_intake_ratio_pct"
       ],
-      "execution_time_ms": 28.93,
+      "execution_time_ms": 18.3,
       "sample_data": [
         {
           "day_name": "Monday",
@@ -506,7 +506,7 @@
         "patient_percentage",
         "avg_visits_in_tier"
       ],
-      "execution_time_ms": 19.05,
+      "execution_time_ms": 11.81,
       "sample_data": [
         {
           "visit_frequency_tier": "2 to 4 Visits",
@@ -543,7 +543,7 @@
         "min_unit_cost",
         "max_unit_cost"
       ],
-      "execution_time_ms": 14.45,
+      "execution_time_ms": 7.63,
       "sample_data": [
         {
           "procedure_code": "232717009",
@@ -589,7 +589,7 @@
         "avg_lifetime_claim_cost",
         "avg_lifetime_encounters"
       ],
-      "execution_time_ms": 18.93,
+      "execution_time_ms": 12.09,
       "sample_data": [
         {
           "chronic_conditions_count": 0,
@@ -631,7 +631,7 @@
         "avg_charge_per_encounter",
         "hospital_network_market_share_pct"
       ],
-      "execution_time_ms": 40.64,
+      "execution_time_ms": 19.36,
       "sample_data": [
         {
           "org_id": "198123d8-87c9-4a9d-acae-6cea8971ef1f",
@@ -683,7 +683,7 @@
         "rolling_90d_avg_ed_visits",
         "rolling_90d_total_ed_charges"
       ],
-      "execution_time_ms": 46.34,
+      "execution_time_ms": 28.21,
       "sample_data": [
         {
           "full_date": "2021-01-01",

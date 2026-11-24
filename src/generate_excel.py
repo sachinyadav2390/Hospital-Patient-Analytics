@@ -12,6 +12,7 @@ Builds an executive-grade, styled Excel workbook containing:
 7. Data Dictionary & Quality Reconciliation Log
 """
 
+import sys
 import logging
 from pathlib import Path
 from typing import Dict, Any
@@ -20,6 +21,10 @@ import numpy as np
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.config import PROCESSED_DATA_DIR, EXCEL_DIR
 

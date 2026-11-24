@@ -6,6 +6,7 @@ Executes all 16 advanced SQL queries against the provisioned star schema,
 validates output row counts and performance, and saves a summary report.
 """
 
+import sys
 import json
 import logging
 import time
@@ -13,6 +14,10 @@ from pathlib import Path
 from typing import Dict, List, Any
 import pandas as pd
 from sqlalchemy import text
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.config import SQL_DIR, REPORTS_DIR
 from src.db_loader import get_database_engine
